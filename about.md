@@ -4,6 +4,6 @@ title: About
 permalink: /about/
 ---
 
-I'm Programmer for Python & Django. I've made quite a few web apps, especially on Django. Now, I am doing more on backend.
+I'm a Coder for Java & front-end. I've made quite a few web apps, especially on Spring.
 
-email: agus[at]python.web.id
+email: vegetaz@outlook.com
