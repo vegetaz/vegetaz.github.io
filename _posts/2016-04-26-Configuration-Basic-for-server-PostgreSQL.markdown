@@ -10,7 +10,7 @@ Trong bài viết này mình sử dụng hệ điều hành Windows 10, và sử
 
 Tiếp theo là giải nén PostgreSQL ra 1 nơi nào đó trên máy.  
 Khai báo PostgreSQL trong `Evironment Variables` của Windows:  
-![](/static/img/_posts/Variables-2019-12-21.png)
+![](/static/img/posts/Variables-2019-12-21.png)
 
 Tạo thêm 1 thư mục `data` để lưu trữ database của PostgreSQL.
 
@@ -29,7 +29,7 @@ initdb.exe -U postgre -A password -E utf8 -W -D D:\Tools\pgsql\data
 Trong đó `postgre` là tài khoản đăng nhập, và `password` sẽ được nhập sau khi câu lệnh trên được thực thi.
 
 Như thế này là thành công!
-![](/static/img/_posts/Success-2019-12-21.png)
+![](/static/img/posts/Success-2019-12-21.png)
 
 Mỗi lần muốn khởi động server của PostgreSQL thì sử dụng câu lệnh:
 
