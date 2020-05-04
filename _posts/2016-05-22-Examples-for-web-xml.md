@@ -7,7 +7,7 @@ categories: [web, spring]
 
 `web.xml` là tệp để cấu hình mô tả triển khai mô hình web trong servlet.
 
-![web.xml](/static/img/_posts/web.xml-jsp-servlet.png)
+![web.xml](/static/img/posts/web.xml-jsp-servlet.png)
 
 Dưới đây là một số mẫu cấu hình `web.xml` với mục đích tham khảo.
 

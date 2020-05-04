@@ -18,7 +18,7 @@ Spring Boot cung cấp tải lại trực tiếp mà không cần khởi động
 
 Nhưng nó vẫn chưa hoạt động, cần phải tinh chỉnh thêm một số thao tác khác trong IntelliJ IDEA.  
 Đầu tiên, mở **File** - > **Settings...** -> **Build, Execution, Deployment** -> **Compiler** và đảm bảo **Build project automatically** được kích hoạt.  
-![Build project automatically](/static/img/Build-project-automatically.png)
+![Build project automatically](/static/img/posts/Build-project-automatically.png)
 
 Tiếp theo, nhấn tổ hợp phím Ctrl + Shift + A để tìm kiếm Registry...  
 Trong Registry, kích hoạt cấu hình sau:
@@ -27,7 +27,7 @@ Trong Registry, kích hoạt cấu hình sau:
 compiler.automake.allow.when.app.running
 ```
 
-![](/static/img/compiler-automake-allow-when-app-running.png)
+![](/static/img/posts/compiler-automake-allow-when-app-running.png)
 
 Khởi động lại IDEA và trải nghiệm!
 

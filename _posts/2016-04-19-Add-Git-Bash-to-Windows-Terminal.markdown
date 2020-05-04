@@ -5,7 +5,7 @@ date: 2016-04-19 20:15:33 +0700
 categories: [git]
 ---
 
-![Git Bash](/static/img/_posts/2019-11-26_14-59-51.png)
+![Git Bash](/static/img/posts/2019-11-26_14-59-51.png)
 
 Dĩ nhiên cần đảm bảo đã cài đặt [git-scm](https://git-scm.com/downloads) trước đã.
 
@@ -13,7 +13,7 @@ Tải về Windows Terminal [tại đây](https://github.com/microsoft/terminal)
 
 Sau đó mở cài đặt của Windows Terminal như hình dưới đây:
 
-![Setting of Windows Terminal](/static/img/_posts/2019-11-26_14-55-40.png)
+![Setting of Windows Terminal](/static/img/posts/2019-11-26_14-55-40.png)
 
 Thêm đoạn mã sau vào phần `profiles` của Windows Terminal:
 

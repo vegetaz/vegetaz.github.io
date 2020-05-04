@@ -13,13 +13,13 @@ categories: [editor, java, others]
 ### Thiết lập Sublime Text
 
 1. Mở 7-Zip File Manager với quyền Administrator<br/>
-   ![](/static/img/_posts/7-Zip-File-Manager.png)
+   ![](/static/img/posts/7-Zip-File-Manager.png)
 2. Truy cập đến nơi chứa Packages của Sublime Text, đây là của mình trên Windows 10:<br/>
-   ![](/static/img/_posts/7-Zip-File-Manager-Open.png)
+   ![](/static/img/posts/7-Zip-File-Manager-Open.png)
 3. Chọn `Java.sublime-package` và nhấn chuột phải, chọn Open thì sẽ được như hình:<br/>
-   ![](/static/img/_posts/7-Zip-File-Manager-Open-2.png)
+   ![](/static/img/posts/7-Zip-File-Manager-Open-2.png)
 4. Chọn `JavaC.sublime-build` và nhấn chuột phải, chọn Edit sẽ được như hình:<br/>
-   ![](/static/img/_posts/7-Zip-File-Manager-Open-3.png)
+   ![](/static/img/posts/7-Zip-File-Manager-Open-3.png)
 5. Thay thế với đoạn code dưới đây:
 
 ```json
@@ -32,7 +32,7 @@ categories: [editor, java, others]
 ```
 
 6. Lưu lại:<br/>
-   ![](/static/img/_posts/7-Zip-File-Manager-Open-4.png)
+   ![](/static/img/posts/7-Zip-File-Manager-Open-4.png)
 7. Tiếp tục tạo thêm tệp tin `runJava.bat` với nội dung như sau:<br/>
 
 ```bat
@@ -51,11 +51,11 @@ ECHO OFF
 ```
 
 8. Cho tệp tin đó vào thư mục `bin` của JDK:<br/>
-   ![](/static/img/_posts/Run-Java-Bin.PNG)
+   ![](/static/img/posts/Run-Java-Bin.PNG)
 9. Thiết lập như sau khi sử dụng:<br/>
-   ![](/static/img/_posts/JavaC.png)
+   ![](/static/img/posts/JavaC.png)
 10. Kết quả:<br/>
-    ![](/static/img/_posts/Java-in-Sublime.PNG)
+    ![](/static/img/posts/Java-in-Sublime.PNG)
 
 <br/>
 Như vậy là mình đã thiết lập thành công Sublime Text 3 để chạy Java.
