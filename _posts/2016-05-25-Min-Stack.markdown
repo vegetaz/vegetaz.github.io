@@ -1,0 +1,47 @@
+---
+layout: post
+title: "Min Stack"
+date: 2016-05-25 05:25:06 +0700
+categories: [java]
+---
+
+Design a stack that supports push, pop, top, and retrieving the minimum element in constant time.
+
+push(x) -- Push element x onto stack. <br/>
+pop() -- Removes the element on top of the stack. <br/>
+top() -- Get the top element. <br/>
+getMin() -- Retrieve the minimum element in the stack. <br/>
+
+Constraints:
+Methods pop, top and getMin operations will always be called on non-empty stacks.
+
+Solution
+
+```java
+class MinStack {
+
+    List<Integer> stack;
+
+    public MinStack() {
+      stack = new ArrayList<>();
+    }
+
+    public void push(int x) {
+      stack.add(x);
+    }
+
+    public void pop() {
+      stack.remove(stack.size() - 1);
+    }
+
+    public int top() {
+      return stack.get(stack.size() - 1);
+    }
+
+    public int getMin() {
+      return Collections.min(stack);
+    }
+}
+```
+
+Source: [leetcode](https://leetcode.com/problems/min-stack/) and [voz](https://next.voz.vn/t/chellenge-300-bai-code-thieu-nhi.40335/post-1091820)
