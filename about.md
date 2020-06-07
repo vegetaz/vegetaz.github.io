@@ -4,6 +4,6 @@ title: About
 permalink: /about/
 ---
 
-I'm a Coder for Java & front-end. I've made quite a few web apps, especially on Spring.
+I'm a Coder for Java Back End. I've made quite a few web apps, especially on Spring.
 
-email: vegetaz@outlook.com
+email: vangiacoder@outlook.com
