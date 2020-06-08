@@ -4,6 +4,6 @@ title: About
 permalink: /about/
 ---
 
-I'm a Coder for Java Back End. I've made quite a few web apps, especially on Spring. Keep Learning :)
+I'm a Coder for Java. I've made quite a few web apps, especially on Spring
 
 email: vangiacoder@outlook.com
