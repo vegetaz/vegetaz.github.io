@@ -1,11 +1,11 @@
 [
 	{
 		"slug": "cool-project",
-		"name": "Cool project 1",
+		"name": "Java fundamentals",
 		"image": "placeholder.jpg",
-		"url": "https://www.google.com",
-		"date": "Jan 2014",
-		"tags": ["Angular JS","API"]
+		"url": "https://github.com/vegetaz/JavaFundamentalsCodeLearnIO",
+		"date": "July 4th 2020",
+		"tags": ["java", "fundamentals"]
 	},
 	{
 		"name": "Cool project 2",
