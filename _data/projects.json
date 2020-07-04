@@ -8,6 +8,7 @@
 		"tags": ["java", "fundamentals"]
 	},
 	{
+		"slug": "javascript-basic",
 		"name": "JavaScript basic",
 		"image": "CodeLearn_certification_js.png",
 		"url": "https://github.com/vegetaz/JavaScript-basics",
