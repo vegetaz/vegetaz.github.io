@@ -1,8 +1,8 @@
 [
 	{
-		"slug": "cool-project",
+		"slug": "java-fundamentals",
 		"name": "Java fundamentals",
-		"image": "placeholder.jpg",
+		"image": "CodeLearn_certification.png",
 		"url": "https://github.com/vegetaz/JavaFundamentalsCodeLearnIO",
 		"date": "July 4th 2020",
 		"tags": ["java", "fundamentals"]
