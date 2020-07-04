@@ -8,11 +8,11 @@
 		"tags": ["java", "fundamentals"]
 	},
 	{
-		"name": "Cool project 2",
-		"image": "placeholder.jpg",
-		"url": "#",
-		"date": "May 2014",
-		"tags": ["Python","Django"]
+		"name": "JavaScript basic",
+		"image": "CodeLearn_certification_js.png",
+		"url": "https://github.com/vegetaz/JavaScript-basics",
+		"date": "December 2019",
+		"tags": ["js","javascript"]
 	},
 	{
 		"name": "Cool project 3",
