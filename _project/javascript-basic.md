@@ -1,6 +1,6 @@
 ---
 layout: project_single
-title:  "JavaScript basic"
+title: "JavaScript basic"
 slug: "javascript-basic"
 ---
 Learn to program in the JavaScript programming language.

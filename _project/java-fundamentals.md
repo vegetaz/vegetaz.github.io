@@ -1,6 +1,6 @@
 ---
 layout: project_single
-title:  "Java fundamentals"
+title: "Java fundamentals"
 slug: "java-fundamentals"
 ---
 Learn to program in the Java programming language.
