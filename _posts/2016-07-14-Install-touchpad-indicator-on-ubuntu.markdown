@@ -20,7 +20,7 @@ sudo apt install touchpad-indicator
 ```bash
 touchpad-indicator
 ```
-Hoặc tìm kiếm `Touchpad-Indicator` trong danh mục chương trình của Ubuntu
+Hoặc tìm kiếm `Touchpad Indicator` trong danh mục chương trình của Ubuntu
 
 ### Cấu hình
 Dưới đây là một vài cấu hình mang tính chất tham khảo  
