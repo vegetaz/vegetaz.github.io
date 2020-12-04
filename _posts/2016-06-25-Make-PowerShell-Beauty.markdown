@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Làm đẹp PowerShell"
-date: 2016-06-25 15:25:10 +0700
+date: 2016-06-25 15:25:25 +0700
 categories: [other]
 ---
 
