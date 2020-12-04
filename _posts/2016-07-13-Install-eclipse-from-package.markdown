@@ -11,33 +11,32 @@ categories: [linux, ubuntu, others]
 Truy cập vào trang chủ eclipse, lựa chọn phiên bản phù hợp, ở đây mình lựa chọn Eclipse IDE for Enterprise Java Developers, tiếp theo là gói phù hợp cho hệ điều hành, lựa chọn của mình trong trường hợp này là `Linux x86_64`.  
 ![Download eclipse](/static/img/install-eclipse/Download_eclipse.png)
 
-### Quan hệ thu nạp (Aggregation)
-Quan hệ thu nạp xảy ra khi một đối tượng có thuộc tính là một đối tượng khác và 2 đối tượng này có thể tồn tại độc lập.  
-Ví dụ:
-```java
-public class ClassA {       
-    ClassB b;
-    public void setB(ClassB b){
-    	this.b = b;
-     }
-}
+### Giải nén
+Giải nén tệp tin .tar.gz đã tải về với câu lệnh sau:  
+```bash
+tar -xvzf eclipse-jee-YYYY-MM-R-linux-gtk-x86_64.tar.gz
 ```
-Có thể thấy đối tượng của ClassB tồn tại độc lập với đối tượng của ClassA (ClassA không tạo ra đối tượng của ClassB).
-![Quan Hệ Thu Nạp](/static/img/posts/Aggregation.png)
-
-### Quan hệ hợp thành (Composition)
-Quan hệ hợp thành xảy ra khi đối tượng của lớp ClassB là 1 phần trong đối tượng của lớp ClassA, khi đối tượng của lớp ClassA bị hủy thì đối tượng của ClassB cũng bị hủy theo. Ví dụ mối quan hệ giữa File và Folder, một Folder sẽ có nhiều File và nếu Folder bị hủy thì File cũng bị hủy theo. Quan hệ hợp thành này sẽ được biểu diễn dưới sơ đồ lớp như sau:
-![Quan Hệ Hợp Thành](/static/img/posts/Composition.png)
-
-
-Số 1 và ký tự * thể hiện rằng 1 Folder sẽ có nhiều File. Nếu nói tới code thì khi một đối tượng được tạo ra trong một đối tượng khác thì đó là quan hệ hợp thành:
-```java
-public class ClassA{
-	private ClassB b;
-	public ClassA() {
-		b = new ClsasB();
-	}
-}
+Sẽ sinh ra 1 thư mục eclipse tại nơi mà bạn đã tải về, có thể chuyển thư mục này tới nơi khác để dễ quản lý.  
+Có thể di chuyển thư mục với câu lệnh sau:  
+```bash
+mv eclipse /opt/
 ```
-Đọc tới đây bạn đã hiểu về các quan hệ giữa các đối tượng chưa?  
-Còn tôi thì vẫn lơ tơ mơ lắm! :3
+
+### Khởi chạy
+Để chạy được chương trình eclipse thì rất dễ, chỉ cần nháy đúp vào biểu tượng eclipse là được.
+![eclipse](/static/img/install-eclipse/eclipse.png)
+Mỗi lần muốn mở eclipse lên, lại mất nhiều thao tác để tới thư mục của eclipse. Mình là người lười nên tạo luôn đường dẫn khởi chạy cho eclipse:  
+```bash
+sudo gedit /usr/share/applications/eclipse.desktop
+```
+Sau đó sao chép đoạn mã bên dưới và lưu lại:
+```
+[Desktop Entry]
+Encoding=UTF-8
+Name=Eclipse IDE
+Type=Application
+Exec=/opt/eclipse/eclipse
+Icon=/opt/eclipse/icon.xpm
+Comment=Integrated Development Environment
+```
+Bạn có thể kéo biểu tượng eclipse này vào thanh dashboard để tiện dụng hơn.
