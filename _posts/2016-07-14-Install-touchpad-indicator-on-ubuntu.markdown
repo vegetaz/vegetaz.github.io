@@ -7,7 +7,7 @@ categories: [linux, ubuntu, others]
 
 [Touchpad-Indicator](https://github.com/atareao/Touchpad-Indicator) là chương trình quản lý touchpad trên Linux và Ubuntu được viết bởi một lập trình viên có nickname là [atareao](https://www.atareao.es/)
 
-## Tải về
+### Tải về
 Thực hiện lần lượt các câu lệnh sau trong Terminal để tải về và cài đặt Touchpad-Indicator  
 ```bash
 sudo add-apt-repository ppa:atareao/atareao

@@ -7,7 +7,7 @@ categories: [linux, ubuntu, others]
 
 Đây là cách sử dụng Eclipse IDE for Enterprise Java Developers bằng cách download package từ [trang chủ eclipse](https://www.eclipse.org/downloads/packages/).
 
-## Tải về
+### Tải về
 Truy cập vào trang chủ eclipse, lựa chọn phiên bản phù hợp, ở đây mình lựa chọn Eclipse IDE for Enterprise Java Developers, tiếp theo là gói phù hợp cho hệ điều hành, lựa chọn của mình trong trường hợp này là `Linux x86_64`.  
 ![Download eclipse](/static/img/install-eclipse/Download_eclipse.png)
 
