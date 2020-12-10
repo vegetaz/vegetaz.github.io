@@ -46,7 +46,7 @@ Add-AppxPackage .\Microsoft.NET.Native.Runtime.2.2_2.2.28604.0_x86__8wekyb3d8bbw
 Add-AppxPackage .\Microsoft.VCLibs.140.00_14.0.29231.0_x64__8wekyb3d8bbwe.Appx
 Add-AppxPackage .\Microsoft.VCLibs.140.00_14.0.29231.0_x86__8wekyb3d8bbwe.Appx
 
-Add-AppxPackage Microsoft.MicrosoftStickyNotes_3.7.78.0_neutral___8wekyb3d8bbwe.AppxBundle
+Add-AppxPackage Microsoft.MicrosoftStickyNotes_3.7.142.0_neutral___8wekyb3d8bbwe.AppxBundle
 ```
 Các câu lệnh trên thực hiện với PowerShell, chạy dưới quyền Administrator.
 
