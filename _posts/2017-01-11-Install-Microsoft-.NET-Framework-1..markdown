@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Cài đặt Microsoft .NET Framework 1."
+title: "Cài đặt Microsoft .NET Framework 1.1"
 date: 2017-01-10 10:25:10 +0700
 categories: [others]
 ---
@@ -35,5 +35,10 @@ dotnetfxsp1.exe /Xp:C:\DotNet\netfxsp.msp
 ```
 msiexec.exe /a c:\DotNet\netfx.msi /p c:\DotNet\netfxsp.msp
 ```
-Sau khi thực hiện câu lệnh trên xong thì thực thi tệp tin `netfx.msi` có trong thư mục DotNet.
-Như vậy là đã hoàn thành cài đặt Microsoft .NET Framework 1
+Sau khi thực hiện câu lệnh trên xong thì thực thi tệp tin `netfx.msi` có trong thư mục DotNet.  
+Có thể kiểm tra các phiên bản .NET đã được cài đặt bằng câu lệnh sau trong Windows PowerShell với quyền Administrator
+```
+Get-STDotNetVersion
+```
+
+Trong trường hợp không tải về được các gói cài đặt .NET 1.1 thì có thể tham khảo [đường dẫn này](https://mega.nz/file/XQlERB5T#f6lTCLgHs0pxikMjZeFw6g6CbUAGDspja4Kit8VvHMs)!
