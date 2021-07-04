@@ -31,9 +31,9 @@ Trong cửa sổ Command Prompt chạy với quyền Administrator, thực hiệ
 ```
 dotnetfxsp1.exe /Xp:C:\DotNet\netfxsp.msp
 ```
-Sẽ không có thông báo nào, chỉ có tệp tin `netfxsp.msp` được tạo ra trong thư mục DotNet.
-Thực hiện câu lệnh tiếp theo:
+Đợi một lát rồi thực hiện câu lệnh tiếp theo:
 ```
 msiexec.exe /a c:\DotNet\netfx.msi /p c:\DotNet\netfxsp.msp
 ```
+Sau khi thực hiện câu lệnh trên xong thì thực thi tệp tin `netfx.msi` có trong thư mục DotNet.
 Như vậy là đã hoàn thành cài đặt Microsoft .NET Framework 1
