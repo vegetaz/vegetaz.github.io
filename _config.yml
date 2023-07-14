@@ -41,7 +41,7 @@ urls:
 url: "https://vegetaz.github.io"
 baseurl: ""
 paginate: 20
-per_page: 20
+per_page: 25
 paginate_path: "/page/:num/"
 markdown: kramdown
 gems:
