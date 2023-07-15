@@ -19,7 +19,7 @@ Nếu điều kiện được đáp ứng trước khi hết thời gian chờ, 
 Dưới đây là một ví dụ về cách sử dụng explicit wait để đợi một phần tử hiển thị ra để có thể tương tác:  
 
 ```powershell
-$wait = New-Object OpenQA.Selenium.Support.UI.WebDriverWait($driver, [TimeSpan]::FromMilliseconds(10))
+$wait = New-Object OpenQA.Selenium.Support.UI.WebDriverWait($driver, [TimeSpan]::FromMilliseconds(1000))
 $condition = {
     param($driver)
     $element = $driver.FindElement([OpenQA.Selenium.By]::ID('myButton'))
