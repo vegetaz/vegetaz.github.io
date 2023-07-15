@@ -2,7 +2,7 @@
 layout: post
 title: "Làm đẹp PowerShell"
 date: 2016-06-25 15:25:25 +0700
-categories: [other]
+categories: [powershell]
 ---
 
 Hôm nay mình sẽ hướng dẫn các bạn làm đẹp cho PowerShell trên Windows 10. Với vài module được cài đặt vào PowerShell, cùng với Windows Terminal được lấy về từ Microsoft Store.
