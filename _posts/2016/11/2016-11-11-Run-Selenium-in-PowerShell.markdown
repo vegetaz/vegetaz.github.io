@@ -62,27 +62,31 @@ $options = New-Object OpenQA.Selenium.Chrome.ChromeOptions
 ```powershell
 $options = New-Object OpenQA.Selenium.Firefox.FirefoxOptions
 ```  
+
 Tùy chọn không hiển thị giao diện của trình duyệt.
 ```powershell
 options.addArguments("--headless")
 ```   
-Tạo phiên bản trình duyệt mới.  
+
+Selenium sẽ không chạy trực tiếp trên trình duyệt Chrome hoặc Firefox đã được cài đặt. Vì vậy, cần tạo một phiên bản mới để Selenium làm việc.   
 ```powershell
 $driver = New-Object OpenQA.Selenium.Chrome.ChromeDriver($options)
 ```  
 ```powershell
 $driver = New-Object OpenQA.Selenium.Firefox.FirefoxDriver($options)
 ```  
-Khỏi tạo Implicit Wait. Ở đây là 29 giây chờ để trang/thành phần/vân vân tải hoàn tất.
+
+Khởi tạo Implicit Wait. Ở đây là 29 giây chờ để trang/thành phần/vân vân tải hoàn tất.
 ```powershell
 $driver.Manage().Timeouts().ImplicitWait = [TimeSpan]::FromSeconds(29)
 ```  
+
 Lệnh Explicit Wait đơn giản, dễ dùng:
 ```powershell
 Start-Sleep -Seconds 5
 ```  
-### Tạo phiên bản trình duyệt mới
-Selenium sẽ không chạy trực tiếp trên trình duyệt Chrome hoặc Firefox đã được cài đặt. Vì vậy, cần tạo một phiên bản mới để Selenium làm việc.  
+
+### Khởi tạo trình duyệt
 Để khởi động trình duyệt mới được chạy bởi Selenium thì chỉ cần sử dụng câu lệnh đơn giản:  
 ```powershell
 $driver
@@ -91,7 +95,6 @@ Nhưng thường được kết hợp bằng cách duyệt tới một địa ch
 ```powershell
 $driver.Navigate().GoToURL('https://vegetaz.github.io')
 ```  
-
 
 # Chạy
 Để chạy được tệp tin PowerShell, cần mở PowerShell trong thư mục `SeleniumPowerShellTest`, hoặc sử dụng lệnh `cd` để đi đến. Gõ như bên dưới và nhấn `Enter` là được.
