@@ -52,6 +52,12 @@ $script = "document.getElementById('$elementId').click();"
 $driver.ExecuteScript($script)
 ```  
 
+### Click to element Xpath by JavaScript  
+```powershell
+$script = "document.evaluate('$elementXpath', document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue.click();"
+$driver.ExecuteScript($script)
+```  
+
 ### Switch to iframe
 ```powershell
 $driver.SwitchTo().Frame($IframeIdOrName) | Out-Null
