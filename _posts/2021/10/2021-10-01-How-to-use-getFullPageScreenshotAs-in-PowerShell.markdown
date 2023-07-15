@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Cách sử dụng phương thức getFullPageScreenshotAs trong PowerShell"
-date: 2020-12-10 16:06:10 +0700
+date: 2021-10-01 16:06:10 +0700
 categories: [selenium, powershell]
 ---
 
