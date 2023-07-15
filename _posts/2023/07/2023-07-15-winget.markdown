@@ -18,15 +18,15 @@ Lần đầu sử dụng thì mở Windows Terminal lên, nhập vào đoạn m�
 ```powershell
 winget update
 ```  
-Để cài mới ứng dụng bằng winget, sử dụng câu lệnh:  
+Để cài mới ứng dụng bằng `winget`, sử dụng câu lệnh:  
 ```powershell
 winget install id
 ```  
-Tìm thấy id của ứng dụng khả dụng trên winget thông qua câu lệnh:  
+Tìm thấy id của ứng dụng khả dụng trên `winget` thông qua câu lệnh:  
 ```powershell
 winget search keyword
 ```  
-Để cập nhật tất cả các ứng dụng khả dụng từ nguồn winget và đã được cài đặt thì sử dụng câu lệnh:  
+Để cập nhật tất cả các ứng dụng khả dụng từ nguồn `winget` và đã được cài đặt thì sử dụng câu lệnh:  
 ```powershell
 winget update --all
 ```  
