@@ -22,6 +22,10 @@ Register-PSRepository -Default -InstallationPolicy Trusted
 ```  
 Hoặc  
 ```powershell
+Set-PSRepository -Name PSGallery -InstallationPolicy Trusted
+```  
+Hoặc  
+```powershell
 Register-PSRepository -Name PSGallery -SourceLocation https://www.powershellgallery.com/api/v2/ -InstallationPolicy Trusted
 ```  
 
