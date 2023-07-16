@@ -46,6 +46,12 @@ $element = $driver.FindElement([OpenQA.Selenium.By]::ID($elementId))
 $element.Click()
 ```  
 
+### Submit  
+```powershell
+$element = $driver.FindElement([OpenQA.Selenium.By]::ID("submit-btn"))
+$element.Submit()
+```  
+
 ### Click by JavaScript  
 ```powershell
 $script = "document.getElementById('$elementId').click();"
