@@ -99,28 +99,52 @@ $driver.quit()
 $driver.Dispose()
 ```  
 
+### Find element by Class name
+```powershell
+$driver.FindElement([OpenQA.Selenium.By]::ClassName($elementClassName))
+```  
+
+### Find element by Css Selector
+```powershell
+$driver.FindElement([OpenQA.Selenium.By]::CssSelector($elementCssSelector))
+```  
+
+### Find element by Equals
+```powershell
+$driver.FindElement([OpenQA.Selenium.By]::Equals($elementEquals))
+```  
+
 ### Find element by Id
 ```powershell
-$driver.FindElement([OpenQA.Selenium.By]::ID($elementId))
+$driver.FindElement([OpenQA.Selenium.By]::Id($elementId))
+```  
+
+### Find element by LinkText
+```powershell
+$driver.FindElement([OpenQA.Selenium.By]::LinkText($elementLinkText))
+```  
+
+### Find element by Name
+```powershell
+$driver.FindElement([OpenQA.Selenium.By]::Name($elementName))
+```  
+
+### Find element by PartialLinkText
+```powershell
+$driver.FindElement([OpenQA.Selenium.By]::PartialLinkText($elementPartialLinkText))
+```  
+
+### Find element by ReferenceEquals
+```powershell
+$driver.FindElement([OpenQA.Selenium.By]::ReferenceEquals($elementReferenceEquals))
+```  
+
+### Find element by Tag Name
+```powershell
+$driver.FindElement([OpenQA.Selenium.By]::TagName($elementTagName))
 ```  
 
 ### Find element by Xpath
 ```powershell
 $driver.FindElement([OpenQA.Selenium.By]::XPath($elementXpath))
 ```  
-
-### Find element by Name
-```powershell
-$driver.FindElement([OpenQA.Selenium.By]::XPath($elementName))
-```  
-
-### Find element by Class name
-```powershell
-$driver.FindElement([OpenQA.Selenium.By]::XPath($elementClassName))
-```  
-
-### Find element by Tag name
-```powershell
-$driver.FindElement([OpenQA.Selenium.By]::XPath($elementTagName))
-```  
-
