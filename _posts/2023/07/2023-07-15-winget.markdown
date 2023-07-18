@@ -14,9 +14,9 @@ Winget ra mắt lần đầu tiên với tư cách là một công cụ xem trư
 [Windows Terminal](https://apps.microsoft.com/store/detail/windows-terminal/9N0DX20HK701)  
 
 ### Sử dụng  
-Lần đầu sử dụng thì mở Windows Terminal lên, nhập vào đoạn mã dưới đây để cập nhật `winget`.  
+Lần đầu sử dụng thì mở `Windows Terminal` lên, nhập vào đoạn mã dưới đây để cập nhật `winget`.  
 ```powershell
-winget update
+winget upgrade
 ```  
 
 Để cài mới ứng dụng bằng `winget`, sử dụng câu lệnh:  
@@ -48,7 +48,16 @@ winget install -e --id XP9KHM4BK9FZ7Q
 
 Để cập nhật tất cả các ứng dụng khả dụng từ nguồn `winget` và đã được cài đặt thì sử dụng câu lệnh:  
 ```powershell
-winget update --all
+winget upgrade --all
 ```  
+```powershell
+winget upgrade -h --all
+```  
+Trong đó, `-h` là `Runs the installer in silent mode. This suppresses all UI. The default experience shows installer progress.`.  
 
-Đọc thêm: [Windows Package Manager](https://learn.microsoft.com/en-us/windows/package-manager/)  
+Câu lệnh cũ của `upgrade` là `update`.  
+
+Đọc thêm tại đây:  
+[upgrade command (winget)](https://learn.microsoft.com/en-us/windows/package-manager/winget/upgrade)  
+[Windows Package Manager](https://learn.microsoft.com/en-us/windows/package-manager/)  
+
