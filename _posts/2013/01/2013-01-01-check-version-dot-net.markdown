@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "Cách kiểm tra phiên bản, số hiệu của .NET trên máy tính Windows"
-date: 2013-01-01 00:25:25 +0700
-categories: [others, powershell, windows]
+date: 2013-01-01 07:07:07 +0700
+categories: [powershell, windows]
 ---
 
 Sao chép đoạn mã dưới đây, dán vào Windows PowerShell:
