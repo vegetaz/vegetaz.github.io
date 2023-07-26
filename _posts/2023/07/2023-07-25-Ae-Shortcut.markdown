@@ -50,5 +50,5 @@ Việc sử dụng thành thạo các phím tắt trong After Effect là điều
         <td style="border: 1px solid;">Thu nhỏ, phóng to màn hình xem trước (Preview)</td>
     </tr>
 </table>
-
+  
 Đọc thêm: [Keyboard shortcuts in After Effects](https://helpx.adobe.com/after-effects/using/keyboard-shortcuts-reference.html)  
