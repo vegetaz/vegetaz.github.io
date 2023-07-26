@@ -60,7 +60,7 @@ Việc sử dụng thành thạo các phím tắt trong After Effect là điều
 </table>
 
 #### Làm việc với các công cụ
-<table style="border: 1px solid; padding-left: 5px; padding-right: 5px;">
+<table style="border: 1px solid;">
     <tr>
         <th style="text-align: center; border: 1px solid; padding-left: 5px; padding-right: 5px;">Phím tắt</th>
         <th style="text-align: center; border: 1px solid; padding-left: 5px; padding-right: 5px;">Chức năng</th>
