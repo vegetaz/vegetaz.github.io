@@ -10,16 +10,16 @@ Việc sử dụng thành thạo các phím tắt trong After Effect là điều
 ### Làm việc với giao diện
 <table style="border: 1px solid;">
     <tr>
-        <th style="text-align: center;">Phím tắt</th>
-        <th style="text-align: center;">Chức năng</th>
+        <th style="text-align: center; border: 1px solid; border-spacing: 2px;">Phím tắt</th>
+        <th style="text-align: center; border: 1px solid; border-spacing: 2px;">Chức năng</th>
     </tr>
     <tr >
-        <td style="border: 1px solid;">Shift + F10</td>
-        <td style="border: 1px solid;">Giao diện chuẩn (Standard)</td>
+        <td style="border: 1px solid; border-spacing: 2px;">Shift + F10</td>
+        <td style="border: 1px solid; border-spacing: 2px;">Giao diện chuẩn (Standard)</td>
     </tr>
     <tr>
-        <td style="border: 1px solid;">Shift + F11</td>
-        <td style="border: 1px solid;">Giao diện chuyển động (Animation)</td>
+        <td style="border: 1px solid; border-spacing: 2px;">Shift + F11</td>
+        <td style="border: 1px solid; border-spacing: 2px;">Giao diện chuyển động (Animation)</td>
     </tr>
     <tr>
         <td style="border: 1px solid;">Shift + F12</td>
