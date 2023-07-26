@@ -9,7 +9,7 @@ Việc sử dụng thành thạo các phím tắt trong After Effect là điều
 
 ### Làm việc với giao diện
 | Phím tắt | Chức năng |
-|:---------|----------:|
+| --- | --- |
 | Shift + F10 | Giao diện chuẩn (Standard) |
 | Shift + F11 | Giao diện chuyển động (Animation) |
 | Shift + F12 | Giao diện hiệu ứng (Effects) |
