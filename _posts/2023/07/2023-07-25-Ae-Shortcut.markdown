@@ -8,16 +8,47 @@ categories: [ae, windows]
 Việc sử dụng thành thạo các phím tắt trong After Effect là điều cần thiết, tiết kiệm thời gian và công sức.  
 
 ### Làm việc với giao diện
-|   Phím tắt   |                            Chức năng                           |
-|--------------|----------------------------------------------------------------|
-| Shift + F10  | Giao diện chuẩn (Standard) |
-| Shift + F11  | Giao diện chuyển động (Animation) |
-| Shift + F12  | Giao diện hiệu ứng (Effects) |
-| Ctrl + N     | Tạo mới thành phần (Composition) |
-| Ctrl + K     | Thay đồi thông số (chuẩn phim, thời gian, ...) của Composition |
-| Alt + Scroll | Thu nhỏ, phóng to dòng thời gian (Timeline) |
-| Phím 0       | Xem trước phim có âm thanh |
-| Spacebar     | Xem trước phim không âm thanh |
-| Scroll       | Thu nhỏ, phóng to màn hình xem trước (Preview) |
+<table style="border: 1px solid;">
+    <tr>
+        <th style="text-align: center;">Phím tắt</th>
+        <th style="text-align: center;">Chức năng</th>
+    </tr>
+    <tr >
+        <td style="border: 1px solid;">Shift + F10</td>
+        <td style="border: 1px solid;">Giao diện chuẩn (Standard)</td>
+    </tr>
+    <tr>
+        <td style="border: 1px solid;">Shift + F11</td>
+        <td style="border: 1px solid;">Giao diện chuyển động (Animation)</td>
+    </tr>
+    <tr>
+        <td style="border: 1px solid;">Shift + F12</td>
+        <td style="border: 1px solid;">Giao diện hiệu ứng (Effects)</td>
+    </tr>
+    <tr>
+        <td style="border: 1px solid;">Ctrl + N</td>
+        <td style="border: 1px solid;">Tạo thành phần (Composition) mới</td>
+    </tr>
+    <tr>
+        <td style="border: 1px solid;">Ctrl + K</td>
+        <td style="border: 1px solid;">Thay đồi thông số (chuẩn phim, thời gian, ...) của Composition</td>
+    </tr>
+    <tr>
+        <td style="border: 1px solid;">Alt + Scroll</td>
+        <td style="border: 1px solid;">Thu nhỏ, phóng to dòng thời gian (Timeline)</td>
+    </tr>
+    <tr>
+        <td style="border: 1px solid;">Phím 0</td>
+        <td style="border: 1px solid;">Xem trước phim có âm thanh</td>
+    </tr>
+    <tr>
+        <td style="border: 1px solid;">Spacebar</td>
+        <td style="border: 1px solid;">Xem trước phim không âm thanh</td>
+    </tr>
+    <tr>
+        <td style="border: 1px solid;">Scroll</td>
+        <td style="border: 1px solid;">Thu nhỏ, phóng to màn hình xem trước (Preview)</td>
+    </tr>
+</table>
 
 Đọc thêm: [Keyboard shortcuts in After Effects](https://helpx.adobe.com/after-effects/using/keyboard-shortcuts-reference.html)  
