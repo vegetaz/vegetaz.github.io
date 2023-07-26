@@ -31,7 +31,7 @@ Việc sử dụng thành thạo các phím tắt trong After Effect là điều
     </tr>
     <tr>
         <td style="border: 1px solid; padding-left: 5px; padding-right: 5px;">Ctrl + K</td>
-        <td style="border: 1px solid; padding-left: 5px; padding-right: 5px;">Thay đồi thông số (chuẩn phim, thời gian, ...) của Composition</td>
+        <td style="border: 1px solid; padding-left: 5px; padding-right: 5px;">Thay đổi thông số (chuẩn phim, thời gian, ...) của Composition</td>
     </tr>
     <tr>
         <td style="border: 1px solid; padding-left: 5px; padding-right: 5px;">Alt + Scroll</td>
