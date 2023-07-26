@@ -60,42 +60,42 @@ Việc sử dụng thành thạo các phím tắt trong After Effect là điều
 </table>
 
 #### Làm việc với các công cụ
-<table style="border: 1px solid;">
+<table style="border: 1px solid; padding-left: 5px; padding-right: 5px;">
     <tr>
-        <th style="text-align: center; border: 1px solid; border-spacing: 2px;">Phím tắt</th>
-        <th style="text-align: center; border: 1px solid; border-spacing: 2px;">Chức năng</th>
+        <th style="text-align: center;">Phím tắt</th>
+        <th style="text-align: center;">Chức năng</th>
     </tr>
     <tr >
-        <td style="border: 1px solid; padding-left: 5px; padding-right: 5px;">V</td>
-        <td style="border: 1px solid; padding-left: 5px; padding-right: 5px;">Công cụ chọn (Selection Tool)</td>
+        <td>V</td>
+        <td>Công cụ chọn (Selection Tool)</td>
     </tr>
     <tr>
-        <td style="border: 1px solid; padding-left: 5px; padding-right: 5px;">W</td>
-        <td style="border: 1px solid; padding-left: 5px; padding-right: 5px;">Công cụ xoay (Rotation Tool)</td>
+        <td>W</td>
+        <td>Công cụ xoay (Rotation Tool)</td>
     </tr>
     <tr>
-        <td style="border: 1px solid; padding-left: 5px; padding-right: 5px;">Y</td>
-        <td style="border: 1px solid; padding-left: 5px; padding-right: 5px;">Giao diện hiệu ứng (Effects)</td>
+        <td>Y</td>
+        <td>Giao diện hiệu ứng (Effects)</td>
     </tr>
     <tr>
-        <td style="border: 1px solid; padding-left: 5px; padding-right: 5px;">Z</td>
-        <td style="border: 1px solid; padding-left: 5px; padding-right: 5px;">Phóng to, thu nhỏ (Zoom)</td>
+        <td>Z</td>
+        <td>Phóng to, thu nhỏ (Zoom)</td>
     </tr>
     <tr>
-        <td style="border: 1px solid; padding-left: 5px; padding-right: 5px;">Q</td>
-        <td style="border: 1px solid; padding-left: 5px; padding-right: 5px;">Vẽ đa giác (Shape)</td>
+        <td>Q</td>
+        <td>Vẽ đa giác (Shape)</td>
     </tr>
     <tr>
-        <td style="border: 1px solid; padding-left: 5px; padding-right: 5px;">C</td>
-        <td style="border: 1px solid; padding-left: 5px; padding-right: 5px;">Điều khiển máy quay (Camera)</td>
+        <td>C</td>
+        <td>Điều khiển máy quay (Camera)</td>
     </tr>
     <tr>
-        <td style="border: 1px solid; padding-left: 5px; padding-right: 5px;">H</td>
-        <td style="border: 1px solid; padding-left: 5px; padding-right: 5px;">Di chuyển nội dung (Hand Tool)</td>
+        <td>H</td>
+        <td>Di chuyển nội dung (Hand Tool)</td>
     </tr>
     <tr>
-        <td style="border: 1px solid; padding-left: 5px; padding-right: 5px;">G</td>
-        <td style="border: 1px solid; padding-left: 5px; padding-right: 5px;">Vẽ shape tùy chọn (Pentool)</td>
+        <td>G</td>
+        <td>Vẽ shape tùy chọn (Pentool)</td>
     </tr>
 </table>
 
