@@ -1,5 +1,5 @@
 current directory: /home/vegetaz/vegetaz.github.io/vendor/bundle/ruby/3.0.0/gems/commonmarker-0.23.9/ext/commonmarker
-/usr/bin/ruby3.0 -I /usr/lib/ruby/vendor_ruby -r ./siteconf20230728-14599-xn8nej.rb extconf.rb
+/usr/bin/ruby3.0 -I /usr/lib/ruby/vendor_ruby -r ./siteconf20230728-20360-r4v5js.rb extconf.rb
 creating Makefile
 
 current directory: /home/vegetaz/vegetaz.github.io/vendor/bundle/ruby/3.0.0/gems/commonmarker-0.23.9/ext/commonmarker
@@ -59,4 +59,4 @@ linking shared-object commonmarker/commonmarker.so
 
 current directory: /home/vegetaz/vegetaz.github.io/vendor/bundle/ruby/3.0.0/gems/commonmarker-0.23.9/ext/commonmarker
 make DESTDIR\= install
-/usr/bin/install -c -m 0755 commonmarker.so ./.gem.20230728-14599-ij09ca/commonmarker
+/usr/bin/install -c -m 0755 commonmarker.so ./.gem.20230728-20360-s7b5br/commonmarker
