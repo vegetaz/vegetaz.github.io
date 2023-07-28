@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Cài đặt Preload cho Linux Mint"
-date: 2013-11-01 07:08:09 +0700
+date: 2013-11-02 07:08:09 +0700
 categories: [linux]
 ---
 
