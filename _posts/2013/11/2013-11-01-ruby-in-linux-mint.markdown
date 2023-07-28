@@ -17,6 +17,11 @@ Trong trường hợp `apt-get` bị lỗi, sử dụng câu lệnh sau để s�
 sudo apt-get install ruby
 ```  
 
+Sử dụng câu lệnh bên dưới để cài đặt `ruby-bundler`:  
+```shell
+sudo apt install ruby-bundler
+```  
+
 Sau khi cài đặt thành công, sử dụng câu lệnh bên dưới để kiểm tra phiên bản của Ruby:  
 ```shell
 ruby -v
