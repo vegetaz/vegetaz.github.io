@@ -2,7 +2,7 @@
 layout: post
 title: "Cài đặt Ruby cho Linux Mint"
 date: 2013-11-01 07:08:09 +0700
-last_modified_at:
+{% last_modified_at %}
 categories: [linux]
 ---
 
