@@ -16,7 +16,7 @@ sudo sh -c 'echo "deb [arch=amd64,arm64,armhf signed-by=/etc/apt/keyrings/packag
 rm -f packages.microsoft.gpg
 ```  
 
-### Cập nhật
+### Cập nhật `apt`
 ```bash
 sudo apt install apt-transport-https
 sudo apt update
@@ -30,6 +30,12 @@ sudo apt install code # or code-insiders
 ### Khởi chạy
 ```bash
 code
+```  
+
+### Cập nhật Visual Studio Code
+```bash
+sudo apt-get update
+sudo apt-get upgrade code
 ```  
 
 Nên cài [Chrome](https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb) trước khi cài đặt Visual Studio Code.  
