@@ -2,6 +2,7 @@
 layout: post
 title: "Cài đặt OBS Studio cho Linux Mint"
 date: 2013-11-08 07:08:09 +0700
+This post was last updated at {{ "%Y-%m-%d %H:%M" }}.
 categories: [linux]
 ---
 
