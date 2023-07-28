@@ -11,8 +11,10 @@ Preload là một ứng dụng daemon (không phải yêu tinh, không phải á
 ### Cài đặt
 Mở cửa sổ Terminal lên và gõ lệnh:  
 ```shell
-sudo apt install preload
+sudo apt-get install preload
 ```  
 
 Preload không cần cấu hình, nó tự làm tất cả những gì cần thiết.  
 Sau khi khởi động lại, nó sẽ bắt đầu chạy ở chế độ nền và dần cải thiện tốc độ ứng dụng một cách tự động (như một AI vậy, chắc là một AI đấy :D ).  
+
+Đọc thêm: [Improve Application Startup Speed With Preload in Ubuntu](https://itsfoss.com/improve-application-startup-speed-with-preload-in-ubuntu/)
