@@ -3,6 +3,7 @@ layout: post
 title: "Cài đặt Ruby cho Linux Mint"
 date: 2013-11-01 07:08:09 +0700
 categories: [linux]
+{% last_modified_at %}
 ---
 
 Các câu lệnh dưới đây chạy trong **Terminal** của **Linux Mint**.  

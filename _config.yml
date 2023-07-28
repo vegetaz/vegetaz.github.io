@@ -49,6 +49,12 @@ markdown: kramdown
 plugins:
   - jekyll-paginate
   - jekyll-gist
+  - jekyll-last-modified-at
+
+# Optional. The default date format, used if none is specified in the tag.
+# https://github.com/gjtorikian/jekyll-last-modified-at
+last-modified-at:
+    date-format: '%d-%b-%y'
 
 compress_html:
   clippings: all
