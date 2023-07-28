@@ -57,5 +57,3 @@ compress_html:
   endings: all
   ignore:
     envs: ["development"]
-
-incremental: true
