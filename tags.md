@@ -1,6 +1,6 @@
 ---
-layout: tags
+layout: posts_by_category
 title: Tags
-permalink: /posts_by_category/
+permalink: /tags/
 ---
 
