@@ -33,10 +33,10 @@ share:
 urls:
   - text: About Me
     url: /about/
-  - text: My Projects
-    url: /projects/
   - text: Category
     url: /category/
+  - text: My Projects
+    url: /projects/
   - text: XML Feed
     url: /feed.xml
 
