@@ -34,4 +34,6 @@ bundle -v
 
 Đọc thêm: [Installing Ruby](https://www.ruby-lang.org/en/documentation/installation/#apt)
 
+{:refdef: style="text-align: right; font-size: 11px; color: #ADADAD;"}
 Last modified: {% last_modified_at %}
+{: refdef}  
