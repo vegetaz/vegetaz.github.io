@@ -64,7 +64,9 @@ layout: default
     var lastModified = moment('{{ site.static_files[0].modified_time }}');
     var lastModifiedElement = document.createElement("p");
     // lastModifiedElement.innerHTML = "Last modified: " + formatDate(lastModified);
-    lastModifiedElement.innerHTML = "Last modified: " + lastModified;
+    var formattedDate = lastModified.format("YYYY-MM-DD HH:mm:ss");
+    lastModifiedElement.innerHTML = "Last modified: " + formattedDate;
+    // lastModifiedElement.innerHTML = "Last modified: " + lastModified;
     document.querySelector(".last-modified-date").appendChild(lastModifiedElement);
   });
 
