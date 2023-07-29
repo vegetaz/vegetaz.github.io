@@ -63,17 +63,18 @@ layout: default
       var file = "{{ site.static_files[0].path }}";
       var lastModified = new Date('{{ site.static_files[0].modified_time }}');
       var lastModifiedElement = document.createElement("p");
-      lastModifiedElement.innerHTML = "Last modified: " + formatDate(lastModified);
+      // lastModifiedElement.innerHTML = "Last modified: " + formatDate(lastModified);
+      lastModifiedElement.innerHTML = "Last modified: " + lastModified;
       document.querySelector(".last-modified-date").appendChild(lastModifiedElement);
     });
 
-    function formatDate(date) {
+    /** function formatDate(date) {
       var months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
       var day = date.getDate();
       var month = months[date.getMonth()];
       var year = date.getFullYear();
       return day + "-" + month + "-" + year;
-    }
+    } **/
 
     /* <![CDATA[ */
     var disqus_shortname = "{{ site.disqus_shortname }}";
