@@ -43,5 +43,3 @@ Hiển thị biểu mẫu:
 ```powershell
 $form.ShowDialog()
 ```  
-
-<p class="last-modified-date" style="text-align: right; font-size: 11px; color: #ADADAD;"></p>
