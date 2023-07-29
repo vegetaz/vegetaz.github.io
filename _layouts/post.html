@@ -14,7 +14,7 @@ layout: default
 
 <div class="content">
   <div class="post">{{ content }}</div>
-  <p class="last-modified-date" style="text-align: right; font-size: 11px; color: #ADADAD;"></p>
+  <p class="last-modified-date" style="text-align: right; font-size: 11px; color: #ADADAD;">Last updated: {{ page.last_modified_at | date: '%B %d, %Y' }}</p>
   {% include share-page.html %}  
 </div>
 
@@ -54,30 +54,6 @@ layout: default
     <a class="next" href="{{ page.next.url }}">{{ page.next.title }} &raquo;</a>
   {% endif %}
 </div>
-
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
-<script type="text/javascript">
-  /** last-modified-date **/
-  document.addEventListener("DOMContentLoaded", function () {
-    var file = "{{ site.static_files[0].path }}";
-    // var lastModified = new Date('{{ site.static_files[0].modified_time }}');
-    var lastModified = moment('{{ site.static_files[0].modified_time }}');
-    var lastModifiedElement = document.createElement("p");
-    var formattedDate = lastModified.format("YYYY-MM-DD HH:mm:ss");
-    // lastModifiedElement.innerHTML = "Last modified: " + formatDate(lastModified);
-    lastModifiedElement.innerHTML = "Last modified: " + formattedDate;
-    // lastModifiedElement.innerHTML = "Last modified: " + lastModified;
-    document.querySelector(".last-modified-date").appendChild(lastModifiedElement);
-  });
-
-  /** function formatDate(date) {
-    var months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
-    var day = date.getDate();
-    var month = months[date.getMonth()];
-    var year = date.getFullYear();
-    return day + "-" + month + "-" + year;
-  } **/
-</script>
 
 <div class="disqus-comments">
   <div id="disqus_thread"></div>
