@@ -60,18 +60,18 @@ layout: default
   <script type="text/javascript">
     /** last-modified-date **/
     document.addEventListener("DOMContentLoaded", function() {
-      var date = document.lastModified;
-      var lastModified = document.createElement("p");
-      lastModified.innerHTML = "Last updated: " + formatDate(date);
-      document.querySelector(".last-modified-date").appendChild(lastModified);
+      var file = "{{ site.static_files[0].path }}";
+      var lastModified = new Date('{{ site.static_files[0].modified_time }}');
+      var lastModifiedElement = document.createElement("p");
+      lastModifiedElement.innerHTML = "Last modified: " + formatDate(lastModified);
+      document.querySelector(".last-modified-date").appendChild(lastModifiedElement);
     });
 
-    function formatDate(dateString) {
-      var dateObj = new Date(dateString);
+    function formatDate(date) {
       var months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
-      var day = dateObj.getDate();
-      var month = months[dateObj.getMonth()];
-      var year = dateObj.getFullYear();
+      var day = date.getDate();
+      var month = months[date.getMonth()];
+      var year = date.getFullYear();
       return day + "-" + month + "-" + year;
     }
 
