@@ -101,3 +101,5 @@ Việc sử dụng thành thạo các phím tắt trong After Effect là điều
 
 
 Đọc thêm: [Keyboard shortcuts in After Effects](https://helpx.adobe.com/after-effects/using/keyboard-shortcuts-reference.html)  
+
+<p class="last-modified-date" style="text-align: right; font-size: 11px; color: #ADADAD;">Last updated: {{ page.last_modified_at | date: '%B %d, %Y' }}</p>
