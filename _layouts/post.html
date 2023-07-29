@@ -64,7 +64,9 @@ layout: default
       var lastModified = new Date('{{ site.static_files[0].modified_time }}');
       var lastModifiedElement = document.createElement("p");
       // lastModifiedElement.innerHTML = "Last modified: " + formatDate(lastModified);
-      lastModifiedElement.innerHTML = "Last modified: " + lastModified;
+      // lastModifiedElement.innerHTML = "Last modified: " + lastModified;
+      var formattedDate = lastModified.getDate() + '-' + (lastModified.getMonth() + 1) + '-' + lastModified.getFullYear();
+      lastModifiedElement.innerHTML = "Last modified: " + formattedDate;
       document.querySelector(".last-modified-date").appendChild(lastModifiedElement);
     });
 
