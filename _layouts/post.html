@@ -6,6 +6,7 @@ layout: default
 </header>
 
 <span class="time">{{ page.date | date_to_string }}</span>
+<span class="last-modified-date" style="text-align: right; font-size: 11px; color: #ADADAD;">Last updated: {{ page.last_modified_at | date: '%B %d, %Y' }}</span>
 {% if page.categories %}
   <span class="categories">
     &raquo; {% for category in page.categories %}<a href="/category/{{ category }}">{{ category }}</a>{% if forloop.last == false %}, {% endif %}{% endfor %}
@@ -14,7 +15,7 @@ layout: default
 
 <div class="content">
   <div class="post">{{ content }}</div>
-  <span class="last-modified-date" style="text-align: right; font-size: 11px; color: #ADADAD;">Last updated: {{ page.last_modified_at | date: '%B %d, %Y' }}</span>
+  
   {% include share-page.html %}  
 </div>
 
