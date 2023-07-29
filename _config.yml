@@ -51,6 +51,10 @@ plugins:
   - jekyll-paginate
   - jekyll-gist
 
+# Optional. The default date format, used if none is specified in the tag.
+last-modified-at:
+    date-format: '%d-%b-%y'
+
 compress_html:
   clippings: all
   comments: ["<!-- ", " -->"]
