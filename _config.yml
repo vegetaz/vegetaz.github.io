@@ -65,3 +65,5 @@ compress_html:
 
 env:
   JEKYLL_GITHUB_TOKEN: ${{ secrets.JEKYLL_GITHUB_TOKEN }}
+
+fetch-depth: 0
