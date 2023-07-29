@@ -12,3 +12,5 @@ Get-ChildItem 'HKLM:\SOFTWARE\Microsoft\NET Framework Setup\NDP' -Recurse | Get-
 ```
 
 Sau khi đoạn mã được thực thi, sẽ hiển thị ra các phiên bản và số hiệu của .NET đã được cài đặt!
+
+<p class="last-modified-date" style="text-align: right; font-size: 11px; color: #ADADAD;"></p>

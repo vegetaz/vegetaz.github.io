@@ -30,3 +30,5 @@ java --version
 ```  
 
 Đọc thêm: [Installation of the JDK on Linux Platforms](https://docs.oracle.com/en/java/javase/20/install/installation-jdk-linux-platforms.html)  
+
+<p class="last-modified-date" style="text-align: right; font-size: 11px; color: #ADADAD;"></p>

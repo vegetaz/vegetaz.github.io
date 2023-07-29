@@ -18,3 +18,5 @@ Preload không cần cấu hình, nó tự làm tất cả những gì cần thi
 Sau khi khởi động lại, nó sẽ bắt đầu chạy ở chế độ nền và dần cải thiện tốc độ ứng dụng một cách tự động (như một AI vậy, chắc là một AI đấy :D ).  
 
 Đọc thêm: [Improve Application Startup Speed With Preload in Ubuntu](https://itsfoss.com/improve-application-startup-speed-with-preload-in-ubuntu/)
+
+<p class="last-modified-date" style="text-align: right; font-size: 11px; color: #ADADAD;"></p>
