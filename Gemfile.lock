@@ -280,6 +280,7 @@ PLATFORMS
 DEPENDENCIES
   faraday-retry
   github-pages
+  jekyll
   jekyll-github-metadata
   jekyll-last-modified-at
   nokogiri
