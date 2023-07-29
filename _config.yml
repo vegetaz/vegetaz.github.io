@@ -47,9 +47,9 @@ per_page: 25
 paginate_path: "/page/:num/"
 markdown: kramdown
 plugins:
+  - jekyll-last-modified-at
   - jekyll-paginate
   - jekyll-gist
-  - jekyll-last-modified-at
 
 compress_html:
   clippings: all
