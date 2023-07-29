@@ -57,6 +57,14 @@ layout: default
 <div class="disqus-comments">
   <div id="disqus_thread"></div>
   <script type="text/javascript">
+    /** last-modified-date **/
+    document.addEventListener("DOMContentLoaded", function() {
+      var date = document.lastModified;
+      var lastModified = document.createElement("p");
+      lastModified.innerHTML = "Last updated: " + date;
+      document.querySelector(".last-modified-date").appendChild(lastModified);
+    });
+
     /* <![CDATA[ */
     var disqus_shortname = "{{ site.disqus_shortname }}";
     var disqus_identifier = "{{ site.url }}_{{ page.title }}";
