@@ -62,3 +62,6 @@ compress_html:
   endings: all
   ignore:
     envs: ["development"]
+
+env:
+  JEKYLL_GITHUB_TOKEN: ${{ secrets.JEKYLL_GITHUB_TOKEN }}
