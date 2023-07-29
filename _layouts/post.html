@@ -59,13 +59,13 @@ layout: default
   <div id="disqus_thread"></div>
   <script type="text/javascript">
     /** last-modified-date **/
-    document.addEventListener("DOMContentLoaded", function() {
-      var file = "{{ site.static_files[0].path }}";
-      var lastModified = new Date('{{ site.static_files[0].modified_time }}');
-      var lastModifiedElement = document.createElement("p");
-      // lastModifiedElement.innerHTML = "Last modified: " + formatDate(lastModified);
-      lastModifiedElement.innerHTML = "Last modified: " + lastModified;
-      document.querySelector(".last-modified-date").appendChild(lastModifiedElement);
+    document.addEventListener("DOMContentLoaded", function () {
+        var file = "{{ site.static_files[0].path }}";
+        var lastModified = new Date('{{ site.static_files[0].modified_time }}');
+        var lastModifiedElement = document.createElement("p");
+        // lastModifiedElement.innerHTML = "Last modified: " + formatDate(lastModified);
+        lastModifiedElement.innerHTML = "Last modified: " + lastModified;
+        document.querySelector(".last-modified-date").appendChild(lastModifiedElement);
     });
 
     /** function formatDate(date) {
