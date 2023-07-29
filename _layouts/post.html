@@ -14,7 +14,12 @@ layout: default
 
 <div class="content">
   <div class="post">{{ content }}</div>
-  <p class="last-modified-date" style="text-align: right; font-size: 11px; color: #ADADAD;">Last updated: {{ page.last_modified_at }}</p>
+  {% assign date_format = site.minima.date_format | default: '%b %-d, %Y' %}
+  {% if page.last_modified_at %}
+    <p class="last-modified-date" style="text-align: right; font-size: 11px; color: #ADADAD;">Last updated: {{ page.last_modified_at | date: date_format }}</p>
+  {% else %}
+    <p class="last-modified-date" style="text-align: right; font-size: 11px; color: #ADADAD;">Last updated: {{ page.date | date: date_format }}</p>
+  {% endif %}
   {% include share-page.html %}  
 </div>
 
