@@ -1,11 +1,10 @@
 # https://jekyllrb.com/docs/continuous-integration/github-actions/
 
-name: Build and Deploy Jekyll site to GitHub Pages using GitHub Actions
+name: Build and Deploy using GitHub Actions
 
 on:
   push:
-    branches:
-      - master  # Thay thế "main" bằng tên nhánh (trước năm 2020 là master)
+    branches: master  # Thay thế "main" bằng tên nhánh (trước năm 2020 là master)
 
 jobs:
   github-pages:
@@ -18,6 +17,9 @@ jobs:
           key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile') }}
           restore-keys: |
             ${{ runner.os }}-gems-
-      - uses: helaili/jekyll-action@2.0.5    # Choose any one of the Jekyll Actions
-        with:                                # Some relative inputs of your action
-          token: ${{ secrets.GITHUB_TOKEN }}
+      - uses: helaili/jekyll-action@2.0.5
+        with:
+          target_branch: 'gh-pages'
+        evn:
+           JEKYLL_PAT: ${{ secrets.JEKYLL_GITHUB_TOKEN }}
+           JEKYLL_ENV: production
