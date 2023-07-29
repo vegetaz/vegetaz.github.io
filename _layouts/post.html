@@ -61,9 +61,18 @@ layout: default
     document.addEventListener("DOMContentLoaded", function() {
       var date = document.lastModified;
       var lastModified = document.createElement("p");
-      lastModified.innerHTML = "Last updated: " + date;
+      lastModified.innerHTML = "Last updated: " + formatDate(date);
       document.querySelector(".last-modified-date").appendChild(lastModified);
     });
+
+    function formatDate(dateString) {
+      var dateObj = new Date(dateString);
+      var months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+      var day = dateObj.getDate();
+      var month = months[dateObj.getMonth()];
+      var year = dateObj.getFullYear();
+      return day + "-" + month + "-" + year;
+    }
 
     /* <![CDATA[ */
     var disqus_shortname = "{{ site.disqus_shortname }}";
