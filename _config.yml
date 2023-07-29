@@ -49,6 +49,7 @@ markdown: kramdown
 plugins:
   - jekyll-paginate
   - jekyll-gist
+  - jekyll-last-modified-at
 
 compress_html:
   clippings: all
