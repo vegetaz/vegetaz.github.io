@@ -4,7 +4,7 @@ name: Build and Deploy using GitHub Actions
 
 on:
   push:
-    branches: master  # Thay thế "main" bằng tên nhánh (trước năm 2020 là master)
+    branches: master # Thay thế "main" bằng tên nhánh (trước năm 2020 là master)
 
 jobs:
   github-pages:
@@ -19,7 +19,5 @@ jobs:
             ${{ runner.os }}-gems-
       - uses: helaili/jekyll-action@2.0.5
         with:
-          target_branch: 'gh-pages'
-        evn:
-           JEKYLL_PAT: ${{ secrets.JEKYLL_GITHUB_TOKEN }}
-           JEKYLL_ENV: production
+          target_branch: "gh-pages"
+          token: ${{ secrets.JEKYLL_GITHUB_TOKEN }}
