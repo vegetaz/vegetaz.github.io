@@ -17,19 +17,19 @@ wsl --list --online
 
 Chọn 1 **Distro** để cài đặt, ví dụ:  
 ```powershell
-wsl --install Ubuntu
+wsl --install -d Ubuntu
 ```  
 
 Sau một lúc, **Ubuntu** đã được cài đặt, tiến hành thiết lập **username** và **password**.  
 
 Cập nhật **Ubuntu**:  
 ```bash
-sudo apt update && sudo apt upgrade -y && sudo apt upgrade -y && sudo apt dist-upgrade -y && sudo apt autoremove -y
+sudo apt update && sudo apt upgrade -y && sudo apt dist-upgrade -y && sudo apt autoremove -y
 ```  
 
 Cài đặt [Xfce Desktop Environment](https://www.xfce.org/):
 ```bash
-sudo apt -y install xfce4 && sudo apt -y install xfce4-session && sudo apt -y install xfce4-goodies
+sudo apt install --assume-yes xfce4 xfce4-session xfce4-goodies desktop-base dbus-x11 xscreensaver
 ```  
 
 Cài đặt [xrdp](https://www.xrdp.org/):  
@@ -55,9 +55,7 @@ Tắt hệ thống Linux trong Windows:
 sudo shutdown -r now
 ```  
 
-Khởi động lại (Restart) hệ thống Windows.  
-
-Khởi động hệ thống Linux sau khi Windows khởi động bằng cách tìm kiếm `wsl` trong thực đơn (menu) của Windows.  
+Khởi động lại (Restart) hệ thống Windows. Khởi động hệ thống Linux sau khi Windows khởi động bằng cách tìm kiếm `wsl` trong thực đơn (menu) của Windows hoặc chọn Ubuntu từ menu của Windows Terminal hoặc menu của Windows.  
 
 Khởi động [dbus](https://dbus.freedesktop.org/):  
 ```bash
@@ -84,6 +82,7 @@ Có thể khởi động môi trường làm việc Xfce bằng câu lệnh:
 export DISPLAY=:0
 startx
 ```  
+
 
 Đọc thêm:  
 - [Install Linux on Windows with WSL](https://learn.microsoft.com/en-us/windows/wsl/install)  
