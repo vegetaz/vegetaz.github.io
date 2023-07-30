@@ -31,6 +31,10 @@ Tiếp theo, xác định địa chỉ IP của Ubuntu bằng dòng lệnh:
 ```bash
 ip addr show eth0 | grep inet | awk '{ print $2; }' | sed 's/\/.*$//'
 ```  
+Hoặc dòng lệnh từ Windows:  
+```powershell
+wsl -d "Ubuntu" hostname -I
+```  
 Ghi nhớ địa chỉ IP được hiển thị.  
 
 Trên máy tính Windows, mở **Control Panel**, tìm kiếm **Windows Defender Firewall**, chọn **Allow an app or feature through Windows Defender Firewall**, nhấn **Change settings**, tìm **OpenSSH Server**. Kiểm tra cả hai mạng riêng lẫn mạng công cộng cho OpenSSH Server và nhấn **OK**.  
