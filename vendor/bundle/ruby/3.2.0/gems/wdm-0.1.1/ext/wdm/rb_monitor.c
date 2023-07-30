@@ -1,4 +1,4 @@
-﻿#include "wdm.h"
+#include "wdm.h"
 
 #include "utils.h"
 #include "entry.h"
