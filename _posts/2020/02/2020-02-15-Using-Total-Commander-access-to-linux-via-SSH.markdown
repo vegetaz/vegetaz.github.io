@@ -2,7 +2,7 @@
 layout: post
 title: "Sử dụng Total Commander để truy cập vào Linux thông qua giao thức SSH"
 date: 2020-02-15 15:15:15 +0700
-categories: [linux, windows]
+categories: [linux, windows, ssh]
 ---
 
 #### Yêu cầu
