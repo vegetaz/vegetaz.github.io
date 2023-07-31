@@ -2,7 +2,7 @@
 layout: post
 title: "Điều khiển Ubuntu trên Windows thông qua giao thức SSH"
 date: 2023-07-30 11:40:01 +0700
-categories: [linux, ubuntu, windows]
+categories: [linux, ubuntu, windows, ssh]
 ---
 
 **SSH** (Secure Shell) là một giao thức mạng được sử dụng để thiết lập kết nối mạng bảo mật và đáng tin cậy giữa hai thiết bị, như máy tính từ xa và máy chủ. Nó cung cấp một cách an toàn để truyền tải dữ liệu qua mạng bằng cách mã hóa thông tin gửi đi và nhận về.
