@@ -24,7 +24,7 @@ Sau khi đặt tên hoàn tất, nhấn **OK** để tới cửa sổ **Connect 
 
 Tại cửa sổ **Connect to SFTP Server**, thiết lập đơn giản với địa chỉ IP, tên đăng nhập và mật khẩu của Linux Server.  
 Nhấn **OK** để đóng cửa sổ **Connect to SFTP Server**.  
-Quay trở lại **Secure FTP**, truy cập vào tên của kết nối đã đặt ở bên trên. 
+Quay trở lại **Secure FTP**, truy cập vào tên của kết nối đã đặt ở bên trên.  
 
 #### Sử dụng
 Bằng cách này, có thể sử dụng phần mềm, chương trình trên Windows để mở, chỉnh sửa, các tệp tin trên hệ thống Linux.  
