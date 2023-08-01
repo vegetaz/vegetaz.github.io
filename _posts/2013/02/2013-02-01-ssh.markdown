@@ -1,0 +1,19 @@
+---
+layout: post
+title: "SSH là gì?"
+date: 2013-02-01 07:07:07 +0700
+categories: [ssh]
+---
+
+**SSH** là viết tắt của **Secure Shell** hoặc **Secure Socket Shell**, là một giao thức mạng cho phép người dùng kết nối an toàn với máy tính từ xa. **SSH** được sử dụng để thực hiện nhiều tác vụ khác nhau, bao gồm:  
+
+- Truy cập vào máy tính từ xa và sử dụng shell
+- Chuyển tệp giữa máy tính cục bộ và máy tính từ xa
+- Chạy các lệnh trên máy tính từ xa
+- Cấu hình máy tính từ xa
+
+**SSH** là một giao thức an toàn, vì nó mã hóa tất cả dữ liệu được truyền giữa máy tính cục bộ và máy tính từ xa. Điều này ngăn chặn những kẻ tấn công nghe trộm dữ liệu, chẳng hạn như mật khẩu, lệnh và tệp.  
+
+**SSH** là một công cụ quan trọng cho bất kỳ ai cần kết nối an toàn với máy tính từ xa. Nó được sử dụng rộng rãi bởi các quản trị viên hệ thống, nhà phát triển phần mềm và người dùng bình thường.  
+
+Đọc thêm: [SSH](https://vi.wikipedia.org/wiki/SSH)  
