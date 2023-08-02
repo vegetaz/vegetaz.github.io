@@ -5,45 +5,79 @@ date: 2023-07-30 11:40:01 +0700
 categories: [linux, ubuntu, windows, ssh]
 ---
 
-**SSH** (Secure Shell) là một giao thức mạng được sử dụng để thiết lập kết nối mạng bảo mật và đáng tin cậy giữa hai thiết bị, như máy tính từ xa và máy chủ. Nó cung cấp một cách an toàn để truyền tải dữ liệu qua mạng bằng cách mã hóa thông tin gửi đi và nhận về.
+Để cài đặt **OpenSSH Server** trên Ubuntu có thể tham khảo bài viết sau:  
+[Cài đặt và sử dụng OpenSSH Server trong Linux Mint](https://vegetaz.github.io/linux/ubuntu/ssh/2013/11/09/install-and-use-openssh-in-linux-mint.html)  
 
-Giao thức SSH cho phép người dùng kết nối và điều khiển từ xa các máy tính hoặc máy chủ từ một máy tính khác thông qua mạng. Nó cung cấp các tính năng như xác thực, quản lý phiên, mã hóa dữ liệu và truyền tải các dữ liệu không tin cậy qua mạng công cộng một cách an toàn.
+---
 
-SSH được sử dụng rộng rãi trong quản lý hệ thống và quản trị mạng để thực hiện các tác vụ từ xa như đăng nhập từ xa, điều khiển từ xa, truyền tải tệp tin và thực hiện các lệnh trên máy tính hoặc máy chủ từ xa.
-
-Điểm mạnh của SSH là khả năng xác thực mạnh mẽ, mã hóa dữ liệu và khả năng chống lại các cuộc tấn công từ xa. Do đó, nó là một công cụ quan trọng trong việc bảo mật các kết nối từ xa và truyền tải dữ liệu một cách an toàn qua mạng. 
-
-Ubuntu được cài đặt trong Subsystem (WSL) của Windows.
-
-Trong Ubuntu, cập nhật hệ thống bằng cách chạy lệnh sau:  
-```bash
-sudo apt update
-sudo apt upgrade
-```  
-
-Cài đặt **OpenSSH** bằng lệnh sau:  
-```bash
-sudo apt install openssh-server
-```  
-Sau khi cài đặt thành công, dịch vụ (service) SSH sẽ được bắt đầu tự động.  
-
-Tiếp theo, xác định địa chỉ IP của Ubuntu bằng dòng lệnh:  
+Xác định địa chỉ IP của Ubuntu bằng dòng lệnh:  
 ```bash
 ip addr show eth0 | grep inet | awk '{ print $2; }' | sed 's/\/.*$//'
 ```  
-Hoặc dòng lệnh từ Windows:  
-```powershell
-wsl -d "Ubuntu" hostname -I
+Hoặc:  
+```bash
+ip a
 ```  
 Ghi nhớ địa chỉ IP được hiển thị.  
 
-Trên máy tính Windows, mở **Control Panel**, tìm kiếm **Windows Defender Firewall**, chọn **Allow an app or feature through Windows Defender Firewall**, nhấn **Change settings**, tìm **OpenSSH Server**. Kiểm tra cả hai mạng riêng lẫn mạng công cộng cho OpenSSH Server và nhấn **OK**.  
+
+Trên máy tính Windows, kiểm tra trạng thái cài đặt của **OpenSSH Client** với dòng lệnh:  
+```powershell
+ssh -V
+```
+Nếu có phiên bản OpenSSH, có nghĩa là nó đã được cài đặt. Nếu không, có thể cài đặt nó bằng cách truy cập vào Settings > Apps > Optional features > Add a feature > OpenSSH Client.  
+
+
+Khi đã có **OpenSSH Client**, mở **Control Panel**, tìm kiếm **Windows Defender Firewall**, chọn **Allow an app or feature through Windows Defender Firewall**, nhấn **Change settings**, tìm **OpenSSH Server**. Kiểm tra cả hai mạng riêng lẫn mạng công cộng cho OpenSSH Server và nhấn **OK**.  
+
 
 Trên máy tính Windows, mở **Command Prompt** hoặc **PowerShell** hoặc **Windows Terminal**, kết nối tới Ubuntu bằng dòng lệnh:  
 ```powershell
 ssh username@ubuntu-wsl-ip-address
 ```  
 Thay **username** bằng tên người dùng trong Ubuntu và **ubuntu-wsl-ip-address** bằng địa chỉ IP của Ubuntu.  
+
+---
+
+Các câu lệnh dưới đây là cho trường hợp sử dụng SSH với key.  
+
+Trên Windows, tạo key với câu lệnh:
+```powershell
+ssh-keygen
+```  
+Người dùng sẽ được hỏi nơi để lưu trữ khoá, nhấn Enter để bỏ qua, và sử dụng nơi lưu trữ mặc định.  
+
+Có 2 cặp khoá, **id_rsa** (privatekey - khoá riêng tư) và **id_rsa.pub** (publickey - khoá công khai). **id_rsa** được lưu trữ trên máy tính cá nhân của người dùng. **id_rsa.pub** sẽ được sử dụng để đăng nhập vào máy chủ từ xa.  
+
+Sao chép nội dung **id_rsa.pub** vào bộ nhớ đệm:  
+```powershell
+type C:\Users\%username%\.ssh\id_rsa.pub | clip
+```  
+
+
+Kết nối đến máy chủ:  
+```powershell
+ssh <username>@<server>
+```  
+
+
+Tạo tệp tin **authorized_keys**:  
+```powershell
+mkdir -p ~/.ssh && touch ~/.ssh/authorized_keys
+```
+
+
+Thêm nội dung của **id_rsa.pub** vào **authorized_keys**:
+```powershell
+echo paste_here >> ~/.ssh/authorized_keys
+```  
+
+
+Đặt quyền truy cập cho tệp tin **authorized_keys**:
+```powershell
+sudo chmod 700 ~/.ssh && chmod 600 ~/.ssh/authorized_keys
+```  
+
 
 Đọc thêm:  
 - [Remote Development Tips and Tricks](https://code.visualstudio.com/docs/remote/troubleshooting)  
