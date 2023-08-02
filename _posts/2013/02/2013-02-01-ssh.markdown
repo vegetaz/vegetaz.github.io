@@ -16,4 +16,6 @@ categories: [ssh]
 
 **SSH** là một công cụ quan trọng cho bất kỳ ai cần kết nối an toàn với máy tính từ xa. Nó được sử dụng rộng rãi bởi các quản trị viên hệ thống, nhà phát triển phần mềm và người dùng bình thường.  
 
-Đọc thêm: [SSH](https://vi.wikipedia.org/wiki/SSH)  
+**Đọc thêm**:  
+- [SSH](https://vi.wikipedia.org/wiki/SSH)  
+- [Cài đặt và sử dụng OpenSSH Server trong Linux Mint](https://vegetaz.github.io/linux/ubuntu/ssh/2013/11/09/install-and-use-openssh-in-linux-mint.html)  
