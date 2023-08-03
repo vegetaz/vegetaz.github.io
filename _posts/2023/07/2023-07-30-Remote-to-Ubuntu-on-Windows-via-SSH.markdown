@@ -8,7 +8,9 @@ categories: [linux, ubuntu, windows, ssh]
 Để cài đặt **OpenSSH Server** trên Ubuntu có thể tham khảo bài viết sau:  
 [Cài đặt và sử dụng OpenSSH Server trong Linux Mint](https://vegetaz.github.io/linux/ubuntu/ssh/2013/11/09/install-and-use-openssh-in-linux-mint.html)  
 
+
 ---
+
 
 Xác định địa chỉ IP của Ubuntu bằng dòng lệnh:  
 ```bash
@@ -21,23 +23,25 @@ ip a
 Ghi nhớ địa chỉ IP được hiển thị.  
 
 
-Trên máy tính Windows, kiểm tra trạng thái cài đặt của **OpenSSH Client** với dòng lệnh:  
+Trên máy tính Windows, có thể kiểm tra số hiệu phiên bản của **OpenSSH Client** với dòng lệnh:  
 ```powershell
 ssh -V
 ```
-Nếu có phiên bản OpenSSH, có nghĩa là nó đã được cài đặt. Nếu không, có thể cài đặt nó bằng cách truy cập vào Settings > Apps > Optional features > Add a feature > OpenSSH Client.  
+Nếu có số hiệu phiên bản OpenSSH, có nghĩa là nó đã được cài đặt. Nếu không, có thể cài đặt nó bằng cách truy cập vào Settings > Apps > Optional features > Add a feature > OpenSSH Client.
 
 
-Khi đã có **OpenSSH Client**, mở **Control Panel**, tìm kiếm **Windows Defender Firewall**, chọn **Allow an app or feature through Windows Defender Firewall**, nhấn **Change settings**, tìm **OpenSSH Server**. Kiểm tra cả hai mạng riêng lẫn mạng công cộng cho OpenSSH Server và nhấn **OK**.  
+Có thể cần cho OpenSSH vào danh sách trắng (whitelist) của tường lửa với cổng (port) 22.  
 
 
 Trên máy tính Windows, mở **Command Prompt** hoặc **PowerShell** hoặc **Windows Terminal**, kết nối tới Ubuntu bằng dòng lệnh:  
 ```powershell
-ssh username@ubuntu-wsl-ip-address
+ssh username@ubuntu-ip-address
 ```  
-Thay **username** bằng tên người dùng trong Ubuntu và **ubuntu-wsl-ip-address** bằng địa chỉ IP của Ubuntu.  
+Thay **username** bằng tên người dùng trong Ubuntu và **ubuntu-ip-address** bằng địa chỉ IP của Ubuntu.  
+
 
 ---
+
 
 Các câu lệnh dưới đây là cho trường hợp sử dụng SSH với key.  
 
@@ -69,7 +73,7 @@ mkdir -p ~/.ssh && touch ~/.ssh/authorized_keys
 
 Thêm nội dung của **id_rsa.pub** vào **authorized_keys**:
 ```powershell
-echo paste_here >> ~/.ssh/authorized_keys
+echo paste_content_of_id_rsa.pub_to_here >> ~/.ssh/authorized_keys
 ```  
 
 
