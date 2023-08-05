@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "pip"
+title: "Pip Installs Packages"
 date: 2015-01-01 13:13:13 +0700
 categories: [linux, windows]
 ---
