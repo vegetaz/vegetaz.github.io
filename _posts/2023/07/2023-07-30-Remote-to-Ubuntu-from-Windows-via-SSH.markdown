@@ -35,7 +35,7 @@ Nếu có số hiệu phiên bản OpenSSH, có nghĩa là nó đã được cà
 
 Trên máy tính Windows, mở **Command Prompt** hoặc **PowerShell** hoặc **Windows Terminal**, kết nối tới Ubuntu bằng dòng lệnh:  
 ```powershell
-ssh username@ubuntu-ip-address
+ssh %username%@%ubuntu-ip-address%
 ```  
 Thay **username** bằng tên người dùng trong Ubuntu và **ubuntu-ip-address** bằng địa chỉ IP của Ubuntu.  
 
@@ -73,10 +73,15 @@ mkdir -p ~/.ssh && touch ~/.ssh/authorized_keys
 ```
 
 
-Thêm nội dung của **id_rsa.pub** vào **authorized_keys**:
+Thêm nội dung của **id_rsa.pub** vào **authorized_keys** bằng dòng lệnh `echo`:
 ```powershell
 echo paste_content_of_id_rsa.pub_to_here >> ~/.ssh/authorized_keys
 ```  
+Hoặc sử dụng dòng lệnh `scp`:
+```powershell
+scp đường_dẫn_tới_tệp_tin_id_rsa.pub %username%@địa_chỉ_ip_của_máy_chủ:.ssh/authorized_keys
+```
+> **SCP** là viết tắt của **Secure Copy**. Đây là một công cụ dòng lệnh cho phép người dùng sao chép các tệp và thư mục giữa các máy tính sử dụng giao thức SSH. **SCP** là một cách an toàn để sao chép các tệp vì nó mã hóa tất cả dữ liệu được truyền qua mạng.
 
 
 Đặt quyền truy cập cho tệp tin **authorized_keys**:
@@ -99,9 +104,15 @@ Khởi động lại OpenSSH Server:
 sudo systemctl restart sshd.service
 ```
 
+Kiểm tra thử:
+```powershell
+ssh %username%@%ubuntu-ip-address%
+```
+Nếu không yêu cầu nhập mật khẩu là thành công.
 
-Có thể xóa bỏ tệp tin **id_rsa.pub** trên máy tính Windows, tiếp theo cấu hình cho tệp tin **config** trong máy tính Windows.  
-Đi đến thư mục `C:\Users\%username%\.ssh` và chỉnh sửa tệp tin **config** bằng chương trình tạo/chỉnh sửa văn bản/mã bất kỳ, với nội dung như sau:
+
+Thông tin thêm: Có thể xóa bỏ tệp tin id_rsa.pub trên máy tính Windows, tiếp theo cấu hình cho tệp tin config trong máy tính Windows.  
+Đi đến thư mục `C:\Users\%username%\.ssh` và chỉnh sửa tệp tin config bằng chương trình tạo/chỉnh sửa văn bản/mã bất kỳ, với nội dung như sau:
 ```
 Host XXX.XXX.XXX.XXX
   PreferredAuthentications publickey
