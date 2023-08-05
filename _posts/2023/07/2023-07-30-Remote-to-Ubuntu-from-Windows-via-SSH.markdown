@@ -105,7 +105,7 @@ Có thể xóa bỏ tệp tin **id_rsa.pub** trên máy tính Windows, tiếp th
 ```
 Host XXX.XXX.XXX.XXX
   PreferredAuthentications publickey
-  IndentityFile "C:\Users\%username%\.ssh\id_rsa"
+  IdentityFile "C:\Users\%username%\.ssh\id_rsa"
 ```
 
 
