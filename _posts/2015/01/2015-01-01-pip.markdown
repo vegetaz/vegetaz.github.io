@@ -1,0 +1,96 @@
+---
+layout: post
+title: "pip"
+date: 2015-01-01 13:13:13 +0700
+categories: [linux, windows]
+---
+
+**pip** là một công cụ quản lý gói (package) cho ngôn ngữ lập trình Python. Tên gọi "pip" được viết tắt từ cụm từ "Pip Installs Packages" (Pip Cài Đặt Gói). Nó được sử dụng để tải xuống, cài đặt, và quản lý các thư viện và gói phần mềm bổ sung (packages) của Python từ Python Package Index (PyPI) và các nguồn khác.
+
+**pip** giúp cho việc quản lý các gói của Python trở nên dễ dàng hơn bằng cách tự động giải quyết các phụ thuộc (dependencies) giữa các gói, cài đặt các phiên bản cần thiết, và đảm bảo rằng các gói phụ thuộc được đáp ứng đầy đủ.
+
+Có thể sử dụng **pip** bằng cách gọi lệnh "pip" trong dòng lệnh (command line) của hệ điều hành. Ví dụ, để cài đặt một gói Python từ PyPI, có thể chạy lệnh "pip install tên_gói". **pip** cũng cung cấp các lệnh khác như "pip uninstall" để gỡ bỏ gói, "pip list" để liệt kê các gói đã cài đặt, và nhiều lệnh khác để quản lý gói Python.
+
+**pip** đã được tích hợp sẵn trong các phiên bản Python từ 2.7.9 trở đi và Python 3.4 trở đi, vì vậy người dùng có thể sử dụng nó mà không cần cài đặt thêm. Tuy nhiên, nếu người dùng sử dụng một phiên bản Python cũ hơn, người dùng có thể cần cài đặt **pip** thủ công.
+
+---
+
+#### Cài đặt pip thủ công
+Truy cập vào trang web chính thức của **pip** <https://pip.pypa.io/en/stable/installation/> và tải xuống tệp tin cài đặt `get-pip.py`.
+
+Mở một cửa sổ dòng lệnh (command prompt) và di chuyển tới thư mục chứa tệp tin `get-pip.py`.
+
+Chạy lệnh sau để cài đặt pip:
+```bash
+python get-pip.py
+```
+
+
+#### Kiểm tra số hiệu phiên bản của pip
+```bash
+pip --version
+```
+
+
+#### Kiểm tra trạng thái cài đặt của pip và setuptools
+```bash
+py -m ensurepip --upgrade
+```
+
+
+#### Cập nhật pip
+```bash
+python -m pip install --upgrade pip
+```
+
+#### Cài đặt gói
+```bash
+pip install tên_gói
+```
+
+
+#### Liệt kê danh sách các gói đã cài đặt
+```bash
+pip list
+```
+
+
+#### Liệt kê danh sách các gói quá hạn
+```bash
+pip list --outdated
+```
+
+
+#### Cập nhật các gói đã cài đặt
+```bash
+pip install --upgrade tên_gói
+```
+Ví dụ:
+```bash
+pip install certifi --upgrade
+pip install idna --upgrade
+pip install numpy --upgrade
+pip install opencv-python --upgrade
+pip install Pillow --upgrade
+pip install pycparser --upgrade
+pip install pycryptodome --upgrade
+pip install PyRect --upgrade
+pip install PyScreeze --upgrade
+pip install PyTweening --upgrade
+pip install pywin32 --upgrade
+pip install requests --upgrade
+pip install rsa --upgrade
+pip install setuptools --upgrade
+pip install urllib3 --upgrade
+pip install autoit --upgrade
+pip install chardet --upgrade
+pip install charset-normalizer --upgrade
+pip install pyasn1 --upgrade
+pip install PyAutoGUI --upgrade
+pip install pywin32 --upgrade
+pip install wheel --upgrade
+
+```
+
+
+Đọc thêm: [Commands](https://pip.pypa.io/en/stable/cli/)
