@@ -54,30 +54,29 @@ Người dùng sẽ được hỏi nơi để lưu trữ khoá, nhấn Enter đ�
 
 > Có 2 cặp khoá, **id_rsa** (privatekey - khoá riêng tư) và **id_rsa.pub** (publickey - khoá công khai). **id_rsa** được lưu trữ trên máy tính cá nhân của người dùng. **id_rsa.pub** sẽ được sử dụng trên máy chủ từ xa.  
 
+Tiếp theo là sao chép nội dung của tệp tin **id_rsa.pub** vào tệp tin **authorized_keys** của máy chủ Linux (Ubuntu).
 
-Sao chép nội dung **id_rsa.pub** vào bộ nhớ đệm:  
+Sao chép nội dung của tệp tin **id_rsa.pub** vào bộ nhớ đệm:  
 ```powershell
 type C:\Users\%username%\.ssh\id_rsa.pub | clip
-```  
-
+```
 
 Kết nối đến máy chủ:  
 ```bash
 ssh username@ubuntu-ip-address
 ```  
 
-
 Tạo tệp tin **authorized_keys**:  
 ```bash
 mkdir -p ~/.ssh && touch ~/.ssh/authorized_keys
 ```
 
-
 Thêm nội dung của **id_rsa.pub** vào **authorized_keys** bằng dòng lệnh `echo`:
 ```bash
 echo paste_content_of_id_rsa.pub_to_here >> ~/.ssh/authorized_keys
-```  
-Hoặc sử dụng dòng lệnh `scp`:
+```
+
+Hoặc sử dụng dòng lệnh `scp` để sao chép nội dung của tệp tin **id_rsa.pub** vào tệp tin **authorized_keys** của máy chủ Linux (Ubuntu):
 ```bash
 scp id_rsa.pub ssh username@ubuntu-ip-address:.ssh/authorized_keys
 ```
