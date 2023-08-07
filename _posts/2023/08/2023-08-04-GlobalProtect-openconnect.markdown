@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Cài đặt GlobalProtect-openconnect cho Ubuntu/Linux Mint"
-date: 2023-08-03 14:32:01 +0700
+date: 2023-08-04 14:32:01 +0700
 categories: [linux, ubuntu]
 ---
 
