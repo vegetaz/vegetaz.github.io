@@ -111,13 +111,20 @@ Nếu không yêu cầu nhập mật khẩu là thành công.
 
 ---
 
-Thông tin thêm: Có thể xóa bỏ tệp tin id_rsa.pub trên máy tính Windows, tiếp theo cấu hình cho tệp tin config trong máy tính Windows.  
-Đi đến thư mục `C:\Users\%username%\.ssh` và chỉnh sửa tệp tin config bằng chương trình tạo/chỉnh sửa văn bản/mã bất kỳ, với nội dung như sau:
+**Thông tin thêm**: Tiếp theo cấu hình cho tệp tin `config` trong máy tính Windows.  
+Đi đến thư mục `C:\Users\%username%\.ssh` và chỉnh sửa tệp tin `config` bằng chương trình tạo/chỉnh sửa văn bản/mã bất kỳ, với nội dung như sau:
 ```
-Host XXX.XXX.XXX.XXX
-  PreferredAuthentications publickey
-  IdentityFile "C:\Users\%username%\.ssh\id_rsa"
+Host name-of-ssh-host-here
+    User your-user-name-on-host
+    HostName host-fqdn-or-ip-goes-here
+    IdentityFile ~/.ssh/id-remote-ssh
 ```
+Trên Windows, dòng `IdentityFile ~/.ssh/id-remote-ssh` có thể sử dụng cú pháp thay thế như bên dưới:
+```
+IdentityFile C:\\Users\\%username%\\.ssh\\id-remote-ssh
+```
+Ở trường hợp này tệp tin `id-remote-ssh` chính là `id_rsa`.
+
 
 ---
 
