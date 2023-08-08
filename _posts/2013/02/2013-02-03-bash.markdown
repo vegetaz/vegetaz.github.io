@@ -1,0 +1,21 @@
+---
+layout: post
+title: "Bash là gì?"
+date: 2013-02-03 17:36:37 +0700
+categories: [linux, ubuntu]
+---
+
+**Bash** là một trong những shell (môi trường dòng lệnh) phổ biến nhất trong các hệ điều hành dựa trên UNIX và Linux. **Bash** là viết tắt của "Bourne Again SHell", là một phiên bản nâng cấp từ Bourne shell (sh) ban đầu.
+
+**Bash** được phát triển bởi Brian Fox tại dự án GNU, với sự đóng góp của nhiều người khác. Nó được phát hành lần đầu tiên vào năm 1989 và kể từ đó đã trở thành một trong những giao diện dòng lệnh phổ biến nhất trên thế giới.
+
+**Bash** cung cấp một cách để tương tác với hệ thống thông qua dòng lệnh. Nó cho phép người dùng nhập các lệnh và chạy các chương trình từ dòng lệnh hoặc từ một tập tin script. **Bash** cung cấp nhiều tính năng hữu ích như biến, điều kiện, vòng lặp, và các lệnh điều hướng dòng lệnh để thực thi các tác vụ phức tạp hơn.
+
+Với **Bash**, người dùng có thể thực hiện nhiều tác vụ, bao gồm quản lý tệp tin, thao tác với tiến trình, thực hiện các lệnh hệ thống, tự động hóa các tác vụ và xử lý dữ liệu. **Bash** cũng hỗ trợ việc tùy chỉnh thông qua các biến môi trường và tập tin cấu hình.
+
+**Bash** là một công cụ mạnh mẽ và linh hoạt, được sử dụng rộng rãi trong việc quản lý hệ thống và tự động hóa các tác vụ trong các hệ điều hành dựa trên UNIX và Linux.
+
+**Đọc thêm**:  
+- [Bash](https://vi.wikipedia.org/wiki/Bash)
+- [Bash (Unix shell)](https://en.wikipedia.org/wiki/Bash_(Unix_shell))
+- [What is Bash?](https://opensource.com/resources/what-bash)
