@@ -82,6 +82,10 @@ scp id_rsa.pub ssh username@ubuntu-ip-address:.ssh/authorized_keys
 ```
 > **SCP** là viết tắt của **Secure Copy**. Đây là một công cụ dòng lệnh cho phép người dùng sao chép các tệp và thư mục giữa các máy tính sử dụng giao thức SSH. **SCP** là một cách an toàn để sao chép các tệp vì nó mã hóa tất cả dữ liệu được truyền qua mạng.
 
+Hoặc sử dụng `Git Bash` trên Windows để sao chép mã khóa công khai **id_rsa.pub** lên máy chủ với câu lệnh `ssh-copy-id`:
+```bash
+ssh-copy-id username@ubuntu-ip-address
+```
 
 Đặt quyền truy cập cho tệp tin **authorized_keys**:
 ```bash
