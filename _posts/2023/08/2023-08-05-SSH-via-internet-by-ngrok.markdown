@@ -2,7 +2,7 @@
 layout: post
 title: "SSH qua Internet bằng ngrok"
 date: 2023-08-05 14:32:01 +0700
-categories: [linux, ubuntu]
+categories: [linux, ubuntu, ssh]
 ---
 
 **ngrok** là một dịch vụ mã nguồn mở cho phép người dùng truy cập các dịch vụ cục bộ của mình từ internet. Nó hoạt động bằng cách tạo một đường hầm (tunnel) giữa máy tính cục bộ của người dùng và internet, do đó người dùng có thể truy cập các dịch vụ của mình từ bất kỳ đâu. **ngrok** là một công cụ tuyệt vời cho việc phát triển và thử nghiệm các ứng dụng, vì nó cho phép người dùng chia sẻ các ứng dụng của mình với những người khác mà không cần phải thiết lập máy chủ. **ngrok** cũng có thể được sử dụng để tạo các đường hầm bảo mật giữa các máy tính, điều này có thể hữu ích cho việc cộng tác và chia sẻ tệp.
