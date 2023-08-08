@@ -32,4 +32,11 @@ Nếu có lỗi xảy ra, sử dụng câu lệnh sau trước khi cài đặt:
 sudo apt install apt-transport-https
 ```  
 
+Mỗi lần có cập nhật, có thể sử dụng 2 câu lệnh bên dưới:
+```bash
+sudo apt-get update
+sudo apt-get install sublime-text
+```
+Trong trường hợp vẫn không có cập nhật cho **Sublime Text** thì có thể [tải về tệp tin .deb của Sublime Text](https://www.sublimetext.com/download_thanks?target=x64-deb) và tiến hành cài đặt trực tiếp.
+
 Đọc thêm: [Linux Package Manager Repositories](https://www.sublimetext.com/docs/linux_repositories.html)  
