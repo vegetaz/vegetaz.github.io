@@ -57,6 +57,23 @@ ssh username-of-server@ngrok-forwarding-address -p ngrok-forwarding-port
 
 ---
 
+Để sử dụng `SSH Key` thông qua `ngrok`, mỗi lần khởi động `ngrok` trên máy chủ, hãy thay đổi cổng (port) trong tệp tin `config` của máy khách tương ứng với cổng mà `Forwarding` đang hiển thị. Ví dụ `tcp://0.tcp.eu.ngrok.io:99999` thì thay đổi cổng trong tệp tin `config` là:
+```
+Host 0.tcp.eu.ngrok
+  HostName 0.tcp.eu.ngrok
+  User username-of-server
+  Port 99999
+  IdentityFile C:\\Users\\%username%\\.ssh\\id_rsa
+```
+Sau đó, thực hiện lệnh `ssh-copy-id` trong `Git Bash` để sao chép mã khóa công khai **id_rsa.pub** vào tệp tin **authorized_keys** của máy chủ:
+```bash
+ssh-copy-id username-of-server@ngrok-forwarding-address
+```
+Nhập mật khẩu của `username-of-server` để hoàn tất câu lệnh.  
+Từ bây giờ có thể thực hiện điều khiển (remote) `SSH Key` thông qua `ngrok`.
+
+---
+
 **Đọc thêm**:
 - [ngrok documentation](https://ngrok.com/docs>)
 - [Using ngrok with SSH](https://ngrok.com/docs/using-ngrok-with/ssh/)
