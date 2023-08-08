@@ -57,4 +57,6 @@ ssh username-of-server@ngrok-forwarding-address -p ngrok-forwarding-port
 
 ---
 
-**Đọc thêm**: <https://ngrok.com/docs>
+**Đọc thêm**:
+- [ngrok documentation](https://ngrok.com/docs>)
+- [Using ngrok with SSH](https://ngrok.com/docs/using-ngrok-with/ssh/)
