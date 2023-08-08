@@ -16,9 +16,9 @@ Dưới đây là một số cách sử dụng **ngrok**:
 - Tạo các đường hầm cho các máy chủ game
 - Tạo các đường hầm cho các thiết bị IoT
 
-
 **ngrok** là một công cụ mạnh mẽ có thể được sử dụng cho nhiều mục đích khác nhau. Nếu người dùng đang tìm kiếm một cách để truy cập các dịch vụ cục bộ của mình từ internet, thì **ngrok** là một lựa chọn tuyệt vời.
 
+---
 
 Tạo tài khoản **ngrok** trên trang <https://dashboard.ngrok.com/signup>.
 
@@ -54,5 +54,7 @@ Bây giờ, có thể sử dụng SSH trên máy tính/điện thoại/thiết b
 ```bash
 ssh username-of-server@ngrok-forwarding-address -p ngrok-forwarding-port
 ```
+
+---
 
 **Đọc thêm**: <https://ngrok.com/docs>
