@@ -57,7 +57,6 @@ Tìm đến dòng `PasswordAuthentication` và thay đổi thành `no`:
 ```bash
 PasswordAuthentication no
 ```  
-Tính năng này áp dụng cho trường hợp người dùng muốn đăng nhập bằng key.  
 
 
 #### Khởi động lại service SSH
