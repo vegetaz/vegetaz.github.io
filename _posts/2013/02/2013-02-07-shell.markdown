@@ -2,7 +2,7 @@
 layout: post
 title: "Shell"
 date: 2013-02-07 17:36:37 +0700
-categories: [ssh]
+categories: [linux]
 ---
 
 **sh** là viết tắt của **shell**. **Shell** là một giao diện dòng lệnh (command-line interface) trong hệ điều hành, cho phép người dùng tương tác với hệ điều hành và thực hiện các lệnh, chương trình hoặc tác vụ khác nhau.

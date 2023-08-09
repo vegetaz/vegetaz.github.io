@@ -2,7 +2,7 @@
 layout: post
 title: "Bash là gì?"
 date: 2013-02-03 17:36:37 +0700
-categories: [linux, ubuntu]
+categories: [linux]
 ---
 
 **Bash** là một trong những shell (môi trường dòng lệnh) phổ biến nhất trong các hệ điều hành dựa trên UNIX và Linux. **Bash** là viết tắt của "Bourne Again SHell", là một phiên bản nâng cấp từ Bourne shell (sh) ban đầu.
