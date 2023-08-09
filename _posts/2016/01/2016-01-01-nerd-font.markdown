@@ -1,0 +1,28 @@
+---
+layout: post
+title: "Nerd Font"
+date: 2016-01-01 17:36:37 +0700
+categories: [linux, windows]
+---
+
+**Nerd Font** là một bộ sưu tập các phông chữ đặc biệt được thiết kế để hỗ trợ các ký tự đặc biệt và biểu tượng trong lập trình và hệ thống. Các ký tự đặc biệt này bao gồm các biểu tượng của các thư viện, framework, hệ thống tệp tin và các ký tự Unicode khác.
+
+**Nerd Font** được thiết kế để hỗ trợ các ký tự đặc biệt trong các trình biên tập mã nguồn, dòng lệnh và các ứng dụng khác. Nó cho phép người dùng hiển thị các biểu tượng và ký tự đặc biệt một cách rõ ràng và đáng tin cậy hơn, giúp tăng khả năng đọc và hiểu mã nguồn và các thông báo hệ thống.
+
+Bộ sưu tập **Nerd Font** bao gồm nhiều phông chữ khác nhau, bao gồm các phông chữ được phát triển dựa trên các phông chữ phổ biến như Hack, Source Code Pro, Fira Code và Ubuntu Mono. Các phông chữ này được tạo ra bằng cách sử dụng công cụ `font-patcher` để thêm các ký tự đặc biệt vào các phông chữ gốc.
+
+**Nerd Font** là một công cụ hữu ích cho các lập trình viên và những người thường xuyên làm việc với các hệ thống và dòng lệnh, giúp tăng cường khả năng đọc và hiểu mã nguồn và các thông báo hệ thống.
+
+Các phông chữ **Nerd Font** có sẵn cho nhiều hệ điều hành khác nhau, bao gồm Linux, Windows và macOS.
+
+Dưới đây là một số lợi ích của việc sử dụng các phông chữ **Nerd Font**:
+
+- Hỗ trợ nhiều ký tự Unicode hơn
+- Thiết kế đẹp mắt và dễ đọc
+- Có sẵn cho nhiều hệ điều hành khác nhau
+- Mở và miễn phí
+
+---
+
+**Đọc thêm**:  
+- [Nerd Font](https://www.nerdfonts.com/)

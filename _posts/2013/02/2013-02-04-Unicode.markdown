@@ -1,0 +1,20 @@
+---
+layout: post
+title: "Unicode"
+date: 2013-02-03 17:36:37 +0700
+categories: [linux, windows]
+---
+
+**Unicode** là một bộ mã ký tự được sử dụng để biểu diễn các ngôn ngữ trên toàn cầu. Nó được thiết kế để thể hiện tất cả các ký tự, dấu và biểu tượng từ tất cả các ngôn ngữ trên thế giới, bao gồm các ký tự Latin, Cyrillic, Han (Hán tự), Kanji (chữ Nho), Hangul (chữ Hàn), các ký tự đặc biệt và các biểu tượng.
+
+Mỗi ký tự **Unicode** được đại diện bằng một mã số duy nhất, được gọi là mã **Unicode**. Mã này có thể được biểu diễn bằng các ký hiệu hex (ở dạng U+xxxx), trong đó xxxx là một số hexa từ 0000 đến FFFF.
+
+**Unicode** được phát triển và duy trì bởi Hội đồng Unicode (Unicode Consortium), một tổ chức phi lợi nhuận được thành lập vào năm 1991. Mục đích của **Unicode** là tạo ra một bộ mã ký tự được chấp nhận trên toàn cầu, giúp đơn giản hóa việc trao đổi thông tin và tương tác giữa các ngôn ngữ và văn hóa khác nhau.
+
+**Unicode** hiện là một tiêu chuẩn quốc tế được sử dụng rộng rãi trên các nền tảng máy tính và các ứng dụng, bao gồm các hệ điều hành, trình duyệt web, trình xử lý văn bản, các ứng dụng di động và các thiết bị điện tử khác.
+
+---
+
+**Đọc thêm**:  
+- [Unicode](https://vi.wikipedia.org/wiki/Unicode)
+- [Unicode – The World Standard for Text and Emoji](https://home.unicode.org/)
