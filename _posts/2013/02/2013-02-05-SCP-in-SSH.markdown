@@ -1,0 +1,71 @@
+---
+layout: post
+title: "Unicode là gì?"
+date: 2013-02-05 17:36:37 +0700
+categories: [ssh]
+---
+
+**SCP** (Secure Copy Protocol) là một giao thức trong **SSH** (Secure Shell) được sử dụng để truyền tải các tệp tin và thư mục giữa các máy tính từ xa một cách an toàn. **SCP** cung cấp khả năng sao chép tệp tin từ một máy tính tới một máy tính khác thông qua mạng, đảm bảo tính bảo mật của dữ liệu trong quá trình truyền tải.
+
+Khi sử dụng **SCP**, người dùng có thể sao chép tệp tin từ máy tính cục bộ của người dùng (máy tính hiện tại) lên một máy chủ từ xa hoặc sao chép từ một máy chủ từ xa về máy tính cục bộ của người dùng. **SCP** sử dụng cơ chế mã hóa và xác thực trong SSH để đảm bảo tính bảo mật của dữ liệu.
+
+Cú pháp cơ bản của **SCP** như sau:
+```bash
+scp [tùy-chọn] nguồn@đích
+```
+Ví dụ, để sao chép một tệp tin từ máy tính cục bộ lên một máy chủ từ xa, người dùng có thể sử dụng:
+```bash
+scp file.txt user@remote_host:/path/to/destination
+```
+Ngược lại, để sao chép một tệp tin từ máy chủ từ xa về máy tính cục bộ, người dùng có thể sử dụng:
+```bash
+scp user@remote_host:/path/to/file.txt /local/path/destination
+```
+**SCP** cũng hỗ trợ sao chép thư mục hoặc nhiều tệp tin cùng một lúc bằng cách sử dụng các tùy chọn như `-r` (để sao chép thư mục) hoặc `*` (để sao chép nhiều tệp tin).
+
+**SCP** cung cấp một giải pháp đơn giản và an toàn để truyền tải dữ liệu qua mạng trong môi trường SSH. Nó là một công cụ hữu ích cho việc sao lưu, chia sẻ và truyền tải tệp tin giữa các máy tính từ xa.
+
+Dưới đây là một số tùy chọn phổ biến của **SCP**:
+
+- `-r` Tùy chọn sao chép đệ quy, cho phép sao chép thư mục và nội dung bên trong thư mục.
+```bash
+scp -r /local/directory user@remote_host:/remote/directory
+```
+
+- `-P port` Xác định cổng chủ đích để kết nối.
+```bash
+scp -P 2222 file.txt user@remote_host:/path/to/destination
+```
+
+- `-p` Giữ nguyên các thuộc tính (permissions) của tệp tin trong quá trình sao chép.
+```bash
+scp -p file.txt user@remote_host:/path/to/destination
+```
+
+- `-v` Hiển thị đầu ra chi tiết (verbose output), giúp theo dõi quá trình sao chép.
+```bash
+scp -v file.txt user@remote_host:/path/to/destination
+```
+
+- `-C` Nén dữ liệu trước khi truyền tải, giúp giảm băng thông và tăng tốc độ sao chép.
+```bash
+scp -C file.txt user@remote_host:/path/to/destination
+```
+
+- `-q` Chế độ yên lặng (quiet mode), chỉ hiển thị thông báo lỗi.
+```bash
+scp -q file.txt user@remote_host:/path/to/destination
+```
+
+- `-i identity_file` Xác định tệp tin khóa riêng (private key) để xác thực.
+```bash
+scp -i key.pem file.txt user@remote_host:/path/to/destination
+```
+
+Lưu ý rằng đối với một số phiên bản **SCP**, cú pháp và các tùy chọn có thể có một số khác biệt nhỏ. Để biết thêm thông tin chi tiết về các tùy chọn cụ thể cho phiên bản **SCP** của người dùng, người dùng có thể tham khảo tài liệu hướng dẫn hoặc sử dụng tùy chọn `-h` hoặc `--help` để hiển thị trợ giúp.
+
+---
+
+**Đọc thêm**:  
+- [Secure copy protocol](https://en.wikipedia.org/wiki/Secure_copy_protocol)
+- [OpenSSH secure file copy](https://man.openbsd.org/scp)
