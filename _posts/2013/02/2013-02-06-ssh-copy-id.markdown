@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "ssh-copy-id"
-date: 2013-02-05 17:36:37 +0700
+date: 2013-02-06 17:36:37 +0700
 categories: [ssh]
 ---
 
