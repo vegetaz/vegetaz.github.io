@@ -1,0 +1,39 @@
+---
+layout: post
+title: "apt"
+date: 2020-08-10 18:59:58 +0700
+categories: [linux, ubuntu]
+---
+
+Công cụ quản lý gói phần mềm **apt** (Advanced Package Tool) ra đời vào năm 1998. Nó được phát triển bởi các nhà phát triển hệ điều hành Debian như Jason Gunthorpe và APT Development Team. **apt** được thiết kế để thay thế công cụ quản lý gói phần mềm trước đó của Debian là **dpkg-ftp** và **dpkg-http**.
+
+**apt** đã trở thành công cụ quản lý gói phổ biến và quan trọng trong hệ điều hành dựa trên Debian và các biến thể như Ubuntu, Linux Mint. Nó cung cấp một cách dễ dàng và mạnh mẽ để cài đặt, cập nhật và quản lý gói phần mềm trên hệ thống Debian-based. Từ phiên bản Ubuntu 16.04 trở đi, **apt** đã được chính thức thay thế **apt-get** làm công cụ quản lý gói mặc định trong các phiên bản Ubuntu mới hơn.
+
+Cú pháp của **apt** tương tự như **apt-get**, nhưng có một số cải tiến và tính năng bổ sung.  
+Cài đặt một gói phần mềm:
+```bash
+apt install <package>
+```
+
+Cập nhật danh sách các gói phần mềm mới nhất từ các nguồn được cấu hình:
+```bash
+apt update
+```
+
+Cập nhật các gói phần mềm đã cài đặt lên phiên bản mới nhất:
+```bash
+apt upgrade
+```
+
+Gỡ bỏ một gói phần mềm khỏi hệ thống:
+```bash
+apt remove <package>
+```
+Cần kết hợp với câu lệnh `sudo` trong một số trường hợp.
+
+---
+
+**Đọc thêm**:
+- [Package management](https://ubuntu.com/server/docs/package-management)
+- [APT (software)](https://en.wikipedia.org/wiki/APT_(software))
+- [Advanced Packaging Tool](https://vi.wikipedia.org/wiki/Advanced_Packaging_Tool)
