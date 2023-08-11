@@ -1,0 +1,22 @@
+---
+layout: post
+title: "sudo"
+date: 2013-02-09 17:36:37 +0700
+categories: [ubuntu]
+---
+
+Trong hệ điều hành Ubuntu, **sudo** là một công cụ cho phép người dùng thực thi các lệnh với quyền hạn người dùng **root** (quyền quản trị hệ thống) hoặc quyền hạn khác được cấp cho người dùng cụ thể. Tên **sudo** là viết tắt của **Superuser Do** hoặc **Substitute User Do**.
+
+Khi sử dụng lệnh **sudo**, người dùng được yêu cầu nhập mật khẩu của mình để xác thực danh tính trước khi thực hiện lệnh với quyền hạn cao hơn. Điều này giúp đảm bảo rằng chỉ có người dùng có quyền hạn thích hợp mới có thể thực thi các lệnh quản trị hệ thống.
+
+Ví dụ, nếu một người dùng muốn cài đặt một gói phần mềm bằng lệnh `apt-get install`, thường cần quyền hạn **root**. Thay vì đăng nhập trực tiếp với tài khoản **root**, người dùng có thể sử dụng **sudo** để thực thi lệnh với quyền hạn **root**. Lệnh sẽ có dạng như sau:
+```bash
+sudo apt-get install <package>
+```
+Sau khi nhập mật khẩu của người dùng hiện tại, hệ thống sẽ xác thực và cho phép người dùng thực thi lệnh với quyền hạn **root**.
+
+Sử dụng **sudo** giúp tăng cường bảo mật bằng cách giới hạn quyền hạn của người dùng thông thường và chỉ cho phép họ thực hiện các tác vụ quản trị hệ thống khi cần thiết.
+
+**Đọc thêm**:
+- [sudo](https://en.wikipedia.org/wiki/Sudo)
+- [Exploring the differences between sudo and su commands in Linux](https://www.redhat.com/sysadmin/difference-between-sudo-su)
