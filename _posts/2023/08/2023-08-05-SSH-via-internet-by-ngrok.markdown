@@ -5,7 +5,7 @@ date: 2023-08-05 14:32:01 +0700
 categories: [linux, ubuntu, ssh, windows]
 ---
 
-Tạo tài khoản **ngrok** trên trang <https://dashboard.ngrok.com/signup>.
+Tạo tài khoản [**ngrok**](https://vegetaz.github.io/linux/windows/2014/12/04/ngrok.html) trên trang <https://dashboard.ngrok.com/signup>.
 
 Tải về **ngrok** từ <https://ngrok.com/download>
 
