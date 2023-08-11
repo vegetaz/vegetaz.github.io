@@ -1,0 +1,28 @@
+---
+layout: post
+title: "su"
+date: 2013-02-10 17:36:37 +0700
+categories: [linux]
+---
+
+Trong Linux, **su** là một lệnh dòng lệnh cho phép người dùng đăng nhập hoặc chuyển đổi sang tài khoản người dùng khác, bao gồm cả tài khoản root (quyền quản trị hệ thống). Tên **su** là viết tắt của **Switch User** hoặc **Substitute User**.
+
+Khi sử dụng lệnh **su** mà không có tham số, người dùng có thể đăng nhập vào tài khoản root hoặc tài khoản khác nếu biết mật khẩu của tài khoản đó. Cú pháp của lệnh **su** như sau:
+```bash
+su
+```
+
+Sau khi nhập mật khẩu của tài khoản root hoặc tài khoản khác, người dùng sẽ chuyển đổi sang tài khoản đó và có quyền hạn tương ứng.
+
+Ngoài ra, người dùng cũng có thể sử dụng lệnh **su** để chuyển đổi sang tài khoản khác mà không cần biết mật khẩu của tài khoản đó (khi được phép). Để chuyển đổi sang một tài khoản cụ thể, người dùng có thể sử dụng cú pháp sau:
+```bash
+su <username>
+```
+
+Sau khi nhập mật khẩu của tài khoản hiện tại, người dùng sẽ chuyển đổi sang tài khoản được chỉ định (nếu được phép) và có quyền hạn tương ứng.
+
+> Lưu ý rằng việc sử dụng lệnh **su** yêu cầu quyền truy cập và mật khẩu của tài khoản mục tiêu. Nếu không có quyền truy cập hoặc không biết mật khẩu, người dùng không thể sử dụng lệnh này để chuyển đổi sang tài khoản khác.
+
+**Đọc thêm**:
+- [su (Unix)](https://en.wikipedia.org/wiki/Su_(Unix))
+- [Exploring the differences between sudo and su commands in Linux](https://www.redhat.com/sysadmin/difference-between-sudo-su)
