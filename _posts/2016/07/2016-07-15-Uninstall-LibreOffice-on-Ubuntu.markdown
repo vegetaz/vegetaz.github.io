@@ -2,27 +2,24 @@
 layout: post
 title: "Gỡ bỏ LibreOffice trên Ubuntu"
 date: 2016-07-15 15:25:10 +0700
-categories: [linux, ubuntu, others]
+categories: [ubuntu]
 ---
 
-Vì một lý do nào đó mà bạn không thích sử dụng [LibreOffice](https://vi.libreoffice.org/) nữa, bạn có thể thực hiện cách dưới đây để gỡ cài đặt của LibreOffice trên Ubuntu.  
-
-### Gỡ cài đặt
-Đầu tiên là câu lệnh gỡ bỏ LibreOffice bằng Terminal:  
+Gỡ bỏ [LibreOffice](https://vi.libreoffice.org/) bằng Terminal:  
 ```bash
-sudo apt-get remove --purge libreoffice*
+sudo apt remove --purge libreoffice*
 ```
 
-### Làm sạch hệ thống
-Tiếp theo là câu lệnh làm sạch, câu lệnh này hơi thừa thãi, không nhất thiết phải thực hiện.  
+Xóa bỏ các gói tin đã được tải về và lưu trữ trong bộ nhớ cache của hệ thống quản lý gói [apt](https://vegetaz.github.io/linux/ubuntu/2020/08/10/apt.html):
 ```bash
 sudo apt clean
 ```
 
-### Gỡ bỏ các thành phần không sử dụng
-Cuối cùng là câu lệnh tự động xóa bỏ các thành phần còn sót lại, các thành phần không được sử dụng khi xóa bỏ một gói khỏi hệ thống Ubuntu.   
+Xóa bỏ các gói phần mềm không còn được sử dụng hoặc phụ thuộc không cần thiết trên hệ thống:
 ```bash
-sudo apt-get autoremove
+sudo apt autoremove
 ```
 
-Tạm biệt LibreOffice, hẹn sớm gặp lại!
+**Đọc thêm**:
+- [How to uninstall Libreoffice on Ubuntu in terminal?](https://ask.libreoffice.org/t/how-to-uninstall-libreoffice-on-ubuntu-in-terminal/5179)
+- [How to uninstall LibreOffice?](https://askubuntu.com/questions/180403/how-to-uninstall-libreoffice)
