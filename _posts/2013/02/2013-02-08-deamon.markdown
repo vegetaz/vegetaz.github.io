@@ -1,0 +1,20 @@
+---
+layout: post
+title: "Daemon"
+date: 2013-02-08 17:36:37 +0700
+categories: [linux]
+---
+
+Trong công nghệ thông tin, thuật ngữ **daemon** thường được sử dụng để chỉ một loại chương trình hoạt động ở nền và thường không tương tác trực tiếp với người dùng. **Daemon** (còn được gọi là dịch vụ nền) là một quá trình máy tính hoặc ứng dụng chạy trên hệ điều hành mà không cần sự tương tác trực tiếp từ người dùng hoặc không có giao diện người dùng đồ họa.
+
+Các **daemon** thường được sử dụng để cung cấp các dịch vụ hệ thống và chức năng phục vụ cho các ứng dụng khác. Chẳng hạn, một daemon có thể được sử dụng để quản lý việc in ấn (print daemon), quản lý hệ thống file (file daemon), hoặc cung cấp dịch vụ mạng như máy chủ web (web daemon).
+
+Đặc điểm chung của các **daemon** là chúng chạy liên tục trong hệ thống và lắng nghe các yêu cầu từ các ứng dụng khác hoặc từ mạng. Chúng thường được khởi động khi hệ thống được khởi động và hoạt động trong suốt thời gian hệ thống hoạt động.
+
+Một **daemon** thường không có giao diện người dùng đồ họa và thường được quản lý bằng cách sử dụng các tệp cấu hình và lệnh điều khiển từ dòng lệnh. Một số ví dụ về daemon phổ biến trong các hệ điều hành như Unix và Linux bao gồm Apache (web daemon), MySQL (database daemon), và SSH (secure shell daemon).
+
+Tóm lại, **daemon** trong công nghệ thông tin là một chương trình hoạt động ở nền, không tương tác trực tiếp với người dùng và thường cung cấp các dịch vụ hệ thống hoặc chức năng phục vụ cho các ứng dụng khác.
+
+Đọc thêm:
+- [daemon(7) — Linux manual page](https://man7.org/linux/man-pages/man7/daemon.7.html)
+- [Daemon (computing)](https://en.wikipedia.org/wiki/Daemon_(computing))
