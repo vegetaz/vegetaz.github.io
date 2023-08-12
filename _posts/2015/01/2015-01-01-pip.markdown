@@ -93,4 +93,5 @@ pip install wheel --upgrade
 ```
 
 
-Đọc thêm: [Commands](https://pip.pypa.io/en/stable/cli/)
+**Đọc thêm**:
+- [Commands](https://pip.pypa.io/en/stable/cli/)

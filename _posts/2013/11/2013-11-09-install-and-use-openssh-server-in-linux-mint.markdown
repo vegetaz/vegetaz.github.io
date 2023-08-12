@@ -65,4 +65,6 @@ sudo systemctl restart sshd.service
 ```  
 
 
-Đọc thêm: [OpenSSH: Manual Pages](https://www.openssh.com/manual.html)
+**Đọc thêm**: 
+- [SSH](https://vegetaz.github.io/ssh/2013/02/01/ssh.html)
+- [OpenSSH: Manual Pages](https://www.openssh.com/manual.html)

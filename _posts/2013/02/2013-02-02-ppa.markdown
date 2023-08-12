@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "PPA là gì?"
+title: "PPA"
 date: 2013-02-02 17:36:37 +0700
 categories: [linux, ubuntu]
 ---

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "SSH là gì?"
+title: "SSH"
 date: 2013-02-01 07:07:07 +0700
 categories: [ssh]
 ---

@@ -9,7 +9,7 @@ categories: [linux]
 
 **Shell** cung cấp một cách để nhập các lệnh và thực thi chúng trong môi trường dòng lệnh. Nó cung cấp các chức năng như thực thi các chương trình, quản lý tập tin và thư mục, điều hướng hệ thống và thực hiện các tác vụ hệ thống khác.
 
-Trên các hệ điều hành Unix và Linux, các shell phổ biến bao gồm **Bash** (Bourne Again SHell), **sh** (Bourne SHell), **csh** (C SHell), **ksh** (Korn SHell), và **zsh** (Z SHell). Mỗi **shell** có các tính năng và cú pháp riêng, nhưng chúng đều cung cấp một cách để nhập lệnh và thực thi chúng trong hệ điều hành.
+Trên các hệ điều hành Unix và Linux, các shell phổ biến bao gồm [Bash (Bourne Again SHell)](https://vegetaz.github.io/linux/2013/02/03/bash.html), **sh** (Bourne SHell), **csh** (C SHell), **ksh** (Korn SHell), và **zsh** (Z SHell). Mỗi **shell** có các tính năng và cú pháp riêng, nhưng chúng đều cung cấp một cách để nhập lệnh và thực thi chúng trong hệ điều hành.
 
 ---
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Unicode là gì?"
+title: "Unicode"
 date: 2013-02-04 17:36:37 +0700
 categories: [linux, windows]
 ---

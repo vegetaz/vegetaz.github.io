@@ -5,7 +5,7 @@ date: 2013-02-06 17:36:37 +0700
 categories: [ssh]
 ---
 
-**ssh-copy-id** là một công cụ dòng lệnh được sử dụng để sao chép khóa công khai của người dùng lên một máy chủ từ xa, để cho phép đăng nhập vào máy chủ đó mà không cần phải nhập mật khẩu. Nó giúp đơn giản hóa quá trình đăng nhập vào máy chủ từ xa bằng cách tự động đăng ký khóa công khai của người dùng trên máy chủ.
+**ssh-copy-id** là một công cụ dòng lệnh trong [SSH](https://vegetaz.github.io/ssh/2013/02/01/ssh.html) được sử dụng để sao chép khóa công khai của người dùng lên một máy chủ từ xa, để cho phép đăng nhập vào máy chủ đó mà không cần phải nhập mật khẩu. Nó giúp đơn giản hóa quá trình đăng nhập vào máy chủ từ xa bằng cách tự động đăng ký khóa công khai của người dùng trên máy chủ.
 
 ---
 
