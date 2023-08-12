@@ -1,0 +1,16 @@
+---
+layout: post
+title: "Cmder"
+date: 2023-05-02 16:06:10 +0700
+categories: [windows]
+---
+
+**Cmder** là một công cụ dòng lệnh (command-line) mã nguồn mở được phát triển dựa trên [ConEmu](). Nó cung cấp một giao diện dòng lệnh mạnh mẽ và dễ sử dụng trên các hệ điều hành Windows.
+
+**Cmder** giúp cải thiện trải nghiệm làm việc với dòng lệnh trên Windows bằng cách cung cấp một giao diện thân thiện với người dùng, hỗ trợ nhiều tính năng như cửa sổ kéo thả, giao diện dễ tùy chỉnh, hỗ trợ các lệnh POSIX và các cú pháp phổ biến, cũng như tích hợp với Git và các công cụ khác.
+
+**Cmder** cung cấp một terminal mạnh mẽ với các tính năng như cửa sổ chia đôi, tab, ghi lại lịch sử lệnh, tìm kiếm lịch sử, tự động hoàn thành lệnh, và nhiều tính năng khác. Nó cũng hỗ trợ nhiều loại shell như CMD, PowerShell và Bash.
+
+Với giao diện đẹp và tính linh hoạt, **Cmder** là một lựa chọn phổ biến cho những người làm việc với dòng lệnh trên Windows.
+
+[**Cmder** | Console Emulator](https://cmder.app/)

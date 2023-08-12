@@ -1,0 +1,21 @@
+---
+layout: post
+title: "ConEmu"
+date: 2023-05-01 16:06:10 +0700
+categories: [windows]
+---
+
+**ConEmu** là một công cụ mã nguồn mở cung cấp một giao diện dòng lệnh tiện ích và mạnh mẽ trên hệ điều hành Windows. Nó được thiết kế để cải thiện trải nghiệm làm việc với dòng lệnh và cung cấp nhiều tính năng tiện ích cho người dùng.
+
+**ConEmu** cho phép người dùng mở và quản lý nhiều thẻ (tab) và cửa sổ dòng lệnh trong cùng một giao diện, giúp người dùng dễ dàng chuyển đổi giữa các phiên làm việc khác nhau. Nó hỗ trợ các shell như CMD, PowerShell, Bash và WSL (Windows Subsystem for Linux), cho phép người dùng làm việc với các môi trường lập trình khác nhau trên cùng một cửa sổ.
+
+Một số tính năng khác của **ConEmu** bao gồm:
+- Giao diện tùy chỉnh: người dùng có thể tùy chỉnh giao diện **ConEmu** để phù hợp với sở thích cá nhân của mình, bao gồm cả chủ đề, màu sắc, phông chữ và biểu tưởng.
+- Tích hợp Git: **ConEmu** tích hợp tốt với Git, cho phép người dùng thực hiện các thao tác Git như commit, pull, push và xem trạng thái dự án trực tiếp từ giao diện dòng lệnh.
+- Tự động hoàn thành lệnh: **ConEmu** cung cấp chức năng tự động hoàn thành lệnh, giúp người dùng tiết kiệm thời gian và giảm lỗi khi gõ lệnh.
+- Quản lý lịch sử lệnh: người dùng có thể dễ dàng truy cập vào lịch sử lệnh và tìm kiếm các lệnh trước đó đã được thực thi.
+- Tích hợp với các công cụ bên thứ ba: **ConEmu** cho phép tích hợp với các công cụ bên thứ ba như Far Manager, PuTTY và Clink.
+
+Tổng quan, **ConEmu** là một công cụ mạnh mẽ và linh hoạt giúp cải thiện trải nghiệm làm việc với dòng lệnh trên hệ điều hành Windows. Nó được ưa chuộng bởi những người phát triển và quản trị viên hệ thống để tăng hiệu suất và tiện ích trong công việc hàng ngày của họ.
+
+[**ConEmu** - Handy Windows Terminal](https://conemu.github.io/)
