@@ -1,0 +1,22 @@
+---
+layout: post
+title: "Java"
+date: 2013-02-11 17:36:37 +0700
+categories: [Information Technology]
+tags: [java]
+---
+
+**Java** là một ngôn ngữ lập trình phổ biến và mạnh mẽ được tạo ra vào những năm 1990 bởi Sun Microsystems (nay là Oracle Corporation). Nó được phát triển với mục tiêu chạy trên môi trường đa nền tảng, có khả năng tự động quản lý bộ nhớ và cung cấp một mô hình lập trình hướng đối tượng (OOP) mạnh mẽ.
+
+Dưới đây là một số điểm nổi bật về Java:
+- Đa nền tảng: Java được thiết kế để có thể chạy trên nhiều hệ điều hành khác nhau, bao gồm Windows, macOS và các hệ điều hành dựa trên Linux. Điều này cho phép lập trình viên viết các ứng dụng một lần và chạy trên nhiều nền tảng khác nhau mà không cần thay đổi mã nguồn.
+- Bảo mật: Java có mô hình bảo mật vững chắc, cho phép lập trình viên xây dựng các ứng dụng an toàn và đáng tin cậy. Java có một máy ảo Java (JVM - Java Virtual Machine) giúp kiểm soát quyền truy cập vào tài nguyên hệ thống và giới hạn các hành động nguy hiểm của ứng dụng.
+- Mạnh mẽ và phong phú: Java cung cấp một loạt các thư viện tiêu chuẩn (Standard Library) và framework phổ biến như Spring, Hibernate và JavaFX. Các thư viện và framework này giúp lập trình viên xây dựng ứng dụng phức tạp, từ ứng dụng web đến ứng dụng di động và cả ứng dụng máy tính.
+- Hỗ trợ đa luồng: Java hỗ trợ lập trình đa luồng (multithreading), cho phép lập trình viên xử lý nhiều tác vụ đồng thời. Điều này rất hữu ích trong việc xây dựng các ứng dụng đòi hỏi xử lý song song, như ứng dụng web có thể xử lý nhiều yêu cầu từ người dùng cùng một lúc.
+- Cộng đồng lớn: Java có một cộng đồng lập trình viên đông đảo và tích cực, cung cấp nhiều tài liệu, diễn đàn và công cụ hỗ trợ. Cộng đồng Java luôn cập nhật và phát triển ngôn ngữ, giúp lập trình viên tiếp cận các công nghệ mới và giải quyết các vấn đề phát triển phần mềm.
+
+Java được sử dụng rộng rãi trong nhiều lĩnh vực, bao gồm phát triển ứng dụng di động, phát triển ứng dụng web, phát triển ứng dụng máy tính, xây dựng hệ thống quản lý cơ sở dữ liệu và nhiều lĩnh vực khác.
+
+**Đọc thêm**:
+- [Java](https://www.java.com/en/)
+- [Java (ngôn ngữ lập trình)](https://vi.wikipedia.org/wiki/Java_(ng%C3%B4n_ng%E1%BB%AF_l%E1%BA%ADp_tr%C3%ACnh))
