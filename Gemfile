@@ -2,10 +2,11 @@
 
 source "https://rubygems.org"
 
-gem "jekyll-theme-chirpy", "~> 6.1"
+gem "jekyll-theme-chirpy"
 
-gem 'html-proofer', '~> 3.4'
-
+group :test do
+  gem "html-proofer"
+end
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
 # and associated library.
 platforms :mingw, :x64_mingw, :mswin, :jruby do
@@ -24,3 +25,6 @@ gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
 if RUBY_PLATFORM =~ /linux-musl/
   gem "jekyll-sass-converter", "~> 2.0"
 end
+
+# Jekyll <= 4.2.0 compatibility with Ruby 3.0
+gem "webrick"
