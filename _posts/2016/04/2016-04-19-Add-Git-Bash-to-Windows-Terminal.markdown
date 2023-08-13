@@ -8,7 +8,7 @@ img_path: /assets/img/GitBashWindowsTerminal/
 ---
 
 ![Git Bash](2019-11-26_14-59-51.png)
-_Git Bash_Git Bash
+_Git Bash_
 
 Đảm bảo đã cài đặt [git-scm](https://git-scm.com/downloads) trước đã.
 
