@@ -8,17 +8,18 @@ img_path: /assets/img/GitBashWindowsTerminal/
 ---
 
 ![Git Bash](2019-11-26_14-59-51.png)
+_Git Bash_Git Bash
 
-Dĩ nhiên cần đảm bảo đã cài đặt [git-scm](https://git-scm.com/downloads) trước đã.
+Đảm bảo đã cài đặt [git-scm](https://git-scm.com/downloads) trước đã.
 
-Tải về Windows Terminal [tại đây](https://github.com/microsoft/terminal).
+Tải về [Windows Terminal](https://github.com/microsoft/terminal).
 
 Sau đó mở cài đặt của Windows Terminal như hình dưới đây:
 
 ![Setting of Windows Terminal](2019-11-26_14-55-40.png)
+_Setting of Windows Terminal_
 
 Thêm đoạn mã sau vào phần `profiles` của Windows Terminal:
-
 ```json
 "profiles" :
 [
@@ -43,8 +44,7 @@ Thêm đoạn mã sau vào phần `profiles` của Windows Terminal:
 ]
 ```
 
-Thêm tiếp đoạn mã này vào phần `schemes` nếu muốn màu mè như con tắc kè:
-
+Thêm tiếp đoạn mã này vào phần `schemes`:
 ```json
 "schemes" :
 [
@@ -73,5 +73,5 @@ Thêm tiếp đoạn mã này vào phần `schemes` nếu muốn màu mè như c
 ]
 ```
 
-Như vậy là xong, nếu muốn đặt Git Bash là chương trình mặc định mỗi khi khởi động Windows Terminal thì các bạn có thể thay đổi giá trị `defaultProfile` trong phần `globals` theo `guid` của Git Bash.
-:)
+> Muốn đặt Git Bash là chương trình mặc định mỗi khi khởi động Windows Terminal thì có thể thay đổi giá trị `defaultProfile` trong phần `globals` theo `guid` của Git Bash.
+{:.prompt-info}
