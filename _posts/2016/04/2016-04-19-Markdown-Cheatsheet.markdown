@@ -119,7 +119,7 @@ vegetaz/github-flavored-markdown#1
 
 ### Emoji
 
-To see a list of every image we support, check out [emoji-cheat-sheet](ww.emoji-cheat-sheet.com)
+To see a list of every image we support, check out [emoji-cheat-sheet](https://www.webfx.com/tools/emoji-cheat-sheet/)
 
 ```
 GitHub supports emoji!

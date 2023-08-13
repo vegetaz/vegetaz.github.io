@@ -16,7 +16,7 @@ Trình điểu khiển ứng dụng Windows (**WinAppDriver**) là một dịch 
 3. Kích hoạt chế độ [Developer Mode](https://docs.microsoft.com/en-us/windows/uwp/get-started/enable-your-device-for-development) trong cài đặt của Windows
 4. Chạy `WinAppDriver.exe` từ thư mục cài đặt (E.g. `C:\Program Files (x86)\Windows Application Driver`)
 
-Windows Application Driver sẽ chạy trên máy tính kiểm thư và lắng nghe các yêu cầu trên địa chỉ IP và cổng mặc đinh (`127.0.0.1:4723`). Có thể chạy bất kỳ ứng dụng cần kiểm thử nào [Tests](/Tests/) hoặc [Samples](/Samples). `WinAppDriver.exe` có thể được cấu hình lại địa chỉ IP và cổng lắng nghe, ví dụ:
+Windows Application Driver sẽ chạy trên máy tính kiểm thư và lắng nghe các yêu cầu trên địa chỉ IP và cổng mặc đinh (`127.0.0.1:4723`). Có thể chạy bất kỳ ứng dụng cần kiểm thử nào **Tests** hoặc **Samples**. `WinAppDriver.exe` có thể được cấu hình lại địa chỉ IP và cổng lắng nghe, ví dụ:
 
 ```powershell
 WinAppDriver.exe 4727

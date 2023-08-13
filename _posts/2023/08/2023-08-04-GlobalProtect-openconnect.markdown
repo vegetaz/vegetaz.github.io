@@ -4,7 +4,7 @@ title: "Cài đặt GlobalProtect-openconnect cho Ubuntu/Linux Mint"
 date: 2023-08-04 14:32:01 +0700
 categories: [Information Technology, Software]
 tags: [linux, ubuntu]
-img_path: /assets/img/globalprotect/
+img_path: /assets/img/GlobalProtect/
 ---
 
 Phần mềm **GlobalProtect VPN** (GUI) dành cho Linux, dựa trên OpenConnect và được xây dựng với Qt5, hỗ trợ chế độ xác thực SAML.
