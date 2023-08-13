@@ -6,8 +6,7 @@ categories: [Information Technology, Tech Tips and Tricks]
 tags: [git]
 ---
 
-Try setting `core.autocrlf` value like this :
-
+Bỏ qua dấu xuống dòng, kết thúc câu, tệp giống nhau trong `git` bằng cách thực thi câu lệnh bên dưới:
 ```bash
 git config --global core.autocrlf true
 ```

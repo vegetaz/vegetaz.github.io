@@ -90,9 +90,7 @@ pip install pyasn1 --upgrade
 pip install PyAutoGUI --upgrade
 pip install pywin32 --upgrade
 pip install wheel --upgrade
-
 ```
-
 
 **Đọc thêm**:
 - [Commands](https://pip.pypa.io/en/stable/cli/)

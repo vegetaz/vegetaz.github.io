@@ -15,6 +15,7 @@ tags: [mysql]
 > **Lưu ý**: Bộ ký tự `utf8mb3` đã bị loại bỏ. Vui lòng sử dụng `utf8mb4` thay thế. `utf8` hiện là một bí danh cho `utf8mb3`, nhưng hiện đã bị loại bỏ với tư cách như vậy, và `utf8` dự kiến ​​sẽ trở thành một tham chiếu đến `utf8mb4`.
 
 > Để tránh nhầm lẫn về ý nghĩa của `utf8`, hãy cân nhắc chỉ định `utf8mb4` rõ ràng cho các tham chiếu bộ ký tự.
+{:.prompt-info}
 
 **Đọc thêm**:
 - [Unicode Character Sets](https://dev.mysql.com/doc/refman/8.0/en/charset-unicode-sets.html)

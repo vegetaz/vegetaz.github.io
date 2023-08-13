@@ -6,11 +6,11 @@ categories: [Information Technology]
 tags: [markdown]
 ---
 
-Markdown là một ngôn ngữ đánh dấu văn bản được sử dụng để định dạng và viết nhanh các tài liệu. Nó được tạo ra bởi John Gruber vào năm 2004, với mục tiêu tạo ra một cú pháp đơn giản và dễ đọc, có thể chuyển đổi dễ dàng sang HTML hoặc các định dạng khác.
+**Markdown** là một ngôn ngữ đánh dấu văn bản được sử dụng để định dạng và viết nhanh các tài liệu. Nó được tạo ra bởi John Gruber vào năm 2004, với mục tiêu tạo ra một cú pháp đơn giản và dễ đọc, có thể chuyển đổi dễ dàng sang HTML hoặc các định dạng khác.
 
-Markdown cho phép bạn tạo ra các tài liệu có định dạng phong phú mà không cần sử dụng các cú pháp phức tạp. Bằng cách sử dụng các ký hiệu đơn giản như ký tự đánh dấu (#, *, _, ...) và cấu trúc dữ liệu như danh sách và bảng, bạn có thể tạo tiêu đề, đoạn văn, liên kết, hình ảnh, bảng biểu và nhiều nội dung khác.
+**Markdown** cho phép người dùng tạo ra các tài liệu có định dạng phong phú mà không cần sử dụng các cú pháp phức tạp. Bằng cách sử dụng các ký hiệu đơn giản như ký tự đánh dấu (#, *, _, ...) và cấu trúc dữ liệu như danh sách và bảng, người dùng có thể tạo tiêu đề, đoạn văn, liên kết, hình ảnh, bảng biểu và nhiều nội dung khác.
 
-Markdown rất phổ biến và được sử dụng trong nhiều ngữ cảnh khác nhau. Nó được sử dụng để viết tài liệu, blog, trang web tĩnh, và được hỗ trợ bởi nhiều nền tảng và công cụ, bao gồm các trình soạn thảo văn bản, trình quản lý phiên bản và các nền tảng như GitHub và Stack Overflow.
+**Markdown** rất phổ biến và được sử dụng trong nhiều ngữ cảnh khác nhau. Nó được sử dụng để viết tài liệu, blog, trang web tĩnh, và được hỗ trợ bởi nhiều nền tảng và công cụ, bao gồm các trình soạn thảo văn bản, trình quản lý phiên bản và các nền tảng như **GitHub** và **Stack Overflow**.
 
 ### Tham khảo
 - [Markdown](https://vi.wikipedia.org/wiki/Markdown)
