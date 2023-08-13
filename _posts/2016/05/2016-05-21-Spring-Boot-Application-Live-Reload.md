@@ -15,22 +15,18 @@ img_path: /assets/img/SpringLiveReload/
             <optional>true</optional>
         </dependency>
 ```
-Trong IntelliJ IDEA, mở **File** - > **Settings...** -> **Build, Execution, Deployment** -> **Compiler** và đảm bảo **Build project automatically** được kích hoạt.
-{:refdef: style="text-align: center;"}
+Trong **IntelliJ IDEA**, mở **File** - > **Settings...** -> **Build, Execution, Deployment** -> **Compiler** và đảm bảo **Build project automatically** được kích hoạt.
 ![Build project automatically](Build-project-automatically.png)
-{: refdef}
 _Build project automatically_
 
 Nhấn tổ hợp phím **Ctrl + Shift + A** > **Registry...**, kích hoạt cấu hình sau:
 ```console
 compiler.automake.allow.when.app.running
 ```
-{:refdef: style="text-align: center;"}
 ![](compiler-automake-allow-when-app-running.png)
-{: refdef}
 _compiler.automake.allow.when.app.running_
 
-Khởi động lại IDEA là có thể sử dụng được!
+Khởi động lại **IntelliJ IDEA** là có thể sử dụng được!
 
 **Đọc thêm**:
 - [DZone](https://dzone.com/articles/spring-boot-application-live-reload-hot-swap-with)
