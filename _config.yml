@@ -94,8 +94,8 @@ comments:
   giscus:
     repo: vegetaz/vegetaz.github.io
     repo_id: MDEwOlJlcG9zaXRvcnkyNjEwNzg4MTY=
-    category:
-    category_id:
+    category: General
+    category_id: DIC_kwDOD4-_IM4CYke6
     mapping: # optional, default to 'pathname'
     input_position: # optional, default to 'bottom'
     lang: vi # optional, default to the value of `site.lang`
