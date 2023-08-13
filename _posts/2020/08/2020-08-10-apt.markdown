@@ -32,8 +32,6 @@ apt remove <package>
 ```
 Cần kết hợp với câu lệnh `sudo` trong một số trường hợp.
 
----
-
 **Đọc thêm**:
 - [Package management](https://ubuntu.com/server/docs/package-management)
 - [APT (software)](https://en.wikipedia.org/wiki/APT_(software))

@@ -6,7 +6,7 @@ categories: [Information Technology, Tech Tips and Tricks]
 tags: [spring, database]
 ---
 
-Dĩ nhiên đầu tiên phải khai báo `dependency` của MongoDB trong `pom.xml` trước!
+Khai báo `dependency` của **MongoDB** trong `pom.xml`:
 ```xml
 <dependency>
 	<groupId>org.springframework.boot</groupId>
@@ -14,7 +14,7 @@ Dĩ nhiên đầu tiên phải khai báo `dependency` của MongoDB trong `pom.x
 </dependency>
 ```
 
-Sau đó thì thực hiện cấu hình ở tệp tin `application.properties`
+Cấu hình cho **MongoDB** ở tệp tin `application.properties`:
 ```properties
 spring.data.mongodb.authentication-database=admin
 spring.data.mongodb.username=root
@@ -23,13 +23,6 @@ spring.data.mongodb.database=local
 spring.data.mongodb.port=27017
 spring.data.mongodb.host=localhost
 ```
-Các thông số mang tính chất tham khảo, các bạn cấu hình tuỳ chỉnh trên thiết bị của các bạn, đừng chỉ sao chép mà không chỉnh sửa!
 
-Đó là cấu hình cho trường hợp có sử dụng quyền truy cập, trong trường hợp không cần thì có thể sử dụng cấu hình sau:
-```properties
-spring.data.mongodb.database=local
-spring.data.mongodb.port=27017
-spring.data.mongodb.host=localhost
-```
-
-**Nguồn**: Internet và bản thân!
+**Đọc thêm**:
+- [MongoDB - The Developer Data Platform](https://www.mongodb.com/)

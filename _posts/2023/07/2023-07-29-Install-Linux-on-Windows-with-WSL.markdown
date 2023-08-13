@@ -84,7 +84,6 @@ export DISPLAY=:0
 startx
 ```  
 
-
-Đọc thêm:  
+**Đọc thêm**:  
 - [Install Linux on Windows with WSL](https://learn.microsoft.com/en-us/windows/wsl/install)  
 - [Manual installation steps for older versions of WSL](https://learn.microsoft.com/en-us/windows/wsl/install-manual)

@@ -149,3 +149,6 @@ $driver.FindElement([OpenQA.Selenium.By]::TagName($elementTagName))
 ```powershell
 $driver.FindElement([OpenQA.Selenium.By]::XPath($elementXpath))
 ```  
+
+**Đọc thêm**:
+- [Selenium in PowerShell](https://www.google.com/search?q=Selenium+in+PowerShell&rlz=1C1PNBB_viVN954VN954&oq=Selenium+in+PowerShell&aqs=chrome..69i57j0i19i22i30l4j69i60l3.244j0j4&sourceid=chrome&ie=UTF-8)

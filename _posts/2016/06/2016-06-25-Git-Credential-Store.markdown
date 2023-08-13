@@ -16,4 +16,5 @@ Chi tiết về từng phần trong câu lệnh:
 
 Vậy câu lệnh `git config --global credential.helper store` là đang cấu hình Git để sử dụng trình trợ giúp "store" để lưu trữ thông tin xác thực. Điều này giúp người dùng tránh việc nhập lại thông tin xác thực mỗi khi người dùng thao tác với kho lưu trữ từ xa, giúp tiện lợi và tiết kiệm thời gian trong quá trình làm việc với Git. Tuy nhiên, hãy lưu ý rằng thông tin xác thực sẽ được lưu trữ dưới dạng văn bản không mã hóa, vì vậy hãy đảm bảo rằng tệp tin lưu trữ thông tin xác thực được bảo mật trên máy tính của người dùng.
 
-Đọc thêm: [Helper to store credentials on disk](https://git-scm.com/docs/git-credential-store)  
+**Đọc thêm**:
+- [Helper to store credentials on disk](https://git-scm.com/docs/git-credential-store)  

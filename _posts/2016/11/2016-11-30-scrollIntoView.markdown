@@ -20,4 +20,5 @@ Cuộn (scroll) tới thành phần:
 $driver.executeScript("arguments[0].scrollIntoView(true);", $element)
 ```  
 
-Ngoài việc áp dụng cho việc chụp ảnh màn hình trang web, còn nhiều ứng dụng khác nữa.
+**Đọc thêm**:
+- [Scroll to element](https://www.selenium.dev/documentation/webdriver/actions_api/wheel/#scroll-to-element)

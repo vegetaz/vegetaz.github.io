@@ -101,4 +101,5 @@ Việc sử dụng thành thạo các phím tắt trong After Effect là điều
 </table>
 
 
-Đọc thêm: [Keyboard shortcuts in After Effects](https://helpx.adobe.com/after-effects/using/keyboard-shortcuts-reference.html)  
+**Đọc thêm**:
+- [Keyboard shortcuts in After Effects](https://helpx.adobe.com/after-effects/using/keyboard-shortcuts-reference.html)  

@@ -6,27 +6,21 @@ categories: [Information Technology, Tech Tips and Tricks]
 tags: [nodejs]
 ---
 
-Nếu bạn muốn sử dụng NodeJS một cách linh hoạt, hãy sử dụng Node Version Manager hay còn gọi là nvm.  
-Phần mềm này cho phép cài đặt, cấu hình và sử dụng độc lập cùng lúc nhiều phiên bản khác nhau của NodeJS cùng các gói có liên quan.
+**Node Version Manager** hay còn gọi là **nvm** cho phép cài đặt, cấu hình và sử dụng độc lập cùng lúc nhiều phiên bản khác nhau của **NodeJS** cùng các gói (package) có liên quan.
 
-NVM sử dụng tốt nhất trong môi trường Unix/Linux.
-Tuy nhiên, trên Windows cũng có một phiên bản của lập trình viên [Corey Butler](https://github.com/coreybutler).
+`nvm` sử dụng tốt nhất trong môi trường Unix/Linux. Trên Windows cũng có một phiên bản của lập trình viên [Corey Butler](https://github.com/coreybutler). Tải về [vnm-windows](https://github.com/coreybutler/nvm-windows/releases) và tiến hành cài đặt như các phần mềm khác trên Windows.
 
-Tải về [nvm-windows](https://vegetaz.github.io/) và tiến hành cài đặt như các phần mềm khác.  
-Kiểm tra nvm đã được cài đặt thành công hay chưa với câu lệnh sau trong môi trường Power Shell hoặc Command Prompt
-
+Kiểm tra số hiệu phiên bản của **nvm**:
 ```
 nvm version
 ```
 
-Để kiểm tra các phiên bản NodeJS đã được cài đặt thì sử dụng câu lệnh:
-
+Liệt kê danh sách **NodeJS** đã được cài đặt:
 ```
 nvm list
 ```
 
-Để cài đặt một phiên bản có sẵn của NodeJS, sử dụng câu lệnh sau:
-
+Cài đặt một phiên bản có sẵn của **NodeJS**:
 ```
 nvm install 12.14.0
 ```
@@ -40,6 +34,9 @@ Với 12.14.0 là phiên bản có trên máy chủ nodejs.org.
 nvm use 12.14.0
 ```
 
-Có thể chuyển đổi linh hoạt giữa các phiên bản của NodeJS bằng lệnh use để phù hợp với môi trường phát triển.
+Có thể chuyển đổi linh hoạt giữa các phiên bản của **NodeJS** bằng lệnh `use` để phù hợp với môi trường phát triển.
 
-Truy cập vào [Node Version Manager - POSIX-compliant bash script to manage multiple active node.js versions](https://github.com/nvm-sh/nvm) để biết thêm chi tiết.
+**Đọc thêm**:
+- [Node Version Manager - POSIX-compliant bash script to manage multiple active node.js versions](https://github.com/nvm-sh/nvm)
+- [A node.js version management utility for Windows. Ironically written in Go.](https://github.com/coreybutler/nvm-windows)
+- [Node Version Switcher - A cross-platform tool for switching between versions and forks of Node.js](https://github.com/jasongin/nvs)

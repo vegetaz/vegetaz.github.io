@@ -24,6 +24,8 @@ WinAppDriver.exe 10.0.0.10 4725
 WinAppDriver.exe 10.0.0.10 4723/wd/hub
 ```
 
-> **Lưu ý**: Ứng dụng `WinAppDriver.exe` cần phải chạy với tư cách **Quản trị (Administrator)** để có thể thấy được địa chỉ IP (IP address) và cổng (port).
+> Ứng dụng `WinAppDriver.exe` cần phải chạy với tư cách **Quản trị (Administrator)** để có thể thấy được địa chỉ IP (IP address) và cổng (port).
+{:.prompt-info}
 
-Đọc thêm: [**Windows Application Driver**](https://github.com/microsoft/WinAppDriver)
+**Đọc thêm**:
+- [**Windows Application Driver**](https://github.com/microsoft/WinAppDriver)

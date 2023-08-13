@@ -53,7 +53,11 @@ Add-AppxPackage Microsoft.MicrosoftStickyNotes_3.7.142.0_neutral___8wekyb3d8bbwe
 Các câu lệnh trên thực hiện với PowerShell, chạy dưới quyền Administrator.
 
 ### Sử dụng
-Để sử dụng thì rất đơn gian, gõ `Sticky Notes` để tìm kiếm từ thực đơn của Windows.  
+Để sử dụng thì rất đơn gian, gõ `Sticky Notes` để tìm kiếm từ thực đơn (menu) Start của Windows.
+{:refdef: style="text-align: center;"}
 ![Sticky Notes](Sticky-Notes.png)
+{: refdef}
+_Sticky Notes_
 
-Hoya!
+**Đọc thêm**:
+- [Notes](https://outlook.office.com/mail/notes)

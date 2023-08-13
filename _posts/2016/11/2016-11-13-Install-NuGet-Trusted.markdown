@@ -37,4 +37,6 @@ Get-PSRepository
 ```powershell
 Get-PackageProvider
 ```  
- 
+
+**Đọc thêm**:
+- [Install NuGet client tools](https://learn.microsoft.com/en-us/nuget/install-nuget-client-tools)

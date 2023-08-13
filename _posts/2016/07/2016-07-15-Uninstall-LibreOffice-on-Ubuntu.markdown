@@ -6,12 +6,12 @@ categories: [Information Technology, Software]
 tags: [ubuntu]
 ---
 
-Gỡ bỏ [LibreOffice](https://vi.libreoffice.org/) bằng Terminal:  
+Gỡ bỏ [LibreOffice](https://vi.libreoffice.org/):  
 ```bash
 sudo apt remove --purge libreoffice*
 ```
 
-Xóa bỏ các gói tin đã được tải về và lưu trữ trong bộ nhớ cache của hệ thống quản lý gói [apt](https://vegetaz.github.io/linux/ubuntu/2020/08/10/apt.html):
+Xóa bỏ các gói tin đã được tải về và lưu trữ trong bộ nhớ cache của hệ thống quản lý gói [apt](https://vegetaz.github.io/posts/apt/):
 ```bash
 sudo apt clean
 ```

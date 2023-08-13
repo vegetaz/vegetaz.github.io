@@ -7,32 +7,31 @@ tags: [linux, windows, ssh]
 img_path: /assets/img/total-commander/
 ---
 
-#### Yêu cầu
+### Yêu cầu
 [Total Commander](https://www.ghisler.com/download.htm)  
 [SFTP Plugin](https://www.totalcommander.ch/win/fs/sftpplug.zip)  
 
 
-#### Cài đặt
+### Cài đặt
 Mở tệp tin **sftpplug.zip** trong **Total Commander** để cài đặt plugin **SFTP**. Cài đặt SFTP plugin xong, khởi động lại chương trình **Total Commander**.  
 
-
-#### Thiết lập
+### Thiết lập
 Trong chương trình **Total Commander**, nhấn vào biểu tượng **Network Neighborhood**, truy cập vào **Secure FTP**.  
 Nhấn phím **F7** để đặt tên và tạo kết nối mới.  
-**Lưu ý**: Không sử dụng khoảng trắng (space) trong quá trình đặt tên.  
-Sau khi đặt tên hoàn tất, nhấn **OK** để tới cửa sổ **Connect to SFTP Server**.  
-
+> Không sử dụng khoảng trắng (space) trong quá trình đặt tên.
+{:.prompt-info}
+Sau khi đặt tên hoàn tất, nhấn **OK** để tới cửa sổ **Connect to SFTP Server**.
 {:refdef: style="text-align: center;"}
 ![Connect to SFTP Server](Connect_to_SFTP_Server.png)
-{: refdef}  
+{: refdef}
+_Connect to SFTP Server_
 
 Tại cửa sổ **Connect to SFTP Server**, thiết lập đơn giản với địa chỉ IP, tên đăng nhập và mật khẩu của Linux Server.  
 Nhấn **OK** để đóng cửa sổ **Connect to SFTP Server**.  
 Quay trở lại **Secure FTP**, truy cập vào tên của kết nối đã đặt ở bên trên.  
 
-
-#### Sử dụng
+### Sử dụng
 Bằng cách này, có thể sử dụng phần mềm, chương trình trên Windows để mở, chỉnh sửa, các tệp tin trên hệ thống Linux.  
 
-
-Đọc thêm: [Why doesn't Total Commander support a connection by SSH?](https://www.ghisler.com/efaqftp.htm)  
+**Đọc thêm**:
+- [Why doesn't Total Commander support a connection by SSH?](https://www.ghisler.com/efaqftp.htm)  

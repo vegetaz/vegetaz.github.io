@@ -12,21 +12,22 @@ Phần mềm **GlobalProtect VPN** (GUI) dành cho Linux, dựa trên OpenConnec
 {:refdef: style="text-align: center;"}
 ![GlobalProtect-openconnect](GlobalProtect_Linux_Mint_21.2.png)
 {: refdef}
+_GlobalProtect_
 
-#### Thêm ppa:yuezk vào hệ thống
+### Thêm ppa:yuezk vào hệ thống
 ```bash
 sudo add-apt-repository ppa:yuezk/globalprotect-openconnect
 ```
 
-#### Cập nhật hệ thống
+### Cập nhật hệ thống
 ```bash
 sudo apt update
 ```
 
-#### Cài đặt GlobalProtect-openconnect
+### Cài đặt GlobalProtect-openconnect
 ```bash
 sudo apt install globalprotect-openconnect
 ```
 
-
-Đọc thêm: [**GlobalProtect-openconnect**](https://github.com/yuezk/GlobalProtect-openconnect)
+**Đọc thêm**:
+- [**GlobalProtect-openconnect**](https://github.com/yuezk/GlobalProtect-openconnect)

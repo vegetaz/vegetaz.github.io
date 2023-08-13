@@ -60,7 +60,5 @@ ssh-copy-id username-of-server@ngrok-forwarding-address
 Nhập mật khẩu của `username-of-server` để hoàn tất câu lệnh.  
 Từ bây giờ, có thể thực hiện điều khiển (remote) `SSH Key` thông qua `ngrok`.
 
----
-
 **Đọc thêm**:
 - [Using ngrok with SSH](https://ngrok.com/docs/using-ngrok-with/ssh/)

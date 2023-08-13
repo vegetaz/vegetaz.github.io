@@ -28,8 +28,8 @@ ps2exe
 Để khởi chạy chương trình `PS2EXE` trong môi trường giao diện, sử dụng câu lệnh bên dưới trong PowerShell:
 ```powershell
 Win-PS2EXE
-```  
-
+```
+{:refdef: style="text-align: center;"}
 ![Win-PS2EXE](Win-PS2EXE.jpg)
-
-.  
+{: refdef}
+_Win-PS2EXE_

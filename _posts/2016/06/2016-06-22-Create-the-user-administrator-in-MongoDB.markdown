@@ -7,15 +7,13 @@ tags: [database]
 ---
 
 Mặc định để sử dụng MongoDB thì không cần tài khoản và mật khẩu.
-Nhưng trong một số trường hợp cần thiết thì sao?
-Ở đây mình đang nói tới trường hợp sử dụng MongoDB tại môi trường localhost.
 
-Đầu tiên cần sử dụng MongoDB ở môi trường dòng lệnh, tiếp theo là truy cập vào admin database với câu lệnh:
+Chạy câu lệnh bên dưới để sử dụng tài khoản `admin`:
 ```sql
 use admin
 ```
 
-Sau đó sử dụng tập lệnh bên dưới để tạo tài khoản quản trị:
+Tạo thêm tài khoản có quyền quản trị:
 ```sql
 db.createUser(
   {
@@ -25,8 +23,6 @@ db.createUser(
   }
 )
 ```
-Bạn có thể tuỳ chỉnh tên tuỳ ý của bạn tại phần `your_user_admin_name`, sau đó Enter để thực thi và MongoDB sẽ hỏi mật khẩu mà bạn thiết lập cho user này.
 
-Sau khi thiết lập thành công thì bạn có thể sử dụng user đó với role của administrator!
-
-**Nguồn**: [docs.mongodb.com](https://docs.mongodb.com/manual/tutorial/enable-authentication/)
+**Đọc thêm**: 
+- [docs.mongodb.com](https://docs.mongodb.com/manual/tutorial/enable-authentication/)

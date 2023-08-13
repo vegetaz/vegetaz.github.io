@@ -19,4 +19,5 @@ Một số tính năng khác của **ConEmu** bao gồm:
 
 Tổng quan, **ConEmu** là một công cụ mạnh mẽ và linh hoạt giúp cải thiện trải nghiệm làm việc với dòng lệnh trên hệ điều hành Windows. Nó được ưa chuộng bởi những người phát triển và quản trị viên hệ thống để tăng hiệu suất và tiện ích trong công việc hàng ngày của họ.
 
-[**ConEmu** - Handy Windows Terminal](https://conemu.github.io/)
+**Đọc thêm**:
+- [ConEmu - Handy Windows Terminal](https://conemu.github.io/)

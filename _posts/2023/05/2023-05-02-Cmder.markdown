@@ -14,4 +14,5 @@ tags: [windows]
 
 Với giao diện đẹp và tính linh hoạt, **Cmder** là một lựa chọn phổ biến cho những người làm việc với dòng lệnh trên Windows.
 
-[Cmder - Console Emulator](https://cmder.app/)
+**Đọc thêm**:
+- [Cmder - Console Emulator](https://cmder.app/)

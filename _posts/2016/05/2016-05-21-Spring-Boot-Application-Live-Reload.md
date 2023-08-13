@@ -7,9 +7,7 @@ tags: [spring]
 img_path: /assets/img/SpringLiveReload/
 ---
 
-Trong quá trình viết mã, phát triển ứng dụng sử dụng Spring Boot bằng IntelliJ IDEA, thật khó chịu khi phải chạy lại cả chương trình Spring Boot cồng kềnh sau mỗi thay đổi.  
-Spring Boot cung cấp tải lại trực tiếp mà không cần khởi động lại cả chương trình. Chỉ cần thêm:
-
+**Spring Boot** cung cấp một `dependency` tải lại trực tiếp mà không cần khởi động lại cả chương trình:
 ```xml
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -17,21 +15,22 @@ Spring Boot cung cấp tải lại trực tiếp mà không cần khởi động
             <optional>true</optional>
         </dependency>
 ```
-
-Nhưng nó vẫn chưa hoạt động, cần phải tinh chỉnh thêm một số thao tác khác trong IntelliJ IDEA.  
-Đầu tiên, mở **File** - > **Settings...** -> **Build, Execution, Deployment** -> **Compiler** và đảm bảo **Build project automatically** được kích hoạt.  
+Trong IntelliJ IDEA, mở **File** - > **Settings...** -> **Build, Execution, Deployment** -> **Compiler** và đảm bảo **Build project automatically** được kích hoạt.
+{:refdef: style="text-align: center;"}
 ![Build project automatically](Build-project-automatically.png)
+{: refdef}
+_Build project automatically_
 
-Tiếp theo, nhấn tổ hợp phím Ctrl + Shift + A để tìm kiếm Registry...  
-Trong Registry, kích hoạt cấu hình sau:
-
-```
+Nhấn tổ hợp phím **Ctrl + Shift + A** > **Registry...**, kích hoạt cấu hình sau:
+```console
 compiler.automake.allow.when.app.running
 ```
-
+{:refdef: style="text-align: center;"}
 ![](compiler-automake-allow-when-app-running.png)
+{: refdef}
+_compiler.automake.allow.when.app.running_
 
-Khởi động lại IDEA và trải nghiệm!
+Khởi động lại IDEA là có thể sử dụng được!
 
 **Đọc thêm**:
 - [DZone](https://dzone.com/articles/spring-boot-application-live-reload-hot-swap-with)

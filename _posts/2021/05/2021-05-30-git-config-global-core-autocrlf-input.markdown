@@ -18,4 +18,5 @@ Chi tiết về từng phần trong câu lệnh:
 
 Vậy câu lệnh `git config --global core.autocrlf input` là cấu hình Git để xử lý định dạng kết thúc dòng bằng cách chuyển đổi sang LF (Unix-style) khi commit và giữ nguyên LF khi checkout. Điều này sẽ giúp đảm bảo sự nhất quán về định dạng kết thúc dòng trong kho lưu trữ, đặc biệt khi làm việc trên nhiều nền tảng khác nhau.  
 
-Đọc thêm: [Working with Git on Unix/Linux](https://stackoverflow.com/a/40820527/7106855)
+**Đọc thêm**:
+- [Working with Git on Unix/Linux](https://stackoverflow.com/a/40820527/7106855)

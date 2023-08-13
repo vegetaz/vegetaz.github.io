@@ -44,3 +44,6 @@ Trong ví dụ này, tôi đang sử dụng explicit wait để đợi một ph�
 Ngoài ra, trong PowerShell có thể sử dụng câu lệnh `Start-Sleep -Seconds 1` để thay thế cho explicit wait một cách nhanh chóng và tiện lợi.  
 
 Explicit wait là một công cụ mạnh mẽ có thể giúp bạn viết các bài kiểm tra Selenium đáng tin cậy hơn. Bằng cách sử dụng explicit wait, bạn có thể đảm bảo rằng các bài kiểm tra của bạn sẽ không thất bại chỉ vì một phần tử trên trang web chưa được tải hoặc một sự kiện chưa xảy ra.  
+
+**Đọc thêm**:
+- [Explicit waits](https://www.selenium.dev/documentation/webdriver/waits/#explicit-waits)

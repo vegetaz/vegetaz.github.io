@@ -7,11 +7,9 @@ tags: [linux, ubuntu, windows, ssh]
 ---
 
 Để cài đặt **OpenSSH Server** trên Ubuntu có thể tham khảo bài viết sau:  
-[Cài đặt và sử dụng OpenSSH Server trong Linux Mint](https://vegetaz.github.io/linux/ubuntu/ssh/2013/11/09/install-and-use-openssh-in-linux-mint.html)  
-
+[Cài đặt và sử dụng OpenSSH Server trong Linux Mint](https://vegetaz.github.io/posts/install-and-use-openssh-server-in-linux-mint/)
 
 ---
-
 
 Xác định địa chỉ IP của Ubuntu bằng dòng lệnh:  
 ```bash
@@ -23,16 +21,14 @@ ip a
 ```  
 Ghi nhớ địa chỉ IP được hiển thị.  
 
-
 Trên máy tính Windows, có thể kiểm tra số hiệu phiên bản của **OpenSSH Client** với dòng lệnh:  
 ```powershell
 ssh -V
 ```
 Nếu có số hiệu phiên bản OpenSSH, có nghĩa là nó đã được cài đặt. Nếu không, có thể cài đặt nó bằng cách truy cập vào Settings > Apps > Optional features > Add a feature > OpenSSH Client.
 
-
 > Có thể cần cho OpenSSH vào danh sách trắng (whitelist) của tường lửa với cổng (port) 22.  
-
+{:.prompt-info}
 
 Trên máy tính Windows, mở **Command Prompt** hoặc **PowerShell** hoặc **Windows Terminal**, kết nối tới Ubuntu bằng dòng lệnh:  
 ```bash
@@ -40,9 +36,7 @@ ssh username@ubuntu-ip-address
 ```  
 Thay **username** bằng tên người dùng trong Ubuntu và **ubuntu-ip-address** bằng địa chỉ IP của Ubuntu.  
 
-
 ---
-
 
 Các câu lệnh dưới đây là cho trường hợp sử dụng SSH với key.  
 
@@ -51,7 +45,6 @@ Trên Windows, tạo key với câu lệnh:
 ssh-keygen -t rsa
 ```  
 Người dùng sẽ được hỏi nơi để lưu trữ khoá, nhấn Enter để bỏ qua, và sử dụng nơi lưu trữ mặc định.  
-
 
 > Có 2 cặp khoá, **id_rsa** (privatekey - khoá riêng tư) và **id_rsa.pub** (publickey - khoá công khai). **id_rsa** được lưu trữ trên máy tính cá nhân của người dùng. **id_rsa.pub** sẽ được sử dụng trên máy chủ từ xa.  
 
@@ -93,7 +86,6 @@ ssh-copy-id username@ubuntu-ip-address
 sudo chmod 700 /home/%username% && chmod 700 ~/.ssh && chmod 600 ~/.ssh/authorized_keys
 ```  
 
-
 Cấu hình để truy cập bằng SSH key:
 ```bash
 nano /etc/ssh/sshd_config
@@ -116,7 +108,7 @@ Nếu không yêu cầu nhập mật khẩu là thành công.
 
 ---
 
-**Thông tin thêm**: Tiếp theo cấu hình cho tệp tin `config` trong máy tính Windows.  
+> Có thể cấu hình cho tệp tin `config` trong máy tính Windows.  
 Đi đến thư mục `C:\Users\%username%\.ssh` và chỉnh sửa tệp tin `config` bằng chương trình tạo/chỉnh sửa văn bản/mã bất kỳ, với nội dung như sau:
 ```
 Host name-of-ssh-host-here
@@ -129,12 +121,11 @@ Trên Windows, dòng `IdentityFile ~/.ssh/id-remote-ssh` có thể sử dụng c
 IdentityFile C:\\Users\\%username%\\.ssh\\id-remote-ssh
 ```
 Ở trường hợp này tệp tin `id-remote-ssh` chính là `id_rsa`.
-
+{:.prompt-info}
 
 ---
 
-
-Đọc thêm:  
+**Đọc thêm**:  
 - [Remote Development Tips and Tricks](https://code.visualstudio.com/docs/remote/troubleshooting)  
 - [Developing in WSL](https://code.visualstudio.com/docs/remote/wsl)
 - [Remote development in WSL](https://code.visualstudio.com/docs/remote/wsl-tutorial)  
