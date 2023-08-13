@@ -4,6 +4,7 @@ title: "SSH qua Internet bằng ngrok"
 date: 2023-08-05 14:32:01 +0700
 categories: [Information Technology, Tech Tips and Tricks, Software]
 tags: [linux, ubuntu, ssh, windows]
+img_path: /assets/img/ngrok/
 ---
 
 Tạo tài khoản [**ngrok**](https://vegetaz.github.io/linux/windows/2014/12/04/ngrok.html) trên trang <https://dashboard.ngrok.com/signup>.
@@ -34,7 +35,7 @@ ngrok tcp 22
 
 **ngrok** đã được khởi động, trạng thái hoạt động:
 {:refdef: style="text-align: center;"}
-![](/static/img/posts/ngrok/ngrok.png)
+![](ngrok.png)
 {: refdef}
 
 Bây giờ, có thể sử dụng SSH trên máy tính/điện thoại/thiết bị di động có kết nối internet để điều khiển thông qua câu lệnh:

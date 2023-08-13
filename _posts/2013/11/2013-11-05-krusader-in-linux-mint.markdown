@@ -4,6 +4,7 @@ title: "Cài đặt Krusader cho Linux Mint"
 date: 2013-11-05 07:08:09 +0700
 categories: [Information Technology, Software]
 tags: [linux]
+img_path: /assets/img/krusader/
 ---
 
 Trong Microsoft Windows có Total Commander, trong Linux cũng có nhiều phần mềm tương tự như vậy.
@@ -15,7 +16,7 @@ sudo apt install krusader
 
 **Krusader** được khởi động:  
 {:refdef: style="text-align: center;"}
-![Krusader](/static/img/posts/krusader/Krusader.png)
+![Krusader](Krusader.png)
 {: refdef}  
 
 Đọc thêm: [Get your copy of the Krusader file manager](https://krusader.org/get-krusader/index.html)  

@@ -4,6 +4,7 @@ title: "Tạo dự án Jakarta EE với IntelliJ IDEA"
 date: 2020-12-10 16:06:10 +0700
 categories: [Information Technology, Tech Tips and Tricks]
 tags: [java, servlet]
+img_path: /assets/img/jakarta/
 ---
 
 Jakarta ở đây không phải là thành phố của Indonesia, mà là một Java Platform.  
@@ -19,21 +20,21 @@ Một Java Servlet, ở bài viết này chọn [Apache Tomcat 9](https://tomcat
 ### Khởi tạo
 
 Từ giao diện chào mừng của IntelliJ IDEA chọn `New Project`  
-![New Project](/static/img/jakarta/NewProject-1.png)
+![New Project](NewProject-1.png)
 Tiếp theo là chọn `Java Enterprise` > chọn `Project SDK` là 1.8 phiên bản theo sau tuỳ ý. Tiếp tục với `Project template` là `Web application`, và `Application server` là gì thì tuỳ ý, trong bài viết này là `Tomcat 9.0.37`. Và dĩ nhiên ngôn ngữ để phát triển dự án này là Java rồi, ai thích ngôn khác thì tuỳ ý.
-![New Project](/static/img/jakarta/NewProject-2.png)
+![New Project](NewProject-2.png)
 Phần `Specifications` thì chọn là `Servlet`  
-![New Project](/static/img/jakarta/NewProject-3.png)
+![New Project](NewProject-3.png)
 Và đặt tên, chọn nơi lưu cho dự án vừa khởi tạo
-![New Project](/static/img/jakarta/NewProject-4.png)
+![New Project](NewProject-4.png)
 
 ### Chạy chương trình
 
 Giao diện đàu tiên sau khi khởi tạo dự án  
-![Jakarta 2020](/static/img/jakarta/Jakarta-1.png)
+![Jakarta 2020](Jakarta-1.png)
 Chạy thử  
-![Jakarta 2020](/static/img/jakarta/Jakarta-2.png)
+![Jakarta 2020](Jakarta-2.png)
 Cấu hình  
-![Jakarta 2020](/static/img/jakarta/Jakarta-3.png)
+![Jakarta 2020](Jakarta-3.png)
 
 Hoya!

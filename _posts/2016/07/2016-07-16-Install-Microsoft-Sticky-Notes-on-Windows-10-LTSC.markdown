@@ -4,6 +4,7 @@ title: "Cài đặt Microsoft Sticky Notes trên Windows 10 LTSC"
 date: 2016-07-16 15:25:10 +0700
 categories: [Information Technology, Software]
 tags: [windows]
+img_path: /assets/img/StickyNotes/
 ---
 
 Gần đây mình thích sử dụng Windows 10 Enterprise LTSC, vì sự nhẹ nhàng của nó.

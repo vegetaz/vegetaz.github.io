@@ -4,6 +4,7 @@ title: "Cấu hình, khởi động, tắt server PostgreSQL"
 date: 2016-04-26 04:19:22 +0700
 categories: [Information Technology, Software, Tech Tips and Tricks]
 tags: [windows]
+img_path: /assets/img/PostgreSQL/
 ---
 
 Đầu tiên là cần phải [download PostgreSQL](https://www.enterprisedb.com/download-postgresql-binaries) về đã.  
@@ -11,7 +12,7 @@ Trong bài viết này mình sử dụng hệ điều hành Windows 10, và sử
 
 Tiếp theo là giải nén PostgreSQL ra 1 nơi nào đó trên máy.  
 Khai báo PostgreSQL trong `Evironment Variables` của Windows:  
-![](/static/img/posts/Variables-2019-12-21.png)
+![](Variables-2019-12-21.png)
 
 Tạo thêm 1 thư mục `data` để lưu trữ database của PostgreSQL.
 
@@ -30,7 +31,7 @@ initdb.exe -U postgre -A password -E utf8 -W -D D:\Tools\pgsql\data
 Trong đó `postgre` là tài khoản đăng nhập, và `password` sẽ được nhập sau khi câu lệnh trên được thực thi.
 
 Như thế này là thành công!
-![](/static/img/posts/Success-2019-12-21.png)
+![](Success-2019-12-21.png)
 
 Mỗi lần muốn khởi động server của PostgreSQL thì sử dụng câu lệnh:
 

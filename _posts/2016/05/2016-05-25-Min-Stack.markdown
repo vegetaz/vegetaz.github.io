@@ -45,4 +45,4 @@ class MinStack {
 }
 ```
 
-Source: [leetcode](https://leetcode.com/problems/min-stack/) and [voz](https://next.voz.vn/t/chellenge-300-bai-code-thieu-nhi.40335/post-1091820)
+Source: [leetcode](https://leetcode.com/problems/min-stack/)

@@ -4,6 +4,7 @@ title: "Chuyển mã PowerShell thành tệp tin exe với PS2EXE"
 date: 2019-12-17 16:06:10 +0700
 categories: [Information Technology, Software]
 tags: [powershell, windows]
+img_path: /assets/img/ps2exe/
 ---
 
 `PS2EXE` là một mô-đun có sẵn trên trang [PowerShell Gallery](https://www.powershellgallery.com/packages/ps2exe). Có khả năng chuyển mã PowerShell thành tệp thực thi .exe. Có thể khởi chạy `PS2EXE` dưới dạng dòng lệnh (Commandline) hoặc giao diện (GUI).  
@@ -29,6 +30,6 @@ ps2exe
 Win-PS2EXE
 ```  
 
-![Win-PS2EXE](/static/img/posts/ps2exe/Win-PS2EXE.jpg)
+![Win-PS2EXE](Win-PS2EXE.jpg)
 
 .  

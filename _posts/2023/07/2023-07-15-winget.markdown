@@ -4,6 +4,7 @@ title: "Sử dụng winget để cập nhật tất cả các ứng dụng"
 date: 2023-07-15 20:30:10 +0700
 categories: [Information Technology, Tech Tips and Tricks, Software]
 tags: [powershell, windows]
+img_path: /assets/img/winget/
 ---
 
 Cập nhật tất cả các ứng dụng ở đây là các ứng dụng có nguồn (source) từ `winget`.  
@@ -45,7 +46,7 @@ Cài đặt Visual Studio Code:
 ```powershell
 winget install -e --id XP9KHM4BK9FZ7Q
 ```  
-![Visual Studio Code](/static/img/posts/winget/winget_install_XP9KHM4BK9FZ7Q.png)  
+![Visual Studio Code](winget_install_XP9KHM4BK9FZ7Q.png)  
 
 Để cập nhật tất cả các ứng dụng khả dụng từ nguồn `winget` và đã được cài đặt thì sử dụng câu lệnh:  
 ```powershell

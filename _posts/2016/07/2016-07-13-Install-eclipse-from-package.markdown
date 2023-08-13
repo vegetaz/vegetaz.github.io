@@ -4,13 +4,14 @@ title: "Tải về và cài đặt eclipse trên Ubuntu"
 date: 2016-07-13 15:25:10 +0700
 categories: [Information Technology, Software]
 tags: [linux, ubuntu, others]
+img_path: /assets/img/install-eclipse/
 ---
 
 Đây là cách sử dụng Eclipse IDE for Enterprise Java Developers bằng cách download package từ [trang chủ eclipse](https://www.eclipse.org/downloads/packages/).
 
 ### Tải về
 Truy cập vào trang chủ eclipse, lựa chọn phiên bản phù hợp, ở đây mình lựa chọn Eclipse IDE for Enterprise Java Developers, tiếp theo là gói phù hợp cho hệ điều hành, lựa chọn của mình trong trường hợp này là `Linux x86_64`.  
-![Download eclipse](/static/img/install-eclipse/Download_eclipse.png)
+![Download eclipse](Download_eclipse.png)
 
 ### Giải nén
 Giải nén tệp tin .tar.gz đã tải về với câu lệnh sau:  
@@ -25,7 +26,7 @@ mv eclipse /opt/
 
 ### Khởi chạy
 Để chạy được chương trình eclipse thì rất dễ, chỉ cần nháy đúp vào biểu tượng eclipse là được.
-![eclipse](/static/img/install-eclipse/eclipse.png)
+![eclipse](eclipse.png)
 Mỗi lần muốn mở eclipse lên, lại mất nhiều thao tác để tới thư mục của eclipse. Mình là người lười nên tạo luôn đường dẫn khởi chạy cho eclipse:  
 ```bash
 sudo gedit /usr/share/applications/eclipse.desktop

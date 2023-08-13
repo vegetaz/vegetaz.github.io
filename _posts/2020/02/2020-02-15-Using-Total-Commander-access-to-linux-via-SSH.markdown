@@ -4,6 +4,7 @@ title: "Sử dụng Total Commander để truy cập vào Linux thông qua giao 
 date: 2020-02-15 15:15:15 +0700
 categories: [Information Technology, Tech Tips and Tricks]
 tags: [linux, windows, ssh]
+img_path: /assets/img/total-commander/
 ---
 
 #### Yêu cầu
@@ -22,7 +23,7 @@ Nhấn phím **F7** để đặt tên và tạo kết nối mới.
 Sau khi đặt tên hoàn tất, nhấn **OK** để tới cửa sổ **Connect to SFTP Server**.  
 
 {:refdef: style="text-align: center;"}
-![Connect to SFTP Server](/static/img/posts/total-commander/Connect_to_SFTP_Server.png)
+![Connect to SFTP Server](Connect_to_SFTP_Server.png)
 {: refdef}  
 
 Tại cửa sổ **Connect to SFTP Server**, thiết lập đơn giản với địa chỉ IP, tên đăng nhập và mật khẩu của Linux Server.  

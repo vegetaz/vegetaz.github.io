@@ -4,11 +4,12 @@ title: "Một số mẫu tham khảo cho web.xml"
 date: 2016-05-22 04:04:23 +0700
 categories: [Information Technology, Tech Tips and Tricks]
 tags: [web, spring]
+img_path: /assets/img/ExampleWebXML/
 ---
 
 `web.xml` là tệp để cấu hình mô tả triển khai mô hình web trong servlet.
 
-![web.xml](/static/img/posts/web.xml-jsp-servlet.png)
+![web.xml](web.xml-jsp-servlet.png)
 
 Dưới đây là một số mẫu cấu hình `web.xml` với mục đích tham khảo.
 

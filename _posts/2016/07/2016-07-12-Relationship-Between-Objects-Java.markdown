@@ -4,6 +4,7 @@ title: "Mối quan hệ giữa các đối tượng trong java"
 date: 2016-07-12 15:25:10 +0700
 categories: [Information Technology, Tech Tips and Tricks]
 tags: [java]
+img_path: /assets/img/RelationJava/
 ---
 
 Bài này bạn và tôi sẽ đi tìm hiểu về mối quan hệ giữa các đối tượng trong Java.
@@ -21,7 +22,7 @@ class ClassA{
 Trong trường hợp trên lớp ClassA sẽ phụ thuộc vào lớp ClassB, nếu lớp ClassB thay đổi thì có thể lớp ClassA sẽ phải thay đổi theo.
 
 Đây là quan hệ rộng nhất và được biểu diễn bằng mũi tên nét đứt giống như sau:
-![Quan Hệ Phụ Thuộc](/static/img/posts/Quan_he_phu_thuoc.png)
+![Quan Hệ Phụ Thuộc](Quan_he_phu_thuoc.png)
 
 ## Quan hệ kết hợp (Association)
 Quan hệ kết hợp xảy ra khi một đối tượng có thuộc tính là một đối tượng khác.  
@@ -71,11 +72,11 @@ public class ClassA {
 }
 ```
 Có thể thấy đối tượng của ClassB tồn tại độc lập với đối tượng của ClassA (ClassA không tạo ra đối tượng của ClassB).
-![Quan Hệ Thu Nạp](/static/img/posts/Aggregation.png)
+![Quan Hệ Thu Nạp](Aggregation.png)
 
 ### Quan hệ hợp thành (Composition)
 Quan hệ hợp thành xảy ra khi đối tượng của lớp ClassB là 1 phần trong đối tượng của lớp ClassA, khi đối tượng của lớp ClassA bị hủy thì đối tượng của ClassB cũng bị hủy theo. Ví dụ mối quan hệ giữa File và Folder, một Folder sẽ có nhiều File và nếu Folder bị hủy thì File cũng bị hủy theo. Quan hệ hợp thành này sẽ được biểu diễn dưới sơ đồ lớp như sau:
-![Quan Hệ Hợp Thành](/static/img/posts/Composition.png)
+![Quan Hệ Hợp Thành](Composition.png)
 
 
 Số 1 và ký tự * thể hiện rằng 1 Folder sẽ có nhiều File. Nếu nói tới code thì khi một đối tượng được tạo ra trong một đối tượng khác thì đó là quan hệ hợp thành:
