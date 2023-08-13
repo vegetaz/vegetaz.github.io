@@ -10,7 +10,7 @@ img_path: /assets/img/GitBashWindowsTerminal/
 ![Git Bash](2019-11-26_14-59-51.png)
 _Git Bash_
 
-Đảm bảo đã cài đặt [git-scm](https://git-scm.com/downloads) trước đã.
+Đảm bảo [git-scm](https://git-scm.com/downloads) đã được cài đặt.
 
 Tải về [Windows Terminal](https://github.com/microsoft/terminal).
 
@@ -73,5 +73,5 @@ Thêm tiếp đoạn mã này vào phần `schemes`:
 ]
 ```
 
-> Muốn đặt Git Bash là chương trình mặc định mỗi khi khởi động Windows Terminal thì có thể thay đổi giá trị `defaultProfile` trong phần `globals` theo `guid` của Git Bash.
+> Muốn đặt `Git Bash` là chương trình mặc định mỗi khi khởi động Windows Terminal thì có thể thay đổi giá trị `defaultProfile` trong phần `globals` theo `guid` của Git Bash.
 {:.prompt-info}
