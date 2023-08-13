@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Cách kiểm tra phiên bản, số hiệu của .NET trên máy tính Windows"
+title: "Cách kiểm tra số hiệu phiên bản của .NET trên máy tính Windows"
 date: 2013-01-01 07:07:07 +0700
 categories: [Information Technology, Tech Tips and Tricks]
 tags: [powershell, windows]
