@@ -11,4 +11,4 @@ Trong cửa sổ  `Synaptic Package Manager`, đi đến `Settings`, chọn `Pre
 Nhấn vào nút `Delete Cached Package Files` để dọn dẹp Linux Mint sau khi cập nhật.  Nhấn `Apply`, sau đó nhấn `OK`.  
 
 Để cập nhật Linux Mint, từ thực đơn, đi đến `Settings`, chọn `Update Manager`.  
-Trong cửa sổ  `Update Manager` chọn `Install Updates` để cập nhật Linux Mint.  
+Trong cửa sổ  `Update Manager` chọn `Install Updates` để cập nhật Linux Mint.

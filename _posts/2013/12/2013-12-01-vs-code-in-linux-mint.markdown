@@ -3,10 +3,11 @@ layout: post
 title: "Cài đặt Visual Studio Code cho Linux Mint"
 date: 2013-12-01 07:08:09 +0700
 categories: [Information Technology, Software]
-tags: [linux]
+tags: [linux, ubuntu]
 ---
 
-Các câu lệnh dưới đây chạy trong Terminal của Linux Mint.  
+> Các câu lệnh dưới đây chạy trong Terminal của Linux Mint hoặc Ubuntu.  
+{:.prompt-info}
 
 ### Yêu cầu
 ```bash
@@ -38,7 +39,5 @@ code
 sudo apt-get update
 sudo apt-get upgrade code
 ```  
-
-Nên cài [Chrome](https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb) trước khi cài đặt Visual Studio Code.  
 
 Đọc thêm: [Visual Studio Code on Linux](https://code.visualstudio.com/docs/setup/linux)  
