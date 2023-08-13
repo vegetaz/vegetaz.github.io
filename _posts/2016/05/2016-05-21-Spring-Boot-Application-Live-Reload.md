@@ -2,7 +2,8 @@
 layout: post
 title: "Spring Boot Application Live Reload (Hot Swap) With IntelliJ IDEA"
 date: 2016-05-21 14:32:04 +0700
-categories: [spring]
+categories: [Information Technology, Tech Tips and Tricks]
+tags: [spring]
 ---
 
 Trong quá trình viết mã, phát triển ứng dụng sử dụng Spring Boot bằng IntelliJ IDEA, thật khó chịu khi phải chạy lại cả chương trình Spring Boot cồng kềnh sau mỗi thay đổi.  

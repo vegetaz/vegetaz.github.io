@@ -2,7 +2,8 @@
 layout: post
 title: "Cài đặt phông chữ Windows TrueType cho Linux Mint"
 date: 2013-12-03 07:08:09 +0700
-categories: [linux]
+categories: [Information Technology, Software]
+tags: [linux]
 ---
 
 Dùng câu lệnh bên dưới trong cửa sổ `Terminal` để cài đặt phông chữ Windows TrueType cho Linux Mint:  

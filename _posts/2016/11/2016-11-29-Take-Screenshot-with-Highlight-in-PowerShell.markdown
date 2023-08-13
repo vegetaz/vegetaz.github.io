@@ -2,7 +2,8 @@
 layout: post
 title: "Chụp ảnh màn hình của trang web có khoanh vùng bằng Selenium trong PowerShell"
 date: 2016-11-29 11:11:11 +0700
-categories: [selenium, powershell]
+categories: [Information Technology, Testing]
+tags: [selenium, powershell]
 ---
 
 Trong PowerShell có thể sử dụng phương thức (medthod) `GetScreenshot()` để chụp ảnh màn hình của trang web. Có thể khoanh vùng phần tử và chụp ảnh màn hình với sự trợ giúp của JavaScript.  

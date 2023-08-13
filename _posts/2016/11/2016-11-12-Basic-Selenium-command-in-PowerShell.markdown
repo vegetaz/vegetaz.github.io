@@ -2,7 +2,8 @@
 layout: post
 title: "Một số câu lệnh cơ bản của Selenium trong PowerShell"
 date: 2016-11-12 11:11:11 +0700
-categories: [selenium, powershell]
+categories: [Information Technology, Tech Tips and Tricks, Testing]
+tags: [selenium, powershell]
 ---
 
 ### Go to URL

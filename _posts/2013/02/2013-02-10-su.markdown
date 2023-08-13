@@ -2,7 +2,8 @@
 layout: post
 title: "su"
 date: 2013-02-10 17:36:37 +0700
-categories: [linux]
+categories: [Information Technology]
+tags: [linux]
 ---
 
 Trong Linux, **su** là một lệnh dòng lệnh cho phép người dùng đăng nhập hoặc chuyển đổi sang tài khoản người dùng khác, bao gồm cả tài khoản root (quyền quản trị hệ thống). Tên **su** là viết tắt của **Switch User** hoặc **Substitute User**.

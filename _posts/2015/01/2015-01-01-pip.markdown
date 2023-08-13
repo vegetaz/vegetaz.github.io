@@ -2,7 +2,8 @@
 layout: post
 title: "Pip Installs Packages"
 date: 2015-01-01 13:13:13 +0700
-categories: [linux, windows]
+categories: [Information Technology, Software]
+tags: [linux, windows]
 ---
 
 **pip** là một công cụ quản lý gói (package) cho ngôn ngữ lập trình Python. Tên gọi "pip" được viết tắt từ cụm từ "Pip Installs Packages" (Pip Cài Đặt Gói). Nó được sử dụng để tải xuống, cài đặt, và quản lý các thư viện và gói phần mềm bổ sung (packages) của Python từ Python Package Index (PyPI) và các nguồn khác.

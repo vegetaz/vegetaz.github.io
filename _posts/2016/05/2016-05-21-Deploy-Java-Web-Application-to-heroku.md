@@ -2,7 +2,8 @@
 layout: post
 title: "Deploy ứng dụng Java Web lên heroku"
 date: 2016-05-22 04:10:03 +0700
-categories: [java, web]
+categories: [Information Technology, Tech Tips and Tricks]
+tags: [java, web]
 ---
 
 `heroku` là một dịch vụ máy chủ, đám mây hỗ trợ một số ngôn ngữ lập trình. Trong đó có Java, NodeJS, PHP, ...

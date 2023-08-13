@@ -2,7 +2,8 @@
 layout: post
 title: "Cài đặt Java cho Linux Mint"
 date: 2013-11-03 07:08:09 +0700
-categories: [linux, ubuntu]
+categories: [Information Technology]
+tags: [linux, ubuntu]
 ---
 
 #### Cập nhật

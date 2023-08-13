@@ -2,7 +2,8 @@
 layout: post
 title: "SSH qua Internet bằng ngrok"
 date: 2023-08-05 14:32:01 +0700
-categories: [linux, ubuntu, ssh, windows]
+categories: [Information Technology, Tech Tips and Tricks, Software]
+tags: [linux, ubuntu, ssh, windows]
 ---
 
 Tạo tài khoản [**ngrok**](https://vegetaz.github.io/linux/windows/2014/12/04/ngrok.html) trên trang <https://dashboard.ngrok.com/signup>.

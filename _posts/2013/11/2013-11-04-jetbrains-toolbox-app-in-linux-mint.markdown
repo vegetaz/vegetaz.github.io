@@ -2,7 +2,8 @@
 layout: post
 title: "Cài đặt JetBrains Toolbox App cho Linux Mint"
 date: 2013-11-04 07:08:09 +0700
-categories: [linux]
+categories: [Information Technology]
+tags: [linux]
 ---
 
 Tải về gói **.tar.gz** từ trang [https://www.jetbrains.com/toolbox-app/](https://www.jetbrains.com/toolbox-app/).  

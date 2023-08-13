@@ -2,7 +2,8 @@
 layout: post
 title: "Tạo dự án Jakarta EE với IntelliJ IDEA"
 date: 2020-12-10 16:06:10 +0700
-categories: [java, servlet]
+categories: [Information Technology, Tech Tips and Tricks]
+tags: [java, servlet]
 ---
 
 Jakarta ở đây không phải là thành phố của Indonesia, mà là một Java Platform.  

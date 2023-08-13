@@ -2,7 +2,8 @@
 layout: post
 title: "Sử dụng winget để cập nhật tất cả các ứng dụng"
 date: 2023-07-15 20:30:10 +0700
-categories: [others, powershell, windows]
+categories: [Information Technology, Tech Tips and Tricks, Software]
+tags: [powershell, windows]
 ---
 
 Cập nhật tất cả các ứng dụng ở đây là các ứng dụng có nguồn (source) từ `winget`.  

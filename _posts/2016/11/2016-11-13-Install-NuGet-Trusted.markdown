@@ -2,7 +2,8 @@
 layout: post
 title: "Cài đặt NuGet"
 date: 2016-11-13 11:11:11 +0700
-categories: [windows, powershell, others]
+categories: [Information Technology, Software]
+tags: [windows, powershell]
 ---
 
 NuGet được sử dụng có số hiệu phiên bản là 3(v3). Sử dụng trên nền Microsoft PowerShell.  

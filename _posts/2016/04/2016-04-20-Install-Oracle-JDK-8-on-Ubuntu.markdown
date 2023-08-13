@@ -2,7 +2,8 @@
 layout: post
 title: "Cài đặt Oracle JDK-8 trên Ubuntu"
 date: 2016-04-20 09:41:20 +0700
-categories: [java, linux, ubuntu]
+categories: [Information Technology, Software]
+tags: [java, linux, ubuntu]
 ---
 
 Ubuntu này là Subsytem trên Windows nhé các bạn. Mục đích sử dụng Ubuntu của mình không có nhiều nên mình không cài Ubuntu như một hệ điều hành riêng biệt mà tận dụng của Windows 10 luôn.

@@ -1,0 +1,19 @@
+---
+layout: post
+title: "distro"
+date: 2013-02-11 17:36:37 +0700
+categories: [Information Technology]
+tags: [linux]
+---
+
+Trong ngữ cảnh phần mềm, thuật ngữ **distro** là một từ viết tắt của **distribution** (phân phối). Nó thường được sử dụng trong ngữ cảnh hệ điều hành Linux.
+
+Một distro Linux (hay còn gọi là bản phân phối Linux) là một phiên bản cụ thể của hệ điều hành Linux, bao gồm kernel Linux và một bộ sưu tập các phần mềm và công cụ khác nhau. Mỗi distro Linux có thể có mục tiêu và ưu điểm riêng, như sự ổn định, dễ sử dụng, hiệu suất cao, tích hợp đồ họa mạnh mẽ, tùy chỉnh linh hoạt, hoặc hướng đến mục tiêu sử dụng cụ thể như máy chủ, máy tính cá nhân, máy tính xách tay, thiết bị nhúng, và nhiều hơn nữa.
+
+Một số distro phổ biến của Linux bao gồm Ubuntu, Fedora, Debian, CentOS, Arch Linux, và Mint. Mỗi distro có cấu trúc và công cụ quản lý gói phần mềm riêng, và có thể đi kèm với các giao diện người dùng đồ họa khác nhau như GNOME, KDE, Xfce, hoặc LXDE.
+
+Người dùng có thể lựa chọn distro Linux phù hợp với nhu cầu và sở thích của mình, và cài đặt nó trên máy tính để sử dụng. Mỗi distro Linux cung cấp các tính năng và công cụ riêng, và có cộng đồng sử dụng và hỗ trợ độc lập.
+
+**Đọc thêm**:
+- [Linux distribution](https://en.wikipedia.org/wiki/Linux_distribution)
+- [Bản phân phối Linux](https://vi.wikipedia.org/wiki/B%E1%BA%A3n_ph%C3%A2n_ph%E1%BB%91i_Linux)

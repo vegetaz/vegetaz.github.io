@@ -2,7 +2,8 @@
 layout: post
 title: "Cài đặt và sử dụng OpenSSH Server trong Linux Mint"
 date: 2013-11-09 07:08:09 +0700
-categories: [linux, ubuntu, ssh]
+categories: [Information Technology, Software]
+tags: [linux, ubuntu, ssh]
 ---
 
 **OpenSSH Client** nếu đã được cài đặt trong hệ thống Linux (Ubuntu, Linux Mint), có kiểm tra số hiệu phiên bản bằng câu lệnh sau:  

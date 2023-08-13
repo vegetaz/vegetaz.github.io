@@ -2,7 +2,8 @@
 layout: post
 title: "Cài đặt Beyond Compare cho Linux Mint"
 date: 2013-11-06 07:08:09 +0700
-categories: [linux]
+categories: [Information Technology, Software]
+tags: [linux]
 ---
 
 **Beyond Compare** là 1 công cụ dùng để  so sánh tệp tin, thư mục.  

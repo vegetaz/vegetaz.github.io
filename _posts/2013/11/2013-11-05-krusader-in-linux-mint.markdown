@@ -2,7 +2,8 @@
 layout: post
 title: "Cài đặt Krusader cho Linux Mint"
 date: 2013-11-05 07:08:09 +0700
-categories: [linux]
+categories: [Information Technology, Software]
+tags: [linux]
 ---
 
 Trong Microsoft Windows có Total Commander, trong Linux cũng có nhiều phần mềm tương tự như vậy.

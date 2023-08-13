@@ -2,7 +2,8 @@
 layout: post
 title: "Cài đặt Unikey cho Linux Mint"
 date: 2013-12-02 07:08:09 +0700
-categories: [linux]
+categories: [Information Technology, Software]
+tags: [linux]
 ---
 
 Linux Mint có sẵn bộ gõ tiếng Việt là `Unikey` trong `Input method`.  

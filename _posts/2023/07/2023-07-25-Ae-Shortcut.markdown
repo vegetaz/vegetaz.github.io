@@ -2,7 +2,8 @@
 layout: post
 title: "Các phím tắt trong Adobe After Effects"
 date: 2023-07-15 20:30:10 +0700
-categories: [ae, windows]
+categories: [Information Technology, Tech Tips and Tricks]
+tags: [ae, windows]
 ---
 
 Việc sử dụng thành thạo các phím tắt trong After Effect là điều cần thiết, tiết kiệm thời gian và công sức.  

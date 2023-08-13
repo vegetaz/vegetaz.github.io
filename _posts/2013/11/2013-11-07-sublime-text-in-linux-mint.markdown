@@ -2,7 +2,8 @@
 layout: post
 title: "Cài đặt Sublime Text cho Linux Mint"
 date: 2013-11-07 07:08:09 +0700
-categories: [linux]
+categories: [Information Technology, Software]
+tags: [linux]
 ---
 
 **Sublime Text** là 1 công cụ dùng để  chỉnh sửa mã (code).  

@@ -2,7 +2,8 @@
 layout: post
 title: "Thêm Git Bash vào Windows Terminal"
 date: 2016-04-19 20:15:33 +0700
-categories: [git]
+categories: [Information Technology]
+tags: [git]
 ---
 
 ![Git Bash](/static/img/posts/2019-11-26_14-59-51.png)

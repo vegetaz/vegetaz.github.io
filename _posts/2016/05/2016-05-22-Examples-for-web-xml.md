@@ -2,7 +2,8 @@
 layout: post
 title: "Một số mẫu tham khảo cho web.xml"
 date: 2016-05-22 04:04:23 +0700
-categories: [web, spring]
+categories: [Information Technology, Tech Tips and Tricks]
+tags: [web, spring]
 ---
 
 `web.xml` là tệp để cấu hình mô tả triển khai mô hình web trong servlet.

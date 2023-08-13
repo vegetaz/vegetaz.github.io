@@ -2,7 +2,8 @@
 layout: post
 title: "Min Stack"
 date: 2016-05-25 05:25:06 +0700
-categories: [java]
+categories: [Information Technology, Tech Tips and Tricks]
+tags: [java]
 ---
 
 Design a stack that supports push, pop, top, and retrieving the minimum element in constant time.

@@ -2,7 +2,8 @@
 layout: post
 title: "Kiểm thử tự động ứng dụng trên Windows với WinAppDriver"
 date: 2023-08-03 14:32:01 +0700
-categories: [windows, selenium]
+categories: [Information Technology, Software]
+tags: [windows, selenium]
 ---
 
 Trình điểu khiển ứng dụng Windows (**WinAppDriver**) là một dịch vụ (service) hỗ trợ tự động kiểm thử giao diện (UI Test Automation) giống như Selenium trên các ứng dụng Windows. Dịch vụ này hỗ trợ kiểm thử các ứng dụng Universal Windows Platform (UWP), Windows Forms (WinForms), Windows Presentation Foundation (WPF), và Classic Windows (Win32) chạy trên máy tính Windows 10.
@@ -17,7 +18,7 @@ Trình điểu khiển ứng dụng Windows (**WinAppDriver**) là một dịch 
 
 Windows Application Driver sẽ chạy trên máy tính kiểm thư và lắng nghe các yêu cầu trên địa chỉ IP và cổng mặc đinh (`127.0.0.1:4723`). Có thể chạy bất kỳ ứng dụng cần kiểm thử nào [Tests](/Tests/) hoặc [Samples](/Samples). `WinAppDriver.exe` có thể được cấu hình lại địa chỉ IP và cổng lắng nghe, ví dụ:
 
-```
+```powershell
 WinAppDriver.exe 4727
 WinAppDriver.exe 10.0.0.10 4725
 WinAppDriver.exe 10.0.0.10 4723/wd/hub

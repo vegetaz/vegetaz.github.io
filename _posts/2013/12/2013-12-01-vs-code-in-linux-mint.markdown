@@ -2,7 +2,8 @@
 layout: post
 title: "Cài đặt Visual Studio Code cho Linux Mint"
 date: 2013-12-01 07:08:09 +0700
-categories: [linux]
+categories: [Information Technology, Software]
+tags: [linux]
 ---
 
 Các câu lệnh dưới đây chạy trong Terminal của Linux Mint.  

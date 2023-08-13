@@ -2,7 +2,8 @@
 layout: post
 title: "Tắt “Safe Update Mode” trên MySQL Workbench"
 date: 2016-04-19 19:39:02 +0700
-categories: [mysql]
+categories: [Information Technology, Tech Tips and Tricks]
+tags: [mysql]
 ---
 
 Khi sử dụng MySQL Workbench để thực hiện câu lệnh update, delete dữ liệu sử câu điều kiện WHERE với một column không phải KEY, có trường hợp bạn sẽ gặp 1 lỗi như bên dưới.

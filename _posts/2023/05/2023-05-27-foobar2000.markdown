@@ -2,7 +2,8 @@
 layout: post
 title: "foobar2000"
 date: 2023-05-27 16:06:10 +0700
-categories: [others, windows]
+categories: [Information Technology]
+tags: [windows]
 ---
 
 foobar2000 là một phần mềm phát âm thanh miễn phí cho Microsoft Windows, iOS và Android được phát triển bởi Peter Pawłowski. Nó được biết đến với thiết kế mô-đun cao, nhiều tính năng và khả năng tùy biến linh hoạt. Bộ phát triển phần mềm cho phép các nhà phát triển bên thứ 3 có thể thay thế hoàn toàn giao diện.

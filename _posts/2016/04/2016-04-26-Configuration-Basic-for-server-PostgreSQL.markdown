@@ -2,7 +2,8 @@
 layout: post
 title: "Cấu hình, khởi động, tắt server PostgreSQL"
 date: 2016-04-26 04:19:22 +0700
-categories: [database]
+categories: [Information Technology, Software, Tech Tips and Tricks]
+tags: [windows]
 ---
 
 Đầu tiên là cần phải [download PostgreSQL](https://www.enterprisedb.com/download-postgresql-binaries) về đã.  

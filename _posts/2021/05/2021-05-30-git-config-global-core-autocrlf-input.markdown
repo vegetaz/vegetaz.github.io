@@ -2,7 +2,8 @@
 layout: post
 title: "Đảm bảo sự nhất quán về định dạng kết thúc dòng trong Git"
 date: 2021-05-30 21:21:21 +0700
-categories: [git, linux, windows]
+categories: [Information Technology, Tech Tips and Tricks]
+tags: [git, linux, windows]
 ---
 
 Câu lệnh `git config --global core.autocrlf input` được sử dụng để cấu hình Git để xử lý định dạng kết thúc dòng (line ending) trong các tệp tin trong kho lưu trữ (Git Repository).

@@ -2,7 +2,8 @@
 layout: post
 title: "Cài đặt MySQL Server và MySQL Workbench trên Ubuntu"
 date: 2016-05-30 05:25:06 +0700
-categories: [mysql, ubuntu]
+categories: [Information Technology, Software]
+tags: [mysql, ubuntu]
 ---
 
 Để cài đặt được **MySQL Server** và **MySQL Workbench** trên hệ điều hành **Ubuntu Linux** thì bạn cần cập nhật Ubuntu cũng như các thư viện, phần mềm có liên quan bằng câu lệnh huyền thoại trong Terminal

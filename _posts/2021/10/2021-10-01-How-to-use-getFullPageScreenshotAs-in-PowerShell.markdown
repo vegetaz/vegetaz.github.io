@@ -2,7 +2,8 @@
 layout: post
 title: "Cách sử dụng phương thức getFullPageScreenshotAs trong PowerShell"
 date: 2021-10-01 16:06:10 +0700
-categories: [selenium, powershell]
+categories: [Information Technology, Tech Tips and Tricks, Testing]
+tags: [selenium, powershell, windows]
 ---
 
 Phương thức (medthod) `getFullPageScreenshotAs` ra đời ngày 22 tháng 9 năm 2021 ở phiên bản Selenium 4. Nó cho phép WebDriver chụp ảnh toàn bộ trang web, bao gồm cả các phần không hiển thị trên màn hình. Phương thức này có thể hữu ích để xác minh rằng toàn bộ trang web đang hoạt động như mong đợi, hoặc để ghi lại lỗi khi điều hướng đến một trang web.  

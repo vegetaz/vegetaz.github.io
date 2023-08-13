@@ -2,7 +2,8 @@
 layout: post
 title: "PPA"
 date: 2013-02-02 17:36:37 +0700
-categories: [linux, ubuntu]
+categories: [Information Technology]
+tags: [linux, ubuntu]
 ---
 
 **PPA** là viết tắt của **Personal Package Archive** (Kho lưu trữ Gói cá nhân). Đây là một dịch vụ được cung cấp bởi hệ điều hành Ubuntu, cho phép người dùng tạo ra các kho lưu trữ phần mềm cá nhân để cài đặt các ứng dụng, gói phần mềm hoặc các bản cập nhật không chính thức trên hệ thống Ubuntu của họ.

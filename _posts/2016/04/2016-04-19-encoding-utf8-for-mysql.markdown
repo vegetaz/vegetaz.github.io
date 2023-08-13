@@ -2,7 +2,8 @@
 layout: post
 title: "Mã hoá UTF-8 trong MySQL"
 date: 2016-04-19 02:28:15 +0700
-categories: [mysql, database]
+categories: [Information Technology, Database]
+tags: [mysql]
 ---
 
 **MySQL** hỗ trợ nhiều bộ ký tự Unicode:

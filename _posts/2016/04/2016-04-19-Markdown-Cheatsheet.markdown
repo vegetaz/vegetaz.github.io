@@ -2,7 +2,8 @@
 layout: post
 title: "Markdown Cheatsheet"
 date: 2016-04-19 19:31:43 +0700
-categories: [others]
+categories: [Information Technology, Tech Tips and Tricks]
+tags: [linux, windows]
 ---
 
 **Markdown** is a way to style text on the web. You control the display of the document; formatting words as

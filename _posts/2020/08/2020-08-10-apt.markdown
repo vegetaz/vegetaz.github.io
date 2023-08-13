@@ -2,7 +2,8 @@
 layout: post
 title: "apt"
 date: 2020-08-10 18:59:58 +0700
-categories: [linux, ubuntu]
+categories: [Information Technology]
+tags: [linux, ubuntu]
 ---
 
 Công cụ quản lý gói phần mềm **apt** (Advanced Package Tool) ra đời vào năm 1998. Nó được phát triển bởi các nhà phát triển hệ điều hành Debian như Jason Gunthorpe và APT Development Team. **apt** được thiết kế để thay thế công cụ quản lý gói phần mềm trước đó của Debian là **dpkg-ftp** và **dpkg-http**.

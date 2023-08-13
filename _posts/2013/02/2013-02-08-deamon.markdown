@@ -2,7 +2,8 @@
 layout: post
 title: "Daemon"
 date: 2013-02-08 17:36:37 +0700
-categories: [linux]
+categories: [Information Technology]
+tags: [linux]
 ---
 
 Trong công nghệ thông tin, thuật ngữ **daemon** thường được sử dụng để chỉ một loại chương trình hoạt động ở nền và thường không tương tác trực tiếp với người dùng. **Daemon** (còn được gọi là dịch vụ nền) là một quá trình máy tính hoặc ứng dụng chạy trên hệ điều hành mà không cần sự tương tác trực tiếp từ người dùng hoặc không có giao diện người dùng đồ họa.

@@ -2,7 +2,8 @@
 layout: post
 title: "Unicode"
 date: 2013-02-04 17:36:37 +0700
-categories: [linux, windows]
+categories: [Information Technology]
+tags: [linux, windows]
 ---
 
 **Unicode** là một bộ mã ký tự được sử dụng để biểu diễn các ngôn ngữ trên toàn cầu. Nó được thiết kế để thể hiện tất cả các ký tự, dấu và biểu tượng từ tất cả các ngôn ngữ trên thế giới, bao gồm các ký tự Latin, Cyrillic, Han (Hán tự), Kanji (chữ Nho), Hangul (chữ Hàn), các ký tự đặc biệt và các biểu tượng.

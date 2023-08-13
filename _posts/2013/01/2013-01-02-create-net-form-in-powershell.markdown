@@ -2,8 +2,13 @@
 layout: post
 title: "Tạo Windows Form bằng PowerShell"
 date: 2013-01-02 07:07:07 +0700
-categories: [powershell, windows]
+categories: [Information Technology, Software]
+tags: [powershell, windows]
 ---
+
+Windows Forms là một công nghệ giao diện người dùng (GUI) được sử dụng trong các ứng dụng Windows truyền thống. Trong PowerShell, người dùng có thể sử dụng Windows Forms để tạo các ứng dụng giao diện người dùng đơn giản hoặc phức tạp.
+
+Windows Forms không phải là công nghệ giao diện người dùng chính thức của PowerShell. Nếu người dùng muốn phát triển ứng dụng giao diện người dùng phức tạp hơn trong PowerShell, người dùng có thể xem xét sử dụng công nghệ khác như Windows Presentation Foundation (WPF) hoặc Universal Windows Platform (UWP).
 
 ### Yêu cầu
 [.NET Framework](https://dotnet.microsoft.com/en-us/download/dotnet-framework)  
@@ -16,7 +21,6 @@ Add-Type -AssemblyName System.Windows.Forms
 Add-Type -AssemblyName System.Drawing
 ``` 
 
-#### Form
 Khai báo biểu mẫu (form):  
 ```powershell
 $form = New-Object System.Windows.Forms.Form
@@ -43,3 +47,9 @@ Hiển thị biểu mẫu:
 ```powershell
 $form.ShowDialog()
 ```  
+
+### Tham khảo
+- [Creating a custom input box](https://learn.microsoft.com/en-us/powershell/scripting/samples/creating-a-custom-input-box?view=powershell-5.1)
+- [Creating a graphical date picker](https://learn.microsoft.com/en-us/powershell/scripting/samples/creating-a-graphical-date-picker?view=powershell-5.1)
+- [Multiple-selection list boxes](https://learn.microsoft.com/en-us/powershell/scripting/samples/multiple-selection-list-boxes?view=powershell-5.1)
+- [Selecting items from a list box](https://learn.microsoft.com/en-us/powershell/scripting/samples/selecting-items-from-a-list-box?view=powershell-5.1)

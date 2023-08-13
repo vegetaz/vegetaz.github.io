@@ -2,7 +2,8 @@
 layout: post
 title: "Lưu trữ thông tin đăng nhập của git trên ổ đĩa"
 date: 2016-06-25 15:25:10 +0700
-categories: [git]
+categories: [Information Technology, Tech Tips and Tricks]
+tags: [git]
 ---
 
 Câu lệnh `git config --global credential.helper store` được sử dụng để cấu hình Git để lưu trữ thông tin xác thực (credentials) của người dùng (như tên người dùng và mật khẩu) trong một tệp tin cục bộ để tránh việc nhập lại thông tin xác thực mỗi lần người dùng thao tác với kho lưu trữ từ xa (remote repository).

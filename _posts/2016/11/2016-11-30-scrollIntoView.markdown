@@ -2,7 +2,8 @@
 layout: post
 title: "Cuộn trang tới nội dụng muốn xem bằng Selenium trong PowerShell"
 date: 2016-11-30 11:30:00 +0700
-categories: [selenium, powershell]
+categories: [Information Technology, Testing]
+tags: [selenium, powershell]
 ---
 
 Nhiều khi muốn chụp ảnh màn hình trang web có thành phần (element) ẩn bên dưới do trang web có nội dung dài hơn chiều cao của màn hình máy tính, lúc chưa biết tới cuộn trang (scroll) thì tôi hay sử dụng Click().  

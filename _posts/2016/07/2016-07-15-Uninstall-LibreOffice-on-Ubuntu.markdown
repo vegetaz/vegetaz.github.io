@@ -2,7 +2,8 @@
 layout: post
 title: "Gỡ bỏ LibreOffice trên Ubuntu"
 date: 2016-07-15 15:25:10 +0700
-categories: [ubuntu]
+categories: [Information Technology, Software]
+tags: [ubuntu]
 ---
 
 Gỡ bỏ [LibreOffice](https://vi.libreoffice.org/) bằng Terminal:  

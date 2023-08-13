@@ -2,7 +2,8 @@
 layout: post
 title: "Tải về và cài đặt eclipse trên Ubuntu"
 date: 2016-07-13 15:25:10 +0700
-categories: [linux, ubuntu, others]
+categories: [Information Technology, Software]
+tags: [linux, ubuntu, others]
 ---
 
 Đây là cách sử dụng Eclipse IDE for Enterprise Java Developers bằng cách download package từ [trang chủ eclipse](https://www.eclipse.org/downloads/packages/).

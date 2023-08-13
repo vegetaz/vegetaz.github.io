@@ -2,7 +2,8 @@
 layout: post
 title: "Cài đặt Microsoft .NET Framework 1.1"
 date: 2017-01-10 10:25:10 +0700
-categories: [others]
+categories: [Information Technology, Software]
+tags: [windows]
 ---
 
 Đây là cách cài đặt thủ công .NET Framework 1.1 trên Windows 8, Windows 8.1, Windows Server 2012, Windows Server 2012 R2, và Windows 10.

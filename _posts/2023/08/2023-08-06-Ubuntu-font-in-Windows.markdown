@@ -2,7 +2,8 @@
 layout: post
 title: "Cài đặt phông chữ Ubuntu cho Windows"
 date: 2023-08-06 14:32:01 +0700
-categories: [linux, ubuntu]
+categories: [Information Technology, Tech Tips and Tricks]
+tags: [windows]
 ---
 
 Truy cập <https://design.ubuntu.com/font>, tìm đến đến **Resources**, nhấn vào [Download for free](https://assets.ubuntu.com/v1/0cef8205-ubuntu-font-family-0.83.zip) để download xuống [Ubuntu Font Family](https://assets.ubuntu.com/v1/0cef8205-ubuntu-font-family-0.83.zip).

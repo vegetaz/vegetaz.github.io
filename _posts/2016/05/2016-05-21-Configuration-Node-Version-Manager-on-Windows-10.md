@@ -2,7 +2,8 @@
 layout: post
 title: "Cài đặt, cấu hình Node Version Manager trên Windows 10"
 date: 2016-05-21 14:25:20 +0700
-categories: [others, nodejs]
+categories: [Information Technology, Tech Tips and Tricks]
+tags: [nodejs]
 ---
 
 Nếu bạn muốn sử dụng NodeJS một cách linh hoạt, hãy sử dụng Node Version Manager hay còn gọi là nvm.  

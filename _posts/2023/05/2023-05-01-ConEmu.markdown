@@ -2,7 +2,8 @@
 layout: post
 title: "ConEmu"
 date: 2023-05-01 16:06:10 +0700
-categories: [windows]
+categories: [Information Technology]
+tags: [windows]
 ---
 
 **ConEmu** là một công cụ mã nguồn mở cung cấp một giao diện dòng lệnh tiện ích và mạnh mẽ trên hệ điều hành Windows. Nó được thiết kế để cải thiện trải nghiệm làm việc với dòng lệnh và cung cấp nhiều tính năng tiện ích cho người dùng.

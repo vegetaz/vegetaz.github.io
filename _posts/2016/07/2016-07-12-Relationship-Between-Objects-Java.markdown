@@ -2,7 +2,8 @@
 layout: post
 title: "Mối quan hệ giữa các đối tượng trong java"
 date: 2016-07-12 15:25:10 +0700
-categories: [java]
+categories: [Information Technology, Tech Tips and Tricks]
+tags: [java]
 ---
 
 Bài này bạn và tôi sẽ đi tìm hiểu về mối quan hệ giữa các đối tượng trong Java.

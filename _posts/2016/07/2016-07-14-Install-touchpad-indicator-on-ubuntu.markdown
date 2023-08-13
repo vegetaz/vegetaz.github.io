@@ -2,7 +2,8 @@
 layout: post
 title: "Cài đặt chương trình Touchpad Idicator trên Ubuntu"
 date: 2016-07-14 15:25:10 +0700
-categories: [linux, ubuntu, others]
+categories: [Information Technology, Software]
+tags: [linux, ubuntu]
 ---
 
 [Touchpad-Indicator](https://github.com/atareao/Touchpad-Indicator) là chương trình quản lý touchpad trên Linux và Ubuntu được viết bởi một lập trình viên có nickname là [atareao](https://www.atareao.es/)

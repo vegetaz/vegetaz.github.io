@@ -2,7 +2,8 @@
 layout: post
 title: "Cmder"
 date: 2023-05-02 16:06:10 +0700
-categories: [windows]
+categories: [Information Technology]
+tags: [windows]
 ---
 
 **Cmder** là một công cụ dòng lệnh (command-line) mã nguồn mở được phát triển dựa trên [ConEmu](https://vegetaz.github.io/windows/2023/05/01/ConEmu.html). Nó cung cấp một giao diện dòng lệnh mạnh mẽ và dễ sử dụng trên các hệ điều hành Windows.

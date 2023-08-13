@@ -2,7 +2,8 @@
 layout: post
 title: "Dọn dẹp Linux Mint sau khi cập nhật"
 date: 2013-12-03 07:08:09 +0700
-categories: [linux]
+categories: [Information Technology, Software]
+tags: [linux]
 ---
 
 Từ thực đơn (Menu) của Linux Mint, đi đến `Settings`, chọn `Synaptic Package Manager`.  

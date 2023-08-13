@@ -2,7 +2,8 @@
 layout: post
 title: "SCP"
 date: 2013-02-05 17:36:37 +0700
-categories: [ssh]
+categories: [Information Technology]
+tags: [ssh]
 ---
 
 **SCP** (Secure Copy Protocol) là một giao thức trong [SSH](https://vegetaz.github.io/ssh/2013/02/01/ssh.html) được sử dụng để truyền tải các tệp tin và thư mục giữa các máy tính từ xa một cách an toàn. **SCP** cung cấp khả năng sao chép tệp tin từ một máy tính tới một máy tính khác thông qua mạng, đảm bảo tính bảo mật của dữ liệu trong quá trình truyền tải.

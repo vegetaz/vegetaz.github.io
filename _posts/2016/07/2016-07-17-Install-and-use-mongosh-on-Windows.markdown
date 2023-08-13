@@ -2,7 +2,8 @@
 layout: post
 title: "Cài đặt và sử dụng mongosh trên Windows"
 date: 2016-07-16 15:25:10 +0700
-categories: [others]
+categories: [Information Technology, Software]
+tags: [windows]
 ---
 
 MongoDB Shell hay còn có tên là `mongosh`.

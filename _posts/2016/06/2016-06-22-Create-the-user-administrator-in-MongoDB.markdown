@@ -2,7 +2,8 @@
 layout: post
 title: "Create the user administrator in MongoDB"
 date: 2016-06-22 05:25:10 +0700
-categories: [database]
+categories: [Information Technology, Tech Tips and Tricks]
+tags: [database]
 ---
 
 Mặc định để sử dụng MongoDB thì không cần tài khoản và mật khẩu.

@@ -2,7 +2,8 @@
 layout: post
 title: "Explicit Wait của Selenium trong PowerShell"
 date: 2016-11-26 11:11:11 +0700
-categories: [selenium, powershell]
+categories: [Information Technology, Testing]
+tags: [selenium, powershell]
 ---
 
 Explicit wait là một loại chờ (wait) trong Selenium cho phép bạn chỉ định một khoảng thời gian chờ và một điều kiện để WebDriver đợi trước khi đưa ra ngoại lệ. Điều này trái ngược với implicit wait, trong đó WebDriver sẽ đợi một khoảng thời gian nhất định trước khi đưa ra ngoại lệ, bất kể điều kiện nào.  

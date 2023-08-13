@@ -2,7 +2,8 @@
 layout: post
 title: "Bỏ qua dấu xuống dòng, kết thúc câu, tệp giống nhau trong Git"
 date: 2016-04-20 22:32:34 +0700
-categories: [git]
+categories: [Information Technology, Tech Tips and Tricks]
+tags: [git]
 ---
 
 Try setting core.autocrlf value like this :

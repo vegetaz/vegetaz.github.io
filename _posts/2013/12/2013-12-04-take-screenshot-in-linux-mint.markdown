@@ -2,7 +2,8 @@
 layout: post
 title: "Chụp ảnh màn hình trong Linux Mint"
 date: 2013-12-03 07:08:09 +0700
-categories: [linux]
+categories: [Information Technology, Software]
+tags: [linux]
 ---
 
 Để chụp ảnh màn hình trong Linux Mint, chỉ cần nhấn phím `Print Screen` trên bàn phím, cửa sổ  `Screenshot` sẽ hiện lên.  

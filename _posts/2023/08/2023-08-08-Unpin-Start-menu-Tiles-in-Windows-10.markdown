@@ -1,8 +1,9 @@
 ---
 layout: post
-title: "Unpin Start menu Tiles in Windows 10"
+title: "Bỏ ghim trong thực đơn của Windows 10"
 date: 2023-08-08 14:32:01 +0700
-categories: [powershell, windows]
+categories: [Information Technology, Tech Tips and Tricks]
+tags: [powershell, windows]
 ---
 
 > Tập lệnh được cung cấp bởi người dùng từ superuser.com.  

@@ -2,7 +2,8 @@
 layout: post
 title: "Cấu hình Sublime Text để chạy Java"
 date: 2016-04-19 19:19:21 +0700
-categories: [editor, java, others]
+categories: [Information Technology]
+tags: [editor, java, others]
 ---
 
 ### Công cụ cần thiết

@@ -2,7 +2,8 @@
 layout: post
 title: "Cài đặt và sử dụng Linux trong Windows"
 date: 2023-07-29 18:45:10 +0700
-categories: [linux, windows]
+categories: [Information Technology, Tech Tips and Tricks, Software]
+tags: [linux, windows]
 ---
 
 #### Yêu cầu

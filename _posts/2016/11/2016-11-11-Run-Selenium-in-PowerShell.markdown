@@ -2,13 +2,9 @@
 layout: post
 title: "Chạy Selenium trong môi trường Windows PowerShell"
 date: 2016-11-11 11:11:11 +0700
-categories: [selenium, powershell]
+categories: [Information Technology, Tech Tips and Tricks, Testing]
+tags: [selenium, powershell]
 ---
-
-Dùng Java, JavaScript, C#, Python, Ruby để tạo dự án Automate Testing thì có nhiều rồi.
-Hôm nay mình sẽ dùng PowerShell để chạy Selenium.
-Ưu điểm của cách này đó là nhanh, nhỏ, gọn.
-Nhược điểm là nhiều không kể hết!
 
 # Tải về
 Tải về 2 gói `.nupkg` là `Selenium.WebDriver` và `Selenium.Support` từ trang nuget.org lần lượt bên dưới:

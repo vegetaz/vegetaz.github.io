@@ -2,7 +2,8 @@
 layout: post
 title: "Spring Boot Mongo DB Configuration with Properties File"
 date: 2016-06-05 05:25:06 +0700
-categories: [spring, database]
+categories: [Information Technology, Tech Tips and Tricks]
+tags: [spring, database]
 ---
 
 Dĩ nhiên đầu tiên phải khai báo `dependency` của MongoDB trong `pom.xml` trước!

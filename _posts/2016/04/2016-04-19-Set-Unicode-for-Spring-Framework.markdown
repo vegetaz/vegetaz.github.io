@@ -2,7 +2,8 @@
 layout: post
 title: "Hiển thị tiếng Việt trong Spring Framework"
 date: 2016-04-19 14:39:34 +0700
-categories: [spring, java]
+categories: [Information Technology, Tech Tips and Tricks]
+tags: [spring, java]
 ---
 
 Chỉ cần đặt đoạn code này **ở đầu của tệp tin web.xml** là được.

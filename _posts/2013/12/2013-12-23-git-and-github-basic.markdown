@@ -2,7 +2,8 @@
 layout: post
 title: "Kinh nghiệm sử dụng git và github cơ bản của Vận Già"
 date: 2013-12-23 00:18:23 +0700
-categories: [git]
+categories: [Information Technology, Software]
+tags: [git]
 ---
 
 **Cấu hình git cơ bản sau khi cài đặt**

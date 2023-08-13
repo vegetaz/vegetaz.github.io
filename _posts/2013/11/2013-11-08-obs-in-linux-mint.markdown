@@ -2,7 +2,8 @@
 layout: post
 title: "Cài đặt OBS Studio cho Linux Mint"
 date: 2013-11-08 07:08:09 +0700
-categories: [linux]
+categories: [Information Technology, Software]
+tags: [linux]
 ---
 
 **OBS Studio** là 1 công cụ dùng để  quay phim màn hình.  

@@ -2,7 +2,8 @@
 layout: post
 title: "Điều khiển Ubuntu từ Windows thông qua giao thức SSH"
 date: 2023-07-30 11:40:01 +0700
-categories: [linux, ubuntu, windows, ssh]
+categories: [Information Technology, Tech Tips and Tricks]
+tags: [linux, ubuntu, windows, ssh]
 ---
 
 Để cài đặt **OpenSSH Server** trên Ubuntu có thể tham khảo bài viết sau:  
