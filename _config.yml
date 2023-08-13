@@ -63,4 +63,18 @@ compress_html:
   ignore:
     envs: ["development"]
 
+comments:
+  # 'disqus' / 'giscus' / 'utterances' are available
+  provider:            giscus
+
+giscus:
+  repo:                "vegetaz/vegetaz.github.io"
+  repo-id:             "vegetaz.github.io"
+  category:            "category"
+  category-id:         "category"
+  mapping:             "pathname"
+  reaction-enabled:    "1"
+  theme:               "preferred_color_scheme"
+  crossorigin:         "anonymous"
+
 fetch-depth: 0
