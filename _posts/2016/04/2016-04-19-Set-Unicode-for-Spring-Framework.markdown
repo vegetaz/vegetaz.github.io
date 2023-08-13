@@ -6,8 +6,6 @@ categories: [Information Technology, Tech Tips and Tricks]
 tags: [spring, java]
 ---
 
-Chỉ cần đặt đoạn code này **ở đầu của tệp tin web.xml** là được.
-
 ```xml
      <filter>
         <filter-name>encoding-filter</filter-name>
@@ -28,5 +26,3 @@ Chỉ cần đặt đoạn code này **ở đầu của tệp tin web.xml** là 
         <url-pattern>/*</url-pattern>
      </filter-mapping>
 ```
-
-Các bạn thử xem sao nhé!

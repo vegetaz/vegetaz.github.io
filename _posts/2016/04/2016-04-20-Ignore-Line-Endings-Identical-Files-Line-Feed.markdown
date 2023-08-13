@@ -6,7 +6,7 @@ categories: [Information Technology, Tech Tips and Tricks]
 tags: [git]
 ---
 
-Try setting core.autocrlf value like this :
+Try setting `core.autocrlf` value like this :
 
 ```bash
 git config --global core.autocrlf true
