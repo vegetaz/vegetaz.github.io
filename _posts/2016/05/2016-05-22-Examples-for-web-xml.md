@@ -9,9 +9,7 @@ img_path: /assets/img/ExampleWebXML/
 
 `web.xml` là tệp để cấu hình mô tả triển khai mô hình web trong servlet.
 
-{:refdef: style="text-align: center;"}
 ![web.xml](web.xml-jsp-servlet.png)
-{: refdef}
 _web.xml_
 
 Dưới đây là một số mẫu cấu hình `web.xml`.
