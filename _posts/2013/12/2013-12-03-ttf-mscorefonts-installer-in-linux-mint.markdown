@@ -24,4 +24,5 @@ sudo fc-cache -vr
 fc-list
 ```  
 
-Đọc thêm: [What is ttf-mscorefonts-installer?](https://linuxhint.com/ttf-mscorefonts-installer/)
+**Đọc thêm**:
+- [What is ttf-mscorefonts-installer?](https://linuxhint.com/ttf-mscorefonts-installer/)

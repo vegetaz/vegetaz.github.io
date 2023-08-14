@@ -26,14 +26,10 @@ touchpad-indicator
 Hoặc tìm kiếm `Touchpad Indicator` trong danh mục chương trình của Ubuntu.
 
 ### Cấu hình 
-{:refdef: style="text-align: center;"}
 ![Actions](actions.png)
-{: refdef}
 _Actions_
 
-{:refdef: style="text-align: center;"}
 ![Touchpad configuration](configuration.png)
-{: refdef}
 _Touchpad configuration_
 
 **Đọc thêm**:

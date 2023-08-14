@@ -26,18 +26,15 @@ Chạy lệnh sau để cài đặt pip:
 python get-pip.py
 ```
 
-
 #### Kiểm tra số hiệu phiên bản của pip
 ```bash
 pip --version
 ```
 
-
 #### Kiểm tra trạng thái cài đặt của pip và setuptools
 ```bash
 py -m ensurepip --upgrade
 ```
-
 
 #### Cập nhật pip
 ```bash
@@ -49,18 +46,15 @@ python -m pip install --upgrade pip
 pip install tên_gói
 ```
 
-
 #### Liệt kê danh sách các gói đã cài đặt
 ```bash
 pip list
 ```
 
-
 #### Liệt kê danh sách các gói quá hạn
 ```bash
 pip list --outdated
 ```
-
 
 #### Cập nhật các gói đã cài đặt
 ```bash

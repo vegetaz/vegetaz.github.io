@@ -41,7 +41,8 @@ git status
 ```
 
 ### commit
-`commit` là ghi lại các tệp tin và sự thay đổi với phiên bản trước đó (nếu có) của tệp tin
+> `commit` là ghi lại các tệp tin và sự thay đổi với phiên bản trước đó (nếu có) của tệp tin
+{:.prompt-info}
 ```bash
 git commit -m "Thêm tệp tin đầu tiên trong cuộc đời"
 ```

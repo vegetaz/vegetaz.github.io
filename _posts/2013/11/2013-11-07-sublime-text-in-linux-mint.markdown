@@ -6,7 +6,7 @@ categories: [Information Technology, Software]
 tags: [linux]
 ---
 
-**Sublime Text** là 1 công cụ dùng để  chỉnh sửa mã (code).  
+[**Sublime Text**](https://vegetaz.github.io/posts/sublime-text/) là 1 công cụ dùng để  chỉnh sửa mã (code).  
 
 Thêm kho của **Sublime Text** bằng câu lệnh:  
 ```bash
@@ -40,4 +40,5 @@ sudo apt-get install sublime-text
 ```
 Trong trường hợp vẫn không có cập nhật cho **Sublime Text** thì có thể [tải về tệp tin .deb của Sublime Text](https://www.sublimetext.com/download_thanks?target=x64-deb) và tiến hành cài đặt trực tiếp.
 
-Đọc thêm: [Linux Package Manager Repositories](https://www.sublimetext.com/docs/linux_repositories.html)  
+Đọc thêm:
+- [Linux Package Manager Repositories](https://www.sublimetext.com/docs/linux_repositories.html)  

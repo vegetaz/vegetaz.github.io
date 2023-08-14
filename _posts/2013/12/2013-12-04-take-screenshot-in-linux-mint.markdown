@@ -15,4 +15,5 @@ Có thể cài đặt thêm công cụ Flameshot để có thể sử dụng th�
 sudo apt install flameshot
 ```  
 
-Đọc thêm: [How to Take Screenshots on Linux Mint](https://linuxhint.com/screenshots_linux_mint/)
+**Đọc thêm**:
+- [How to Take Screenshots on Linux Mint](https://linuxhint.com/screenshots_linux_mint/)

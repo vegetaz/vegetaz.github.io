@@ -12,9 +12,7 @@ Sử dụng tệp tin .zip của **PostgreSQL** để không phải cài đặt.
 
 Tiếp theo là giải nén **PostgreSQL** ra 1 nơi nào đó trên máy.  
 Khai báo **PostgreSQL** trong `Evironment Variables` của Windows:
-{:refdef: style="text-align: center;"}
 ![Evironment Variables](Variables-2019-12-21.png)
-{: refdef}
 _Evironment Variables_
 
 Tạo thêm 1 thư mục `data` để lưu trữ database của **PostgreSQL**.
@@ -28,9 +26,8 @@ Sử dụng câu lệnh sau để cấu hình:
 initdb.exe -U postgre -A password -E utf8 -W -D D:\Tools\pgsql\data
 ```
 Trong đó `postgre` là tài khoản đăng nhập, và `password` sẽ được nhập sau khi câu lệnh trên được thực thi.
-{:refdef: style="text-align: center;"}
 ![](Success-2019-12-21.png)
-{: refdef}
+_PostgreSQL Status_
 
 Mỗi lần muốn khởi động **server** của **PostgreSQL** thì sử dụng câu lệnh:
 ```bash

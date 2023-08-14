@@ -54,9 +54,7 @@ Các câu lệnh trên thực hiện với PowerShell, chạy dưới quyền Ad
 
 ### Sử dụng
 Để sử dụng thì rất đơn gian, gõ `Sticky Notes` để tìm kiếm từ thực đơn (menu) Start của Windows.
-{:refdef: style="text-align: center;"}
 ![Sticky Notes](Sticky-Notes.png)
-{: refdef}
 _Sticky Notes_
 
 **Đọc thêm**:

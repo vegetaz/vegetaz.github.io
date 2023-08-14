@@ -23,4 +23,5 @@ Cài đặt:
 sudo apt install ./bcompare-4.4.6.27483_amd64.deb
 ```  
 
-Đọc thêm: [Linux Installation Instructions](https://www.scootersoftware.com/kb/linux_install)  
+Đọc thêm:
+- [Linux Installation Instructions](https://www.scootersoftware.com/kb/linux_install)  

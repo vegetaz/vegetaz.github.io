@@ -61,4 +61,5 @@ Thiết lập như sau khi sử dụng:<br/>
 ### Kết quả
 ![](Java-in-Sublime.PNG)
 
-[Java in Sublime Text](https://www.google.com/search?q=java+in+sublime+text&rlz=1C1PNBB_viVN954VN954&oq=java+in+sublime+text&aqs=chrome.0.0i19i512j0i19i22i30l3j69i65l2.6576j0j4&sourceid=chrome&ie=UTF-8)
+**Đọc thêm**:
+- [Java in Sublime Text](https://www.google.com/search?q=java+in+sublime+text&rlz=1C1PNBB_viVN954VN954&oq=java+in+sublime+text&aqs=chrome.0.0i19i512j0i19i22i30l3j69i65l2.6576j0j4&sourceid=chrome&ie=UTF-8)

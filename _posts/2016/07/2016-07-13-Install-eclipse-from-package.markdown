@@ -11,9 +11,7 @@ img_path: /assets/img/install-eclipse/
 
 ### Tải về
 Truy cập vào trang chủ [eclipse](https://www.eclipse.org/downloads/packages/), lựa chọn phiên bản phù hợp:
-{:refdef: style="text-align: center;"}
 ![Download eclipse](Download_eclipse.png)
-{: refdef}
 _Download eclipse_
 
 ### Cài đặt
@@ -26,9 +24,7 @@ mv eclipse /opt/
 ```
 
 ### Khởi chạy
-{:refdef: style="text-align: center;"}
 ![eclipse](eclipse.png)
-{: refdef}
 _eclipse_
 
 Tạo đường dẫn khởi chạy cho **eclipse**:  

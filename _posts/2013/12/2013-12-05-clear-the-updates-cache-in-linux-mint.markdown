@@ -12,3 +12,6 @@ Nhấn vào nút `Delete Cached Package Files` để dọn dẹp Linux Mint sau 
 
 Để cập nhật Linux Mint, từ thực đơn, đi đến `Settings`, chọn `Update Manager`.  
 Trong cửa sổ  `Update Manager` chọn `Install Updates` để cập nhật Linux Mint.
+
+**Đọc thêm**:
+- [Cleaning memory after updates](https://forums.linuxmint.com/viewtopic.php?t=366031)

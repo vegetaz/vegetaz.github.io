@@ -34,11 +34,10 @@ ngrok tcp 22
 ```
 
 **ngrok** đã được khởi động, trạng thái hoạt động:
-{:refdef: style="text-align: center;"}
 ![](ngrok.png)
-{: refdef}
+_ngrok_
 
-Bây giờ, có thể sử dụng SSH trên máy tính/điện thoại/thiết bị di động có kết nối internet để điều khiển thông qua câu lệnh:
+Bây giờ, có thể sử dụng SSH trên máy tính/điện thoại/thiết bị di động có kết nối internet để điều khiển:
 ```bash
 ssh username-of-server@ngrok-forwarding-address -p ngrok-forwarding-port
 ```

@@ -23,4 +23,5 @@ Cài đặt:
 sudo apt install ffmpeg obs-studio
 ```  
 
-Đọc thêm: [Download OBS Studio](https://obsproject.com/download#linux)  
+Đọc thêm:
+- [Download OBS Studio](https://obsproject.com/download#linux)  

@@ -46,9 +46,7 @@ Cài đặt Visual Studio Code:
 ```powershell
 winget install -e --id XP9KHM4BK9FZ7Q
 ```
-{:refdef: style="text-align: center;"}
 ![Visual Studio Code](winget_install_XP9KHM4BK9FZ7Q.png)
-{: refdef}
 _Visual Studio Code_
 
 Để cập nhật tất cả các ứng dụng khả dụng từ nguồn `winget` và đã được cài đặt thì sử dụng câu lệnh:  

@@ -18,12 +18,10 @@ Mở tệp tin **sftpplug.zip** trong **Total Commander** để cài đặt plug
 ### Thiết lập
 Trong chương trình **Total Commander**, nhấn vào biểu tượng **Network Neighborhood**, truy cập vào **Secure FTP**.  
 Nhấn phím **F7** để đặt tên và tạo kết nối mới.  
-> Không sử dụng khoảng trắng (space) trong quá trình đặt tên.
+> Không sử dụng khoảng trống (space) trong quá trình đặt tên.
 {:.prompt-info}
 Sau khi đặt tên hoàn tất, nhấn **OK** để tới cửa sổ **Connect to SFTP Server**.
-{:refdef: style="text-align: center;"}
 ![Connect to SFTP Server](Connect_to_SFTP_Server.png)
-{: refdef}
 _Connect to SFTP Server_
 
 Tại cửa sổ **Connect to SFTP Server**, thiết lập đơn giản với địa chỉ IP, tên đăng nhập và mật khẩu của Linux Server.  

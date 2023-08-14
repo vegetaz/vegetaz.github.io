@@ -22,9 +22,7 @@ class ClassA{
 Trong trường hợp trên lớp ClassA sẽ phụ thuộc vào lớp ClassB, nếu lớp ClassB thay đổi thì có thể lớp ClassA sẽ phải thay đổi theo.
 
 Đây là quan hệ rộng nhất và được biểu diễn bằng mũi tên nét đứt giống như sau:
-{:refdef: style="text-align: center;"}
 ![Quan Hệ Phụ Thuộc](Quan_he_phu_thuoc.png)
-{: refdef}
 _Quan Hệ Phụ Thuộc_
 
 ### Quan hệ kết hợp (Association)
@@ -75,16 +73,12 @@ public class ClassA {
 }
 ```
 Có thể thấy đối tượng của ClassB tồn tại độc lập với đối tượng của ClassA (ClassA không tạo ra đối tượng của ClassB).
-{:refdef: style="text-align: center;"}
 ![Quan Hệ Thu Nạp](Aggregation.png)
-{: refdef}
 _Quan Hệ Thu Nạp_
 
 #### Quan hệ hợp thành (Composition)
-Quan hệ hợp thành xảy ra khi đối tượng của lớp ClassB là 1 phần trong đối tượng của lớp ClassA, khi đối tượng của lớp ClassA bị hủy thì đối tượng của ClassB cũng bị hủy theo. Ví dụ mối quan hệ giữa File và Folder, một Folder sẽ có nhiều File và nếu Folder bị hủy thì File cũng bị hủy theo. Quan hệ hợp thành này sẽ được biểu diễn dưới sơ đồ lớp như sau:
-{:refdef: style="text-align: center;"}
+Quan hệ hợp thành xảy ra khi đối tượng của lớp ClassB là 1 phần trong đối tượng của lớp ClassA, khi đối tượng của lớp ClassA bị hủy thì đối tượng của ClassB cũng bị hủy theo. Ví dụ mối quan hệ giữa File và Folder, một Folder sẽ có nhiều File và nếu Folder bị hủy thì File cũng bị hủy theo. Quan hệ hợp thành này sẽ được biểu diễn dưới sơ đồ lớp như sau:  
 ![Quan Hệ Hợp Thành](Composition.png)
-{: refdef}
 _Quan Hệ Hợp Thành_
 
 Số 1 và ký tự * thể hiện rằng 1 Folder sẽ có nhiều File. Nếu nói tới code thì khi một đối tượng được tạo ra trong một đối tượng khác thì đó là quan hệ hợp thành:

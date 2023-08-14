@@ -29,7 +29,5 @@ ps2exe
 ```powershell
 Win-PS2EXE
 ```
-{:refdef: style="text-align: center;"}
 ![Win-PS2EXE](Win-PS2EXE.jpg)
-{: refdef}
 _Win-PS2EXE_

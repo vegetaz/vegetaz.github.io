@@ -13,44 +13,37 @@ ssh -V
 
 ---
 
-
 Các câu lệnh bên dưới áp dụng cho **OpenSSH Server**.  
 
-
-#### Cập nhật các gói của hệ thống
+### Cập nhật các gói của hệ thống
 ```bash
 sudo apt update
 sudo apt upgrade
 ```  
 
-
-#### Cài đặt OpenSSH server
+### Cài đặt OpenSSH server
 ```bash
 sudo apt install openssh-server
 ```  
 
-
-#### Kích hoạt dịch vụ (service) SSH
+### Kích hoạt dịch vụ (service) SSH
 ```bash
 sudo systemctl enable ssh
 # Hoặc
 sudo systemctl enable ssh --now
 ```  
 
-
-#### Khởi động service SSH
+### Khởi động service SSH
 ```bash
 sudo systemctl start ssh
 ```  
 
-
-#### Kiểm tra trạng thái của service SSH
+### Kiểm tra trạng thái của service SSH
 ```bash
 sudo systemctl status ssh
 ```  
 
-
-#### Tắt tính năng đăng nhập bằng mật khẩu
+### Tắt tính năng đăng nhập bằng mật khẩu
 ```bash
 sudo nano /etc/ssh/sshd_config
 ```  
@@ -59,13 +52,11 @@ Tìm đến dòng `PasswordAuthentication` và thay đổi thành `no`:
 PasswordAuthentication no
 ```  
 
-
-#### Khởi động lại service SSH
+### Khởi động lại service SSH
 ```bash
 sudo systemctl restart sshd.service
 ```  
 
-
 **Đọc thêm**: 
-- [SSH](https://vegetaz.github.io/ssh/2013/02/01/ssh.html)
+- [SSH](https://vegetaz.github.io/posts/ssh/)
 - [OpenSSH: Manual Pages](https://www.openssh.com/manual.html)

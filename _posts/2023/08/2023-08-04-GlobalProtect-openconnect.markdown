@@ -9,9 +9,7 @@ img_path: /assets/img/GlobalProtect/
 
 Phần mềm **GlobalProtect VPN** (GUI) dành cho Linux, dựa trên OpenConnect và được xây dựng với Qt5, hỗ trợ chế độ xác thực SAML.
 
-{:refdef: style="text-align: center;"}
 ![GlobalProtect-openconnect](GlobalProtect_Linux_Mint_21.2.png)
-{: refdef}
 _GlobalProtect_
 
 ### Thêm ppa:yuezk vào hệ thống

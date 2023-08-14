@@ -56,5 +56,5 @@ Chỉ cần kiểm tra bằng câu lệnh `javac -version` nữa là đủ:
 javac 1.8.0_231
 ```
 
-> Tham khảo <https://vegetaz.github.io/posts/java-in-linux-mint/> để cài đặt JDK nhanh chóng, thuận tiện hơn.
+> Tham khảo bài viết [Cài đặt Java cho Linux Mint](https://vegetaz.github.io/posts/java-in-linux-mint/) để cài đặt JDK nhanh chóng, thuận tiện hơn.
 {:.prompt-info}

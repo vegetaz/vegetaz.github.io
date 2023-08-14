@@ -40,4 +40,5 @@ sudo apt-get update
 sudo apt-get upgrade code
 ```  
 
-Đọc thêm: [Visual Studio Code on Linux](https://code.visualstudio.com/docs/setup/linux)  
+**Đọc thêm**:
+- [Visual Studio Code on Linux](https://code.visualstudio.com/docs/setup/linux)  
