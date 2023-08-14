@@ -11,9 +11,7 @@ img_path: /assets/img/dotNET/
 
 ### Kích hoạt các thành phần trong Windows features
 Cần kích hoạt .NET Framework 3.5 (Includes .NET 2.0 and 3.0)
-{:refdef: style="text-align: center;"}
 ![Turn Windows features on or off](Turn-Windows-features-on-or-off.PNG)
-{: refdef}
 _.NET Framework 3.5 (Includes .NET 2.0 and 3.0)_
 
 ### Tạo thư mục DotNet
@@ -26,9 +24,7 @@ Mở **Command Prompt** với quyền **Administrator**, thực hiện lệnh `c
 dotnetfx.exe /c:"msiexec.exe /a netfx.msi TARGETDIR=C:\DotNet"
 ```
 Sẽ nhận được thông báo cài đặt thành công như hình ảnh dưới đây:
-{:refdef: style="text-align: center;"}
 ![Installation of Microsoft .NET Framework (English) is complete](Installation-of-Microsoft-.NET-Framework-(English)-is-complete.PNG)
-{: refdef}
 _Installation of Microsoft .NET Framework (English) is complete_
 
 ### Cài đặt Microsoft .NET Framework 1.1 Service Pack 1
@@ -42,10 +38,8 @@ dotnetfxsp1.exe /Xp:C:\DotNet\netfxsp.msp
 msiexec.exe /a c:\DotNet\netfx.msi /p c:\DotNet\netfxsp.msp
 ```
 Sau khi thực hiện câu lệnh trên xong thì thực thi tệp tin `netfx.msi` có trong thư mục `DotNet`.  
-Có thể kiểm tra các phiên bản .NET đã được cài đặt bằng câu lệnh sau trong **Windows PowerShell** với quyền **Administrator**
-```
-Get-STDotNetVersion
-```
+Có thể sử dụng hàm [Get-STDotNetVersion](https://jonlabelle.com/snippets/raw/2480/Get-STDotNetVersion.ps1) để kiểm tra các phiên bản .NET đã được cài đặt.
 
 **Đọc thêm**:
 - [.NET 1.1](https://mega.nz/file/XQlERB5T#f6lTCLgHs0pxikMjZeFw6g6CbUAGDspja4Kit8VvHMs)
+- [Cách kiểm tra số hiệu phiên bản của .NET trên máy tính Windows](https://vegetaz.github.io/posts/check-version-dot-net/)
