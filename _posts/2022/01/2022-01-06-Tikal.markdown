@@ -1,0 +1,22 @@
+---
+layout: post
+title: "Tikal"
+date: 2022-01-06 16:06:10 +0700
+categories: [Information Technology, Localization]
+tags: [okapi, cat]
+img_path: /assets/img/okapi/
+---
+
+Tikal là một công cụ dòng lệnh có trong [Okapi Framework](https://vegetaz.github.io/posts/Okapi-Framework/) cung cấp nhiều chức năng, bao gồm:
+
+- Trích xuất (extract)/hợp nhất (merge) đơn giản cho các tài liệu XLIFF
+- Truy vấn các hệ thống MT, TM khác nhau
+- Chuyển đổi định dạng tệp tin khác nhau (TMX, CSV, tab-delimited, PO, v.v.)
+- Dịch trực tiếp các tệp ở nhiều định dạng khác nhau bằng hệ thống TM hoặc MT
+- Nhập/xuất cho Pensieve TM, v.v.
+- Và nhiều hơn thế nữa...
+
+
+**Xem thêm**:
+- [Tikal - Okapi Framework](https://okapiframework.org/wiki/index.php?title=Tikal)
+- [Okapi Framework](https://vegetaz.github.io/posts/Okapi-Framework/)

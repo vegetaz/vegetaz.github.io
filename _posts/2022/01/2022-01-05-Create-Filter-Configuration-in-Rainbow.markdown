@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Tạo Filter Configuration trong Rainbow"
-date: 2022-01-04 16:06:10 +0700
+date: 2022-01-05 16:06:10 +0700
 categories: [Information Technology, Localization]
 tags: [okapi, cat]
 img_path: /assets/img/okapi/
