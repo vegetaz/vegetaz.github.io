@@ -38,18 +38,15 @@ heroku login
 ```bash
 heroku war:deploy target/<war_filename>.war --app <heroku-app-name>
 ```
-{:refdef: style="text-align: center;"}
 ![Triển khai ứng dụng Java Web lên heroku](deploy-heroku.png)
-{: refdef}
 _Triển khai ứng dụng Java Web lên heroku_
 
 Sau khi triển khai xong thì mở ứng dụng trên `heroku` với câu lệnh:
 ```bash
 heroku open --app <heroku-app-name>
 ```
-{:refdef: style="text-align: center;"}
 ![Vận Già Blog](Lem-heroku.png)
-{: refdef}
+_Vận Già Blog_
 
 **Đọc thêm**:
 - [Documentation - Heroku Dev Center](https://devcenter.heroku.com/categories/reference)
