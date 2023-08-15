@@ -1,0 +1,25 @@
+---
+layout: post
+title: "TM"
+date: 2022-01-13 16:06:10 +0700
+categories: [Information Technology, Localization]
+tags: [l10n, okapi, cat]
+img_path: /assets/img/okapi/
+---
+
+**Translation memory (TM)** là một cơ sở dữ liệu lưu trữ các "phân đoạn" (segment), có thể là các câu, đoạn văn hoặc các đơn vị giống như câu đã được dịch trước đó, nhằm hỗ trợ người dịch. **Bộ nhớ dịch (TM)** lưu trữ văn bản nguồn và bản dịch tương ứng của nó trong các cặp ngôn ngữ được gọi là "đơn vị dịch" (Translation Unit - TU).
+
+Khi một người dịch sử dụng **TM**, phần mềm sẽ tìm kiếm các đoạn văn bản giống nhau hoặc tương tự trong cơ sở dữ liệu và đề xuất các bản dịch phù hợp. Người dịch có thể chấp nhận các bản dịch được đề xuất, sửa đổi chúng hoặc nhập bản dịch mới của riêng họ.
+
+**TM** có thể giúp người dịch tiết kiệm thời gian và công sức, đồng thời đảm bảo tính nhất quán của bản dịch. **TM** cũng có thể hữu ích trong việc phát hiện và sửa lỗi dịch thuật.
+
+Dưới đây là một số lợi ích của việc sử dụng **TM**:
+
+- Tiết kiệm thời gian: **TM** có thể giúp người dịch tiết kiệm thời gian bằng cách tự động đề xuất các bản dịch phù hợp cho các đoạn văn bản đã được dịch trước đó.
+- Tăng tính nhất quán: **TM** có thể giúp đảm bảo tính nhất quán của bản dịch bằng cách sử dụng các bản dịch đã được phê duyệt trước đó cho các từ, cụm từ và câu phổ biến.
+- Phát hiện và sửa lỗi: **TM** có thể hữu ích trong việc phát hiện và sửa lỗi dịch thuật bằng cách so sánh các bản dịch mới với các bản dịch đã được phê duyệt trước đó.
+
+**TM** là một công cụ quan trọng cho các nhà dịch thuật chuyên nghiệp. Nó có thể giúp họ tiết kiệm thời gian, công sức và đảm bảo chất lượng của bản dịch.
+
+**Xem thêm**:
+- [Translation memory](https://en.wikipedia.org/wiki/Translation_memory)
