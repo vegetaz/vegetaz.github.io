@@ -1,0 +1,39 @@
+---
+layout: post
+title: "TMX"
+date: 2022-01-10 16:06:10 +0700
+categories: [Information Technology, Localization]
+tags: [l10n, cat]
+img_path: /assets/img/okapi/
+---
+
+**TMX** là viết tắt của **Translation Memory eXchange** (tạm dịch là Trao đổi Bộ nhớ Dịch).TMX là một định dạng tệp tin được sử dụng trong ngành dịch thuật để lưu trữ và trao đổi các dữ liệu dịch thuật đã được dịch trước đó.
+
+TMX được phát triển và duy trì bởi [OSCAR](https://www.ttt.org/oscar-lisa/), một nhóm lợi ích đặc biệt của [LISA](https://www.ttt.org/oscarStandards/) (Hiệp hội Tiêu chuẩn Địa phương hoá Công nghiệp).
+
+TMX được sử dụng để lưu trữ các cặp câu hoặc đoạn văn đã được dịch từ nguyên ngữ sang ngôn ngữ đích, cùng với các thông tin về ngôn ngữ, định dạng và các thuộc tính khác. Định dạng TMX cho phép các công cụ dịch thuật và các bên liên quan khác truy cập và sử dụng lại các bản dịch đã có trong quá trình dịch thuật mới, nhằm tăng tốc độ và hiệu quả của quá trình dịch thuật.
+
+TMX cũng giúp duy trì tính nhất quán trong các bản dịch, đồng thời cho phép tái sử dụng các đoạn văn bản đã được dịch trước đó, giảm thiểu công sức và thời gian dịch lại các đoạn văn tương tự trong cùng dự án hoặc trong các dự án tương lai. Điều này làm cho TMX trở thành công cụ hữu ích trong quản lý và sử dụng lại dữ liệu dịch thuật.
+
+```xml
+<tmx version="1.4">
+  <header
+    creationtool="XYZTool" creationtoolversion="1.01-023"
+    datatype="PlainText" segtype="sentence"
+    adminlang="en-us" srclang="en"
+    o-tmf="ABCTransMem"/>
+  <body>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Hello world!</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Bonjour tout le monde!</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>
+```
+
+**Xem thêm**:
+- [Translation Memory eXchange](https://en.wikipedia.org/wiki/Translation_Memory_eXchange)
