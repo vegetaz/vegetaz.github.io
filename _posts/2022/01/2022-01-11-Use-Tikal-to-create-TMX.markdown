@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Tạo tệp tin TMX từ XLF bằng Tikal"
-date: 2022-01-08 16:06:10 +0700
+date: 2022-01-11 16:06:10 +0700
 categories: [Information Technology, Localization]
 tags: [l10n, okapi, cat]
 img_path: /assets/img/okapi/
