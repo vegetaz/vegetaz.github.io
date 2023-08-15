@@ -22,7 +22,7 @@ Trong đó:
 
 Sau khi câu lệnh được thực thi thì tệp tin `.xlf` sẽ được đặt tại thư mục chứa tệp tin nguồn.
 
-[Extract Files](Tikal_x.png)
+![Extract Files](Tikal_x.png)
 _Extract Files_
 
 **Xem thêm**:
