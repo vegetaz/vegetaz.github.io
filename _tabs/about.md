@@ -12,4 +12,4 @@ This blog is where I keep the information that I have found during my studying a
 
 The timelines are not precise.  
 
-Email: [vegetaz@outlook.com](javascript:location.href='mailto:'+['vegetaz','outlook.com'].jon('@'))
+Email: [vegetaz@outlook.com](javascript:location.href='mailto:'+['vegetaz','outlook.com'].join('@'))
