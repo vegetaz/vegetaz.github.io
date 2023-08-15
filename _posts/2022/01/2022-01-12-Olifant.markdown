@@ -1,0 +1,55 @@
+---
+layout: post
+title: "Olifant"
+date: 2022-01-12 16:06:10 +0700
+categories: [Information Technology, Localization]
+tags: [l10n, okapi, cat]
+img_path: /assets/img/okapi/
+---
+
+**Olifant** là một ứng dụng trực thuộc [Okapi Framework](https://vegetaz.github.io/posts/Okapi-Framework/).
+
+### Tổng quan
+**Olifant** là một ứng dụng đa nền tảng cho phép bạn quản lý các tài liệu [TMX](https://vegetaz.github.io/posts/TMX/) đa ngôn ngữ.
+
+**Olifant** nhập và xuất các tài liệu TMX vào bộ nhớ dịch (TM). Những TM này được lưu trữ trong một kho TM. Một kho là một bộ sưu tập các TM độc lập được lưu trữ trong một cơ sở dữ liệu duy nhất.
+
+Mỗi TM có thể có hàng triệu mục, trong nhiều ngôn ngữ, và bạn có thể có hàng trăm TM trong một kho. Các giới hạn chính xác phụ thuộc vào loại kho được sử dụng cũng như máy chủ chạy kho.
+
+### Kho dữ liệu
+**Olifant** hoạt động với một số loại kho: chúng có thể nằm trên hệ thống tệp của bạn, hoặc từ xa, hoặc thậm chí trong bộ nhớ, và chúng được thực hiện bằng cách sử dụng các hệ quản trị cơ sở dữ liệu khác nhau.
+
+Để biết thêm về kho nào được sử dụng, xem trang [Kho (Repositories)](https://okapiframework.org/wiki/index.php/Olifant_-_Repositories) dữ liệu.
+
+### Mô hình dữ liệu
+Tương tự như trong hầu hết các ứng dụng [Okapi](https://vegetaz.github.io/posts/Okapi-Framework/) khác, **Olifant** có hai cấp độ dữ liệu:
+
+- Một đơn vị văn bản là một nhóm gồm một hoặc nhiều đoạn văn.
+- Một đoạn văn là một đoạn văn bản thường tương ứng với một đơn vị ngôn ngữ như câu.
+
+**Olifant** hiển thị cho bạn các bảng trong đó mỗi hàng (hoặc mục, hoặc bản ghi) tương ứng với một đoạn văn, ngay cả khi một số trường là trường đơn vị văn bản.
+
+Ví dụ, các mục TMX sau đây:
+```xml
+<tu tuid='entry1'>
+ <tuv xml;lang='en'><seg>Some text</seg></tuv>
+ <tuv xml:lang='fr'><seg>Du texte</seg></tuv>
+</tu>
+<tu tuid='entry2'>
+ <tuv xml;lang='en'><seg>More text</seg></tuv>
+ <tuv xml:lang='fr'><seg>Plus de texte</seg></tuv>
+</tu>
+```
+tương ứng với bảng TM **Olifant** sau đây:
+```
+Flag/SegKey  Text~EN     Text~FR         tuid
+
+□ 1          Some text   Du texte        entry1
+□ 2          More text   Plus de texte   entry2
+```
+
+> **Olifant** dựa trên Java hiện đang được phát triển. Nếu đang sử dụng Windows, người dùng vẫn có thể sử dụng [phiên bản cũ hơn của Olifant cho .NET](http://prdownloads.sourceforge.net/okapi/Olifant-R00022.zip?download)
+{:.prompt-info}
+
+**Xem thêm**:
+- [Olifant - Usage](https://okapiframework.org/wiki/index.php/Olifant_-_Usage)
