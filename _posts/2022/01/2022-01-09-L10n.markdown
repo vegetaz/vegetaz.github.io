@@ -1,0 +1,13 @@
+---
+layout: post
+title: "L10n"
+date: 2022-01-09 16:06:10 +0700
+categories: [Information Technology, Localization]
+tags: [l10n]
+img_path: /assets/img/okapi/
+---
+
+**L10N** là viết tắt của "Localization" trong ngành công nghệ thông tin. Localization (bản địa hóa) là quá trình điều chỉnh, thích nghi và biên dịch một sản phẩm hoặc dịch vụ để phù hợp với ngôn ngữ, văn hóa và yêu cầu địa phương của một khu vực cụ thể. Quá trình này bao gồm việc dịch thuật, điều chỉnh giao diện người dùng, định dạng ngày tháng, đơn vị đo lường và các yếu tố khác để đảm bảo rằng sản phẩm hoặc dịch vụ có thể được sử dụng và hiểu được bởi người dùng ở các quốc gia và khu vực khác nhau trên thế giới.
+
+**Xem thêm**:
+- [Internationalization and localization](https://en.wikipedia.org/wiki/Internationalization_and_localization)

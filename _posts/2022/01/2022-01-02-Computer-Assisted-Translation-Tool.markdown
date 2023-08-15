@@ -3,7 +3,7 @@ layout: post
 title: "CAT Tool"
 date: 2022-01-02 16:06:10 +0700
 categories: [Information Technology, Localization]
-tags: [cat]
+tags: [l10n, cat]
 ---
 
 **CAT Tool** (Computer-Assisted Translation Tool) là một phần mềm được thiết kế để hỗ trợ quá trình dịch thuật bằng máy tính. Công cụ này giúp dịch viên dịch thuật làm việc hiệu quả hơn bằng cách cung cấp các tính năng và chức năng giúp tăng tốc độ dịch, đảm bảo tính nhất quán và giảm công sức trong quá trình dịch thuật.

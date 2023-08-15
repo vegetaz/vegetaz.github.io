@@ -3,7 +3,7 @@ layout: post
 title: "Okapi Framework"
 date: 2022-01-03 16:06:10 +0700
 categories: [Information Technology, Localization]
-tags: [okapi, cat]
+tags: [l10n, okapi, cat]
 ---
 
 Okapi Framework là một bộ công cụ mã nguồn mở được phát triển để hỗ trợ quá trình dịch thuật và xử lý ngôn ngữ tự động. Nó cung cấp một cơ sở hạ tầng mạnh mẽ cho việc xây dựng các ứng dụng dịch thuật và xử lý ngôn ngữ tự động, bao gồm cả các công cụ quản lý dự án, quy trình làm việc, và định dạng tài liệu chuẩn.

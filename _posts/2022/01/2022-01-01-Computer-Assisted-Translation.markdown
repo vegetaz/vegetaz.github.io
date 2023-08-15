@@ -3,7 +3,7 @@ layout: post
 title: "CAT"
 date: 2022-01-01 16:06:10 +0700
 categories: [Information Technology, Localization]
-tags: [cat]
+tags: [l10n, cat]
 ---
 
 **CAT** (Computer-Assisted Translation) là một thuật ngữ trong lĩnh vực dịch thuật để chỉ việc sử dụng công nghệ và phần mềm để hỗ trợ quá trình dịch thuật bằng máy tính. Nó không chỉ áp dụng cho việc dịch thuật mà còn cả các hoạt động liên quan đến xử lý ngôn ngữ tự động.

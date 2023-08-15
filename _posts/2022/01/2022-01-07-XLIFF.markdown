@@ -1,0 +1,44 @@
+---
+layout: post
+title: "XLIFF"
+date: 2022-01-07 16:06:10 +0700
+categories: [Information Technology, Localization]
+tags: [l10n, cat]
+img_path: /assets/img/okapi/
+---
+
+**XLIFF** là viết tắt của "XML Localization Interchange File Format" (Định dạng tệp trao đổi đa ngôn ngữ dựa trên XML). **XLIFF** là một định dạng tệp tin được sử dụng trong quá trình dịch thuật và bản địa hóa (localization) để trao đổi thông tin giữa các công cụ dịch thuật và các bên liên quan.
+
+```xml
+<xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0"
+ srcLang="en-US" trgLang="ja-JP">
+ <file id="f1" original="Graphic Example.psd">
+  <skeleton href="Graphic Example.psd.skl"/>
+  <unit id="1">
+   <segment>
+    <source>Quetzal</source>
+    <target>Quetzal</target>
+   </segment>
+  </unit>
+  <unit id="2">
+   <segment>
+    <source>An application to manipulate and process XLIFF documents</source>
+    <target>XLIFF 文書を編集、または処理 するアプリケーションです。</target>
+   </segment>
+  </unit>
+  <unit id="3">
+   <segment>
+    <source>XLIFF Data Manager</source>
+    <target>XLIFF データ・マネージャ</target>
+   </segment>
+  </unit>
+ </file>
+</xliff>
+```
+
+Định dạng tệp tin **XLIFF** có phần mở rộng là `xlf` hoặc `xliff` hoặc được tuỳ chỉnh.
+
+**XLIFF** được thiết kế để tách biệt nội dung ngôn ngữ và định dạng trong quá trình dịch thuật, giúp cho việc dịch thuật và định dạng lại dễ dàng hơn. Nó sử dụng định dạng XML để lưu trữ các đoạn văn bản, chuỗi dịch, thông tin về ngôn ngữ và các dữ liệu khác liên quan đến quá trình dịch thuật. **XLIFF** cho phép các công cụ dịch thuật và các bên liên quan khác làm việc cùng nhau trong quá trình dịch thuật và địa phương hóa một cách hiệu quả, đồng thời giảm thiểu sự mất mát thông tin và tăng tính nhất quán trong quá trình dịch thuật đa ngôn ngữ.
+
+**Xem thêm**:
+- [XLIFF](https://en.wikipedia.org/wiki/XLIFF)
