@@ -1,0 +1,18 @@
+---
+layout: post
+title: "MTPE"
+date: 2022-01-15 16:06:10 +0700
+categories: [Information Technology, Localization]
+tags: [l10n, cat]
+---
+
+**MTPE (Dịch thuật tự động có chỉnh sửa hậu kỳ - Machine Translation Post-Editing)** là quá trình kết hợp giữa sự sử dụng máy tính để thực hiện dịch thuật tự động và sự can thiệp của con người để chỉnh sửa và cải thiện kết quả dịch.
+
+Trong quá trình **MTPE**, dịch thuật ban đầu được tạo ra bằng mô hình [máy dịch](https://vegetaz.github.io/posts/MT/) thuật tự động. Sau đó, một biên tập viên hoặc người chuyên môn trực tiếp can thiệp vào kết quả dịch để sửa lỗi, điều chỉnh ngữ pháp, đảm bảo độ chính xác và đạt được mục tiêu dịch thuật mong muốn.
+
+**MTPE** kết hợp lợi ích của dịch thuật tự động và khả năng xử lý ngôn ngữ tự nhiên của con người. Nó giúp tiết kiệm thời gian và công sức so với việc dịch thuật từ đầu bởi con người, đồng thời tận dụng khả năng dịch thuật tự động để tạo ra bản dịch sơ bộ. Người chỉnh sửa hậu kỳ có thể tập trung vào việc chỉnh sửa, điều chỉnh và tối ưu hóa kết quả dịch để đảm bảo tính chính xác, ngữ pháp và phong cách phù hợp với ngôn ngữ đích.
+
+**MTPE** được sử dụng rộng rãi trong các lĩnh vực như báo chí, văn bản pháp lý, dịch công nghệ, và nhiều ngành công nghiệp khác nơi việc dịch thuật chính xác và nhanh chóng là quan trọng.
+
+**Xem thêm**:
+- [Postediting](https://en.wikipedia.org/wiki/Postediting)
