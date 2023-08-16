@@ -1,0 +1,20 @@
+---
+layout: post
+title: "MT"
+date: 2022-01-14 16:06:10 +0700
+categories: [Information Technology, Localization]
+tags: [l10n, cat]
+---
+
+**Machine Translation (MT)** là quá trình dịch tự động từ một ngôn ngữ sang ngôn ngữ khác mà không cần sự can thiệp của con người bằng cách sử dụng các thuật toán và mô hình máy tính. Nó là một lĩnh vực trong trí tuệ nhân tạo (AI) và xử lý ngôn ngữ tự nhiên (NLP). MT là một công nghệ quan trọng có thể giúp mọi người giao tiếp với nhau hiệu quả hơn, vượt qua rào cản ngôn ngữ.
+
+Có hai phương pháp chính để thực hiện MT: dịch máy thống kê (SMT) và dịch máy dựa trên tri giác (NMT). SMT là phương pháp lâu đời hơn và dựa trên ý tưởng xác định các từ hoặc cụm từ có khả năng cao xuất hiện trong một ngôn ngữ nhất định. NMT là phương pháp mới hơn và dựa trên ý tưởng tạo ra một mô hình ngôn ngữ có thể hiểu và tạo ra văn bản trong hai ngôn ngữ.
+
+SMT thường được coi là một phương pháp kém chính xác hơn NMT, nhưng nó có thể nhanh hơn và hiệu quả hơn. NMT thường được coi là một phương pháp chính xác hơn SMT, nhưng nó có thể chậm hơn và tốn kém hơn.
+
+MT là một công nghệ đang phát triển nhanh chóng và chất lượng của các bản dịch MT đang ngày càng được cải thiện. MT hiện có thể được sử dụng cho nhiều mục đích khác nhau, bao gồm dịch văn bản, dịch website, dịch tài liệu, dịch email,...
+
+MT là một công nghệ có tiềm năng thay đổi cách mọi người giao tiếp với nhau. MT đã có sự phát triển đáng kể trong những năm gần đây nhờ sự tiến bộ trong lĩnh vực học máy và mạng nơ-ron. MT có thể giúp mọi người vượt qua rào cản ngôn ngữ và giao tiếp với nhau hiệu quả hơn. MT cũng có thể giúp mọi người tiếp cận với thông tin từ nhiều nguồn khác nhau, bất kể ngôn ngữ của họ. Tuy nhiên, việc dịch chính xác và tự nhiên vẫn là một thách thức, đặc biệt đối với các cặp ngôn ngữ khác nhau và văn bản phức tạp.
+
+**Xem thêm**:
+- [Machine translation](https://en.wikipedia.org/wiki/Machine_translation)

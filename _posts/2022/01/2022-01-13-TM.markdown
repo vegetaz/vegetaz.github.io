@@ -3,8 +3,7 @@ layout: post
 title: "TM"
 date: 2022-01-13 16:06:10 +0700
 categories: [Information Technology, Localization]
-tags: [l10n, okapi, cat]
-img_path: /assets/img/okapi/
+tags: [l10n, cat]
 ---
 
 **Translation memory (TM)** là một cơ sở dữ liệu lưu trữ các "phân đoạn" (segment), có thể là các câu, đoạn văn hoặc các đơn vị giống như câu đã được dịch trước đó, nhằm hỗ trợ người dịch. **Bộ nhớ dịch (TM)** lưu trữ văn bản nguồn và bản dịch tương ứng của nó trong các cặp ngôn ngữ được gọi là "đơn vị dịch" (Translation Unit - TU).
