@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "ApSIC Xbench"
-date: 2022-01-15 16:06:10 +0700
+date: 2022-01-16 16:06:10 +0700
 categories: [Information Technology, Localization]
 tags: [l10n, cat]
 ---
