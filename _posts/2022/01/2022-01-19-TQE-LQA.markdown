@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "TQE/LQA"
-date: 2022-01-09 16:06:10 +0700
+date: 2022-01-19 16:06:10 +0700
 categories: [Information Technology, Localization]
 tags: [l10n]
 ---
