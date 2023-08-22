@@ -1,0 +1,32 @@
+---
+layout: post
+title: "TQE/LQA"
+date: 2022-01-09 16:06:10 +0700
+categories: [Information Technology, Localization]
+tags: [l10n]
+---
+
+**TQE/LQA** là một quy trình hoặc hệ thống được sử dụng để đánh giá chất lượng của các bản dịch dựa trên một số tiêu chí nhất định.
+
+**LQA** là từ viết tắt của **Language Quality Assurance**, tức là đảm bảo chất lượng ngôn ngữ.
+**TQE** là từ viết tắt của **Translation Quality Evaluation**, tức là đánh giá chất lượng dịch.
+
+Mục đích chính của TQE/LQA là đo lường và đánh giá mức độ chính xác, sự hiểu quả và sự chất lượng chung của một bản dịch.
+
+**TQE/LQA** thường được sử dụng trong ngành dịch thuật và các lĩnh vực liên quan đến dịch thuật, chẳng hạn như công ty dịch thuật, công ty công nghệ thông tin và các tổ chức quốc tế.
+
+Một số tiêu chí thường được sử dụng để đánh giá chất lượng bao gồm:
+- Chính xác ngữ pháp và ngữ nghĩa: Đánh giá việc dịch đúng cú pháp và ngữ nghĩa của nguyên văn.
+- Sự trung thành với ý nghĩa ban đầu: Đánh giá mức độ dịch giữ nguyên ý nghĩa và thông điệp của văn bản gốc.
+- Độ chính xác từ vựng: Đánh giá việc sử dụng từ ngữ chính xác và phù hợp trong bản dịch.
+- Độ thích hợp văn phong: Đánh giá việc sử dụng văn phong phù hợp với ngữ cảnh và đối tượng đọc.
+- Độ sắp xếp và cấu trúc: Đánh giá cách bố trí và tổ chức câu, đoạn và cấu trúc toàn bộ văn bản.
+- Đánh giá tổng thể: Đánh giá chất lượng tổng thể của bản dịch dựa trên một số tiêu chí nhất định.
+
+**TQE/LQA** thường được thực hiện bằng cách sử dụng các người đánh giá chuyên nghiệp hoặc thông qua việc sử dụng các công cụ tự động để đo lường chất lượng dịch thuật. Các công cụ tự động thường sử dụng các thuật toán và quy tắc để tính toán các chỉ số chất lượng dựa trên các tiêu chí được định nghĩa trước.
+
+**TQE/LQA** giúp cung cấp thông tin quan trọng cho các dự án dịch, cho phép đánh giá chất lượng dịch thuật, đánh giá hiệu suất của các nhà dịch và cải thiện quá trình dịch thuật trong tương lai.
+
+**Xem thêm**:
+- [Language Quality Assurance](https://www.google.com/search?q=Language+Quality+Assurance&rlz=1C1GCEA_enVN1030VN1030&oq=Language+Quality+Assurance&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIJCAEQABgTGIAEMgoIAhAAGBMYFhgeMgoIAxAAGBMYFhgeMgoIBBAAGBMYFhgeMgoIBRAAGBMYFhgeMgoIBhAAGBMYFhgeMgwIBxAAGA8YExgWGB4yCggIEAAYExgWGB4yBggJEEUYQNIBBzcxOGowajmoAgCwAgA&sourceid=chrome&ie=UTF-8)
+- [Translation Quality Evaluation](https://www.google.com/search?q=Translation+Quality+Evaluation&rlz=1C1GCEA_enVN1030VN1030&gs_lcrp=EgZjaHJvbWUqBggAEEUYOzIGCAAQRRg7MgoIARAAGBMYFhgeMgoIAhAAGBMYFhgeMgoIAxAAGBMYFhgeMgoIBBAAGBMYFhgeMgoIBRAAGBMYFhgeMgoIBhAAGBMYFhgeMgoIBxAAGBMYFhgeMgoICBAAGBMYFhgeMgoICRAAGBMYFhge0gEHOTYwajBqN6gCALACAA&ie=UTF-8)
