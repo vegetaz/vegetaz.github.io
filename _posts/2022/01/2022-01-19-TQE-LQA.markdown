@@ -11,7 +11,7 @@ tags: [l10n]
 **LQA** là từ viết tắt của **Language Quality Assurance**, tức là đảm bảo chất lượng ngôn ngữ.
 **TQE** là từ viết tắt của **Translation Quality Evaluation**, tức là đánh giá chất lượng dịch.
 
-Mục đích chính của TQE/LQA là đo lường và đánh giá mức độ chính xác, sự hiểu quả và sự chất lượng chung của một bản dịch.
+Mục đích chính của **TQE/LQA** là đo lường và đánh giá mức độ chính xác, sự hiểu quả và sự chất lượng chung của một bản dịch.
 
 **TQE/LQA** thường được sử dụng trong ngành dịch thuật và các lĩnh vực liên quan đến dịch thuật, chẳng hạn như công ty dịch thuật, công ty công nghệ thông tin và các tổ chức quốc tế.
 
