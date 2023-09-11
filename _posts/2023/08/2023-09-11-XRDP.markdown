@@ -1,0 +1,31 @@
+---
+layout: post
+title: "xrdp"
+date: 2023-09-11 17:08:01 +0700
+categories: [Information Technology, Software, Tech Tips and Tricks]
+tags: [linux, ubuntu, windows]
+---
+
+**XRDP** là một ứng dụng mã nguồn mở cho phép người dùng từ xa kết nối và điều khiển máy tính từ xa thông qua một giao diện đồ họa. **XRDP** là viết tắt của "X Remote Desktop Protocol". Nó cho phép người dùng truy cập và sử dụng máy tính từ xa thông qua một máy tính hoặc thiết bị khác, thường là qua mạng.
+
+**XRDP** sử dụng giao thức RDP (Remote Desktop Protocol) để thiết lập kết nối và truyền dữ liệu giữa máy tính người dùng và máy tính từ xa. Khi kết nối thành công, người dùng có thể hiển thị desktop từ xa trên máy tính hiện tại và tương tác với nó như là một phiên làm việc thông thường.
+
+**XRDP** thường được sử dụng trong các môi trường Linux để cung cấp khả năng truy cập từ xa vào máy tính chạy hệ điều hành Linux bằng cách sử dụng các ứng dụng từ xa như Remote Desktop Client trên Windows hoặc Remmina trên Linux. Nó cung cấp một giải pháp đơn giản và tiện lợi cho việc quản lý từ xa và hỗ trợ kỹ thuật.
+
+Cài đặt `xrdp` trong Ubuntu bằng câu lệnh:
+```bash
+sudo apt install xrdp
+```
+Cấu hình `xrdp`:
+```bash
+sudo ufw allow from any to any port 3389 proto tcp
+```
+Khởi động `xrdp` hoặc khởi động lại (`reboot`) cả hệ thống Ubuntu:
+```bash
+sudo systemctl enable --now xrdp
+```
+
+
+**Đọc thêm**:
+- [xrdp by neutrinolabs](https://www.xrdp.org)
+- [an open source RDP server](https://github.com/neutrinolabs/xrdp)
