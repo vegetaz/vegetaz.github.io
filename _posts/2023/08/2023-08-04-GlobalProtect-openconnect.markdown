@@ -9,11 +9,12 @@ img_path: /assets/img/GlobalProtect/
 
 Phần mềm **GlobalProtect** của Palo Alto Networks là một giải pháp VPN (Virtual Private Network) toàn diện được cung cấp bởi Palo Alto Networks. GlobalProtect được thiết kế để cung cấp một mạng riêng ảo an toàn và bảo mật cho người dùng khi kết nối với mạng công ty từ xa.
 
+![GlobalProtect](GlobalProtect.png)
+_GlobalProtect_
+
 Với **GlobalProtect**, người dùng có thể truy cập vào các tài nguyên mạng nội bộ của công ty, như ứng dụng, dữ liệu và hệ thống, một cách an toàn từ bất kỳ đâu trên thế giới, dù đang sử dụng mạng internet công cộng. GlobalProtect sử dụng các công nghệ mã hóa và các lớp bảo mật cao cấp để đảm bảo rằng dữ liệu và thông tin cá nhân của người dùng được bảo vệ khỏi các mối đe dọa mạng.
 
 Ngoài việc cung cấp môi trường truy cập từ xa an toàn, **GlobalProtect** cũng cung cấp các tính năng quản lý mạng linh hoạt, cho phép quản trị viên thiết lập các chính sách bảo mật, theo dõi và kiểm soát việc kết nối từ xa, và cung cấp các báo cáo và nhật ký hoạt động chi tiết.
-
-Tóm lại, **GlobalProtect** là một giải pháp VPN toàn diện của Palo Alto Networks, giúp cung cấp môi trường truy cập từ xa an toàn và quản lý mạng hiệu quả cho các tổ chức và người dùng.
 
 Tải về **GlobalProtect** cho hệ điều hành Linux từ liên kết này: [Cú OneDrive](https://g1915b-my.sharepoint.com/:f:/g/personal/cu2023_g1915b_onmicrosoft_com/EmGh4FAyTjZDt9HS10FchaEBV-3Dv71tkK4cVYhD2lQmkA?e=CQiTQ3)
 
@@ -46,7 +47,7 @@ sudo apt update
 sudo apt install globalprotect-openconnect
 ```
 ![GlobalProtect-openconnect](GlobalProtect_Linux_Mint_21.2.png)
-_GlobalProtect_
+_GlobalProtect OpenConnect_
 
 Hoặc sử dụng `OpenConnect`, cũng hỗ trợ giao thức VPN của `Palo Alto Network GlobalProtect`:
 ```bash
