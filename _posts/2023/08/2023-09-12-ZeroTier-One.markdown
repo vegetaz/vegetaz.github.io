@@ -2,7 +2,7 @@
 layout: post
 title: "ZeroTier"
 date: 2023-09-12 17:08:01 +0700
-categories: [Information Technology, Software, Tech Tips and Tricks]
+categories: [Information Technology, Software]
 tags: [linux, ubuntu, windows]
 img_path: /assets/img/ZeroTier/
 ---
