@@ -1,0 +1,29 @@
+---
+layout: post
+title: "VNC"
+date: 2023-09-13 11:59:01 +0700
+categories: [Information Technology, Software, Tech Tips and Tricks]
+tags: [linux, ubuntu, windows]
+img_path: /assets/img/VNC/
+---
+
+**VNC** là viết tắt của "Virtual Network Computing", trong tiếng Việt có thể dịch là "Máy tính ảo qua mạng". **VNC** là một giao thức và phần mềm cho phép người dùng từ xa điều khiển và truy cập vào một máy tính (remote) từ một máy tính (client) khác thông qua mạng Internet hoặc mạng nội bộ. Khi sử dụng **VNC**, người dùng có thể xem màn hình của máy tính từ xa (remote), điều khiển chuột và bàn phím của máy tính từ xa như thể người dùng đang ngồi trước máy tính đó. **VNC** thường được sử dụng để hỗ trợ từ xa, quản lý máy tính từ xa và chia sẻ màn hình cho mục đích làm việc nhóm.
+
+![](Virtual_Network_Computing.svg)
+_VNC Logo_
+
+**VNC** ra đời vào những năm 1990. Giao thức **VNC** ban đầu được phát triển bởi Oliver Jones và giao diện người dùng được phát triển bởi James Weatherall, tại Olivetti & Oracle Research Lab ở Cambridge, Anh. Họ đã phát triển **VNC** như là một công cụ để truy cập từ xa vào các máy tính trong một mạng nội bộ. **VNC** đã trở thành một công nghệ phổ biến và được sử dụng rộng rãi trên nhiều nền tảng và hệ điều hành khác nhau, cho phép người dùng từ xa truy cập và điều khiển máy tính.
+
+Ưu điểm của **VNC**:
+- Đa nền tảng: **VNC** có sẵn trên nhiều nền tảng và hệ điều hành khác nhau, bao gồm Windows, macOS, Linux và các thiết bị di động như Android và iOS. Điều này cho phép người dùng truy cập từ xa vào máy tính dễ dàng từ bất kỳ thiết bị nào mà không cần quan tâm đến hệ thống hoặc nền tảng.
+- Độ tin cậy: **VNC** đã tồn tại trong nhiều năm và đã được thử nghiệm và sử dụng rộng rãi. Nó đã trở thành một công nghệ truy cập từ xa đáng tin cậy và ổn định.
+- Tính năng phong phú: **VNC** cung cấp nhiều tính năng hữu ích như chia sẻ màn hình, điều khiển từ xa, truyền tải âm thanh và video, chia sẻ tệp tin và nhiều hơn nữa. Điều này giúp người dùng dễ dàng làm việc từ xa và hỗ trợ kết nối và tương tác với máy tính khác.
+
+Nhược điểm của **VNC**:
+- Hiệu suất: Một điểm yếu của **VNC** là hiệu suất có thể bị giảm khi truyền tải hình ảnh và dữ liệu qua mạng, đặc biệt là trong các kết nối mạng chậm. Điều này có thể dẫn đến độ trễ và giảm độ mượt trong việc điều khiển và xem màn hình từ xa.
+- Bảo mật: Mặc dù **VNC** cung cấp khả năng truy cập từ xa và điều khiển máy tính, việc sử dụng **VNC** có thể kéo theo các vấn đề về bảo mật. Nếu không được cấu hình và bảo mật chặt chẽ, **VNC** có thể tạo ra các lỗ hổng và rủi ro về an ninh mạng, cho phép kẻ tấn công tiềm năng truy cập trái phép vào hệ thống.
+- Khả năng mở rộng: Một hạn chế của **VNC** là khả năng mở rộng có thể bị giới hạn khi kết nối với nhiều máy tính hoặc trong các môi trường mạng phức tạp. Điều này có thể ảnh hưởng đến hiệu suất và khả năng quản lý trong các môi trường lớn hơn.
+
+
+**Đọc thêm**:
+- [Virtual Network Computing](https://en.wikipedia.org/wiki/Virtual_Network_Computing)
