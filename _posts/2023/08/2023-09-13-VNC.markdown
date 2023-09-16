@@ -27,3 +27,4 @@ Nhược điểm của **VNC**:
 
 **Đọc thêm**:
 - [Virtual Network Computing](https://en.wikipedia.org/wiki/Virtual_Network_Computing)
+- [TigerVNC](https://github.com/TigerVNC/tigervnc/releases)
