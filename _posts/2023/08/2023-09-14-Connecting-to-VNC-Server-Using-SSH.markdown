@@ -11,7 +11,7 @@ Kết nối tới máy chủ VNC bằng SSH mang lại lợi ích về bảo m�
 
 ### Chuẩn bị
 Máy chủ VNC được sử dụng là Ubuntu 20.04 LTS.  
-[Ubuntu đã cài đặt và cấu hình SSH Server.](/install-and-use-openssh-server-in-linux-mint/)  
+[Ubuntu đã cài đặt và cấu hình SSH Server.](https://vegetaz.github.io/posts/install-and-use-openssh-server-in-linux-mint/)  
 Cài đặt trình quản lý đăng nhập:
 ```bash
 sudo apt install lightdm
