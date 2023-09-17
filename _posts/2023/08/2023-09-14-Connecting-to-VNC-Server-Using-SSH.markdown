@@ -27,7 +27,7 @@ _Require a password_
 Khu vực **Password** của **Authentication** sẽ thay đổi theo mỗi lần hệ thống Ubuntu khởi động lại, cần tái thiết lập lại.
 
 ### Kết nối
-Trên máy khách (trong trường hợp này là máy tính có hệ điều hành Microsoft Windows), cài đặt một chương trình VNC Viewer, RealVNC Viewer hoặc TigerVNC Viewer.
+Trên máy khách (trong trường hợp này là máy tính có hệ điều hành Microsoft Windows), cài đặt một chương trình VNC Viewer, [RealVNC Viewer](https://www.realvnc.com/en/connect/download/viewer/) hoặc [TigerVNC Viewer](https://sourceforge.net/projects/tigervnc/files/stable/).
 Mở chương trình Command Prompt hoặc PowerShell, nhập vào:
 ```powershell
 ssh -L 5900:localhost:5900 user@host
