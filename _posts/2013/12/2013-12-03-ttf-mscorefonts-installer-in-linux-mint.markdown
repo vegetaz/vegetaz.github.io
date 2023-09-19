@@ -10,7 +10,7 @@ tags: [linux, ubuntu]
 {:.prompt-info}
 
 ```bash
-sudo apt in ttf-mscorefonts-installer
+sudo apt install ttf-mscorefonts-installer
 ```  
 
 Sau đó, cần chấp nhận các điều khoản của giấy phép Microsoft.  
