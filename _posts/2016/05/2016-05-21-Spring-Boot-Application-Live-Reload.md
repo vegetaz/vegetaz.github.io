@@ -23,7 +23,7 @@ Nhấn tổ hợp phím **Ctrl + Shift + A** > **Registry...**, kích hoạt c�
 ```console
 compiler.automake.allow.when.app.running
 ```
-![](compiler-automake-allow-when-app-running.png)
+![compiler.automake.allow.when.app.running](compiler-automake-allow-when-app-running.png)
 _compiler.automake.allow.when.app.running_
 
 Khởi động lại **IntelliJ IDEA** là có thể sử dụng được!
