@@ -36,7 +36,7 @@ _Office 2007 Filter Parameters Word Options_
 ![Office 2007 Filter Parameters Powerpoint Options](Office_2007_Filter_Parameters_Powerpoint_Options.png)
 _Office 2007 Filter Parameters Powerpoint Options_
 
-![](Office_2007_Filter_Parameters_Excel_Options.png)
+![Office 2007 Filter Parameters Excel Options](Office_2007_Filter_Parameters_Excel_Options.png)
 _Office 2007 Filter Parameters Excel Options_
 
 ![New Filter Configurations](Filter_Configurations_After.png)
