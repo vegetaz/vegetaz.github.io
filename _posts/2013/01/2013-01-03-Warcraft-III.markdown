@@ -11,9 +11,11 @@ Warcraft III: Reign of Chaos ra đời vào ngày 2 tháng 6 năm 2002. Đây l�
 Warcraft III: Reforged ra đời vào ngày 29 tháng 1 năm 2020. Đây là phiên bản làm lại của Warcraft III: Reign of Chaos và The Frozen Throne, với đồ họa và âm thanh được nâng cấp, cùng với một số tính năng mới. Tuy nhiên, phiên bản này đã nhận được nhiều đánh giá tiêu cực từ người hâm mộ do chất lượng đồ họa không như mong đợi, thiếu sót về tính năng và nhiều lỗi kỹ thuật.
 
 #### Tải xuống Warcraft III
-- [Warcarft III phiên bản 1.24.4.6387](https://g1915b-my.sharepoint.com/:u:/g/personal/cu2023_g1915b_onmicrosoft_com/EX2I60LnzDtAtSwe4kG9-IAB5gaG5M-_sygY5PMK37OGqQ?e=WhES05)
+- [Warcraft III phiên bản 1.24.4.6387](https://g1915b-my.sharepoint.com/:u:/g/personal/cu2023_g1915b_onmicrosoft_com/EX2I60LnzDtAtSwe4kG9-IAB5gaG5M-_sygY5PMK37OGqQ?e=WhES05)
 
-- [Warcarft III phiên bản 1.31.1.12164](https://g1915b-my.sharepoint.com/:u:/g/personal/cu2023_g1915b_onmicrosoft_com/EWVJFnruEuhPsmzfJrBvvSwBLLylV6O0Jv5R0Y8RPTbhqA?e=m0d4QM)
+- [Warcraft III phiên bản 1.29.2.9231](https://g1915b-my.sharepoint.com/:u:/g/personal/cu2023_g1915b_onmicrosoft_com/Ea4ap5dciW5PhNooONEgxG4BtxOomuoPBFyb8FhMSb337A?e=13J5ES)
+
+- [Warcraft III phiên bản 1.31.1.12164](https://g1915b-my.sharepoint.com/:u:/g/personal/cu2023_g1915b_onmicrosoft_com/EWVJFnruEuhPsmzfJrBvvSwBLLylV6O0Jv5R0Y8RPTbhqA?e=m0d4QM)
 
 
 #### Các bản vá
