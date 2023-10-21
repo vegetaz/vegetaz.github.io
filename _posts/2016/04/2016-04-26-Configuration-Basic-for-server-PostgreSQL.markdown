@@ -26,7 +26,7 @@ Sử dụng câu lệnh sau để cấu hình:
 initdb.exe -U postgre -A password -E utf8 -W -D D:\Tools\pgsql\data
 ```
 Trong đó `postgre` là tài khoản đăng nhập, và `password` sẽ được nhập sau khi câu lệnh trên được thực thi.
-![](Success-2019-12-21.png)
+![PostgreSQL Status](Success-2019-12-21.png)
 _PostgreSQL Status_
 
 Mỗi lần muốn khởi động **server** của **PostgreSQL** thì sử dụng câu lệnh:
