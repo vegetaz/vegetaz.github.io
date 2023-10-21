@@ -10,13 +10,13 @@ Warcraft III: Reign of Chaos ra đời vào ngày 2 tháng 6 năm 2002. Đây l�
 
 Warcraft III: Reforged ra đời vào ngày 29 tháng 1 năm 2020. Đây là phiên bản làm lại của Warcraft III: Reign of Chaos và The Frozen Throne, với đồ họa và âm thanh được nâng cấp, cùng với một số tính năng mới. Tuy nhiên, phiên bản này đã nhận được nhiều đánh giá tiêu cực từ người hâm mộ do chất lượng đồ họa không như mong đợi, thiếu sót về tính năng và nhiều lỗi kỹ thuật.
 
-### Tải xuống Warcraft III
+#### Tải xuống Warcraft III
 - [Warcarft III phiên bản 1.24.4.6387](https://g1915b-my.sharepoint.com/:u:/g/personal/cu2023_g1915b_onmicrosoft_com/EX2I60LnzDtAtSwe4kG9-IAB5gaG5M-_sygY5PMK37OGqQ?e=WhES05)
 
 - [Warcarft III phiên bản 1.31.1.12164](https://g1915b-my.sharepoint.com/:u:/g/personal/cu2023_g1915b_onmicrosoft_com/EWVJFnruEuhPsmzfJrBvvSwBLLylV6O0Jv5R0Y8RPTbhqA?e=m0d4QM)
 
 
-### Các bản vá
+#### Các bản vá
 - [TFT Version 1.20e](https://g1915b-my.sharepoint.com/:u:/g/personal/cu2023_g1915b_onmicrosoft_com/EelCi4I-bKFCg_M-byRdywQBareK97sf92tlQXYDggILCA?e=911kv8)
 
 - [TFT Version 1.21](https://g1915b-my.sharepoint.com/:u:/g/personal/cu2023_g1915b_onmicrosoft_com/EcIRVCEm2oJDrb9We8cS-sAB5Cf84Bw-87AMmylSENWoxQ?e=PNyHuv)
@@ -47,11 +47,11 @@ Warcraft III: Reforged ra đời vào ngày 29 tháng 1 năm 2020. Đây là phi
 
 - [TFT Version 1.27b](https://g1915b-my.sharepoint.com/:u:/g/personal/cu2023_g1915b_onmicrosoft_com/EcHEF4avjQNDq0tRZ5XIrdkBM0fr2z2caIBUeHUAgz0xTw?e=r71ZHP)
 
-### Công cụ hỗ trợ
+#### Công cụ hỗ trợ
 - [Warcraft Assistant](https://g1915b-my.sharepoint.com/:u:/g/personal/cu2023_g1915b_onmicrosoft_com/EQHbr-GlVkBOmwNZxwcfHTcBF-nbYpzcFMJWzV5gjeVj7A?e=VMlBVv)
 - [Warcraft Fix Map Size Limit](https://g1915b-my.sharepoint.com/:u:/g/personal/cu2023_g1915b_onmicrosoft_com/EZOp3rKjGclLq5QQI14vgX4BHvx520EyD_s93EsBFuZnIQ?e=fd8Osr)
 - [Warcraft Font Craft](https://g1915b-my.sharepoint.com/:u:/g/personal/cu2023_g1915b_onmicrosoft_com/EYmAdm3eHspOq1D9Y67LbhkBTXFo9PS5gVDj78_P6tjiKA?e=FgDP4N)
 - [Warcraft Version Switcher](https://g1915b-my.sharepoint.com/:u:/g/personal/cu2023_g1915b_onmicrosoft_com/EdTCWvrdn3lPh_1qTXSAig4Bpsiz3g06DEe6Zj4CSRj6fg?e=gswXJV)
 
-### Tham khảo
+#### Tham khảo
 - [Blizzard Warcraft 3](https://warcraft3.blizzard.com/en-us/)
