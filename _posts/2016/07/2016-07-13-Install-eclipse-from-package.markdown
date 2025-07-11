@@ -11,7 +11,7 @@ img_path: /assets/img/install-eclipse/
 
 ### Tải về
 Truy cập vào trang chủ [eclipse](https://www.eclipse.org/downloads/packages/), lựa chọn phiên bản phù hợp:
-![Download eclipse](Download_eclipse.png)
+![Download eclipse]({{ page.img_path }}Download_eclipse.png)
 _Download eclipse_
 
 ### Cài đặt
@@ -24,7 +24,7 @@ mv eclipse /opt/
 ```
 
 ### Khởi chạy
-![eclipse](eclipse.png)
+![eclipse]({{ page.img_path }}eclipse.png)
 _eclipse_
 
 Tạo đường dẫn khởi chạy cho **eclipse**:  

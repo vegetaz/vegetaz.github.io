@@ -13,16 +13,16 @@ img_path: /assets/img/SublimeJava/
 
 ### Thiết lập Sublime Text
 Mở 7-Zip File Manager với quyền Administrator<br/>
-![7-Zip File Manager](7-Zip-File-Manager.png)
+![7-Zip File Manager]({{ page.img_path }}7-Zip-File-Manager.png)
 
 Truy cập đến nơi chứa Packages của Sublime Text, đây là của mình trên Windows 10:<br/>
-![7-Zip File Manager](7-Zip-File-Manager-Open.png)
+![7-Zip File Manager]({{ page.img_path }}7-Zip-File-Manager-Open.png)
 
 Chọn `Java.sublime-package` và nhấn chuột phải, chọn Open thì sẽ được như hình:<br/>
-![7-Zip File Manager](7-Zip-File-Manager-Open-2.png)
+![7-Zip File Manager]({{ page.img_path }}7-Zip-File-Manager-Open-2.png)
 
 Chọn `JavaC.sublime-build` và nhấn chuột phải, chọn Edit sẽ được như hình:<br/>
-![7-Zip File Manager](7-Zip-File-Manager-Open-3.png)
+![7-Zip File Manager]({{ page.img_path }}7-Zip-File-Manager-Open-3.png)
 
 Thay thế với đoạn code dưới đây:
 ```json
@@ -34,7 +34,7 @@ Thay thế với đoạn code dưới đây:
 }
 ```
 Lưu lại:<br/>
-![7-Zip File Manager](7-Zip-File-Manager-Open-4.png)
+![7-Zip File Manager]({{ page.img_path }}7-Zip-File-Manager-Open-4.png)
 
 Tiếp tục tạo thêm tệp tin `runJava.bat` với nội dung như sau:<br/>
 ```bat
@@ -53,13 +53,13 @@ ECHO OFF
 ```
 
 Cho tệp tin đó vào thư mục `bin` của JDK:<br/>
-![Run Java Bin](Run-Java-Bin.PNG)
+![Run Java Bin]({{ page.img_path }}Run-Java-Bin.PNG)
 
 Thiết lập như sau khi sử dụng:<br/>
-![Java C](JavaC.png)
+![Java C]({{ page.img_path }}JavaC.png)
 
 ### Kết quả
-![Java in Sublime Text](Java-in-Sublime.PNG)
+![Java in Sublime Text]({{ page.img_path }}Java-in-Sublime.PNG)
 
 **Đọc thêm**:
 - [Java in Sublime Text](https://www.google.com/search?q=java+in+sublime+text&rlz=1C1PNBB_viVN954VN954&oq=java+in+sublime+text&aqs=chrome.0.0i19i512j0i19i22i30l3j69i65l2.6576j0j4&sourceid=chrome&ie=UTF-8)

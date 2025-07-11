@@ -9,7 +9,7 @@ img_path: /assets/img/ZeroTier/
 
 **ZeroTier One** là một ứng dụng khách miễn phí và mã nguồn mở cho phép người dùng kết nối các thiết bị của mình vào một mạng ngang hàng riêng qua kết nối Internet. Mạng này được gọi là **ZeroTier Network**, và nó hoạt động như một mạng riêng ảo (VPN) nhưng không yêu cầu cấu hình hoặc mở cổng.
 
-![ZeroTier Logo](ZeroTier_Logo.png)
+![ZeroTier Logo]({{ page.img_path }}ZeroTier_Logo.png)
 _ZeroTier_
 
 **ZeroTier One** có thể được sử dụng cho nhiều mục đích, bao gồm:

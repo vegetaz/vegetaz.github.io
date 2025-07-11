@@ -14,7 +14,7 @@ Khi công nghệ phát triển và màn hình có độ phân giải cao hơn đ
 Theo đó, Microsoft sẽ chính thức sử dụng Aptos làm phông chữ mặc định cho các ứng dụng Office. Trước đó, vào năm 2007, Microsoft đã từng thay đổi phông chữ mặc định trong Office từ Times New Roman sang Calibri - phông chữ mặc định trong suốt 16 năm qua đối với hơn 400 triệu người dùng Microsoft trên khắp thế giới.
 
 
-![Giống như Calibri, Aptos là một kiểu chữ Sans Serif không chân dễ đọc](02-90923407-microsoft-aptos.jpg)
+![Giống như Calibri, Aptos là một kiểu chữ Sans Serif không chân dễ đọc]({{ page.img_path }}02-90923407-microsoft-aptos.jpg)
 _Giống như Calibri, Aptos là một kiểu chữ Sans Serif không chân dễ đọc_
 
 Việc thay đổi phông chữ mặc định là một cách để tạo ra một trải nghiệm mới cho người dùng, phù hợp với xu hướng thiết kế hiện đại và đa dạng. Sự thay đổi này không chỉ ảnh hưởng đến cách thức hiển thị trong văn bản, mà còn tạo ra một ấn tượng về tính chuyên nghiệp, sáng tạo và cá nhân của người viết.

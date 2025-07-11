@@ -9,20 +9,20 @@ img_path: /assets/img/Remote_Tunnels/
 
 Phần mềm **Visual Studio Code** của **Microsoft** phát hành một tiện ích mở rộng (extension) có tên là [Remote - Tunnels](https://marketplace.visualstudio.com/items?itemName=ms-vscode.remote-server).
 
-![Remote - Tunnels](Remote_Tunnels.png)
+![Remote - Tunnels]({{ page.img_path }}Remote_Tunnels.png)
 _Remote - Tunnels_
 
 Tiện ích mở rộng **Remote - Tunnels** cho phép người dùng kết nối tới một máy tính từ xa, chẳng hạn như máy tính để bàn hoặc máy ảo (VM), máy chủ Ubuntu (Linux) thông qua một đường hầm (tunnel) an toàn. Sau đó, người dùng có thể kết nối an toàn tới máy tính đó từ mọi nơi mà không cần [SSH](https://vegetaz.github.io/posts/ssh/).
 
-![SSH Tunnel](SSH_Tunnel.png)
+![SSH Tunnel]({{ page.img_path }}SSH_Tunnel.png)
 _SSH Tunnel_
 
 Trên máy chủ cần kết nối đến, sử dụng tính năng **Turn on Remote Tunnel Access...** có sẵn trên **Visual Studio Code** hoặc cài đặt [Code CLI](https://code.visualstudio.com/#alt-downloads).
 
-![Turn on Remote Tunnel Access...](Turn_on_Remote_Tunnel_Access.png)
+![Turn on Remote Tunnel Access...]({{ page.img_path }}Turn_on_Remote_Tunnel_Access.png)
 _Turn on Remote Tunnel Access..._
 
-![Code CLI](Code_CLI.png)
+![Code CLI]({{ page.img_path }}Code_CLI.png)
 _Code CLI_
 
 Trên hệ điều hành **Ubuntu/Linux Mint**, tải về và giải nén **Code CLI** bằng câu lệnh:

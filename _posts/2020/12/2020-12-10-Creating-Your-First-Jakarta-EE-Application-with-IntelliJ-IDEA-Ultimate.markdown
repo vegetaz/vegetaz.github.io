@@ -16,32 +16,32 @@ img_path: /assets/img/jakarta/
 
 ### Khởi tạo
 Từ giao diện chào mừng của IntelliJ IDEA chọn `New Project`
-![New Project](NewProject-1.png)
+![New Project]({{ page.img_path }}NewProject-1.png)
 _New Project_
 
 Tiếp theo là chọn `Java Enterprise` > chọn `Project SDK` là 1.8 phiên bản theo sau tuỳ ý. Tiếp tục với `Project template` là `Web application`, và `Application server` là gì thì tuỳ ý, trong bài viết này là `Tomcat 9.0.37`. Và dĩ nhiên ngôn ngữ để phát triển dự án này là Java rồi, ai thích ngôn khác thì tuỳ ý.
-![New Project](NewProject-2.png)
+![New Project]({{ page.img_path }}NewProject-2.png)
 _New Project_
 
 Phần `Specifications` thì chọn là `Servlet`
-![New Project](NewProject-3.png)
+![New Project]({{ page.img_path }}NewProject-3.png)
 _New Project_
 
 Và đặt tên, chọn nơi lưu cho dự án vừa khởi tạo
-![New Project](NewProject-4.png)
+![New Project]({{ page.img_path }}NewProject-4.png)
 _New Project_
 
 ### Chạy chương trình
 Giao diện đàu tiên sau khi khởi tạo dự án
-![Jakarta 2020](Jakarta-1.png)
+![Jakarta 2020]({{ page.img_path }}Jakarta-1.png)
 _Jakarta 2020_
 
 Chạy thử 
-![Jakarta 2020](Jakarta-2.png)
+![Jakarta 2020]({{ page.img_path }}Jakarta-2.png)
 _Jakarta 2020_
 
 Cấu hình 
-![Jakarta 2020](Jakarta-3.png)
+![Jakarta 2020]({{ page.img_path }}Jakarta-3.png)
 _Jakarta 2020_
 
 **Đọc thêm**:

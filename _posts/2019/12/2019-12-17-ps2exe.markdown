@@ -29,5 +29,5 @@ ps2exe
 ```powershell
 Win-PS2EXE
 ```
-![Win-PS2EXE](Win-PS2EXE.jpg)
+![Win-PS2EXE]({{ page.img_path }}Win-PS2EXE.jpg)
 _Win-PS2EXE_

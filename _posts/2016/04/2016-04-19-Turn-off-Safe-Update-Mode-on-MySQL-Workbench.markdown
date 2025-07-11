@@ -24,7 +24,7 @@ SET SQL_SAFE_UPDATES = 1;
 
 ### Tắt “Safe Update Mode” vĩnh viễn
 Từ **MySQL Workbench** => **Edit** => **Preferences** => **SQL Editor**
-![Tắt “Safe Update Mode” vĩnh viễn](2019-11-19-Disable-Safe-Mode-MySQL-Workbench.png)
+![Tắt “Safe Update Mode” vĩnh viễn]({{ page.img_path }}2019-11-19-Disable-Safe-Mode-MySQL-Workbench.png)
 _Tắt “Safe Update Mode” vĩnh viễn_
 Bỏ tích chọn mục **Safe Updates**
 

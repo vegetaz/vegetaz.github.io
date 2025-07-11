@@ -15,7 +15,7 @@ sudo apt install krusader
 ```  
 
 **Krusader** được khởi động:  
-![Krusader](Krusader.png)
+![Krusader]({{ page.img_path }}Krusader.png)
 _Krusader_
 
 Đọc thêm:

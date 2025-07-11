@@ -21,7 +21,7 @@ Nhấn phím **F7** để đặt tên và tạo kết nối mới.
 > Không sử dụng khoảng trống (space) trong quá trình đặt tên.
 {:.prompt-info}
 Sau khi đặt tên hoàn tất, nhấn **OK** để tới cửa sổ **Connect to SFTP Server**.
-![Connect to SFTP Server](Connect_to_SFTP_Server.png)
+![Connect to SFTP Server]({{ page.img_path }}Connect_to_SFTP_Server.png)
 _Connect to SFTP Server_
 
 Tại cửa sổ **Connect to SFTP Server**, thiết lập đơn giản với địa chỉ IP, tên đăng nhập và mật khẩu của Linux Server.  

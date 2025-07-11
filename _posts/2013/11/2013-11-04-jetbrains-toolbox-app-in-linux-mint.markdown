@@ -16,11 +16,11 @@ sudo tar -xzf jetbrains-toolbox-1.28.1.15219.tar.gz -C /opt
 
 Mở thư mục **jetbrains-toolbox-1.28.1.15219**.  
 Nhấn phím chuột phải vào **jetbrains-toolbox**, chọn **Execute**:
-![jetbrains-toolbox](Excute-jetbrains-toolboxe.png)
+![jetbrains-toolbox]({{ page.img_path }}Excute-jetbrains-toolboxe.png)
 _jetbrains-toolbox_
 
 **JetBrains Toolbox** đã được mở, có thể tiến hành cài đặt các phần mềm của hãng **JetBrains**:  
-![JetBrains Toolbox](JetBrains-Toolbox.png)
+![JetBrains Toolbox]({{ page.img_path }}JetBrains-Toolbox.png)
 _JetBrains Toolbox_
 
 Đọc thêm:

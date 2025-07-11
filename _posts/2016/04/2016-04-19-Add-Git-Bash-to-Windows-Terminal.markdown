@@ -7,7 +7,7 @@ tags: [git]
 img_path: /assets/img/GitBashWindowsTerminal/
 ---
 
-![Git Bash](2019-11-26_14-59-51.png)
+![Git Bash]({{ page.img_path }}2019-11-26_14-59-51.png)
 _Git Bash_
 
 Đảm bảo [git-scm](https://git-scm.com/downloads) đã được cài đặt.
@@ -16,7 +16,7 @@ Tải về [Windows Terminal](https://github.com/microsoft/terminal).
 
 Sau đó mở cài đặt của Windows Terminal như hình dưới đây:
 
-![Setting of Windows Terminal](2019-11-26_14-55-40.png)
+![Setting of Windows Terminal]({{ page.img_path }}2019-11-26_14-55-40.png)
 _Setting of Windows Terminal_
 
 Thêm đoạn mã sau vào phần `profiles` của Windows Terminal:

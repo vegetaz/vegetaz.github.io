@@ -11,7 +11,7 @@ img_path: /assets/img/dotNET/
 
 ### Kích hoạt các thành phần trong Windows features
 Cần kích hoạt .NET Framework 3.5 (Includes .NET 2.0 and 3.0)
-![Turn Windows features on or off](Turn-Windows-features-on-or-off.PNG)
+![Turn Windows features on or off]({{ page.img_path }}Turn-Windows-features-on-or-off.PNG)
 _.NET Framework 3.5 (Includes .NET 2.0 and 3.0)_
 
 ### Tạo thư mục DotNet

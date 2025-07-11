@@ -13,7 +13,7 @@ img_path: /assets/img/okapi/
 
 **Rainbow** sử dụng cấu trúc dữ liệu đồ thị để biểu diễn thông tin ngôn ngữ và xử lý các thông tin này. Nó hỗ trợ việc xây dựng các ứng dụng xử lý ngôn ngữ tự nhiên như công cụ tách câu, công cụ dịch thuật, công cụ xử lý ngôn ngữ tự nhiên cho các ứng dụng web và ứng dụng di động.
 
-![Rainbow](Rainbow.png)
+![Rainbow]({{ page.img_path }}Rainbow.png)
 _Rainbow_
 
 Tóm lại, **Rainbow** là một thành phần quan trọng trong [Okapi Framework](https://vegetaz.github.io/posts/Okapi-Framework/), giúp xử lý ngôn ngữ tự nhiên đa ngôn ngữ và đa ngữ cảnh. Nó cung cấp các công cụ và khả năng xử lý ngữ pháp, từ loại, dịch thuật và ngữ nghĩa để hỗ trợ việc phân tích và xử lý văn bản.

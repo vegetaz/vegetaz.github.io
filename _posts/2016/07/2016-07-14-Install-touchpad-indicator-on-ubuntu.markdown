@@ -26,10 +26,10 @@ touchpad-indicator
 Hoặc tìm kiếm `Touchpad Indicator` trong danh mục chương trình của Ubuntu.
 
 ### Cấu hình 
-![Actions](actions.png)
+![Actions]({{ page.img_path }}actions.png)
 _Actions_
 
-![Touchpad configuration](configuration.png)
+![Touchpad configuration]({{ page.img_path }}configuration.png)
 _Touchpad configuration_
 
 **Đọc thêm**:

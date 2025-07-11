@@ -18,10 +18,10 @@ sudo apt install lightdm
 ```
 Sau khi cài đặt xong **lightdm** và khởi động lại hệ thống Ubuntu, đi đến **Settings** > **Sharing**, kích hoạt Sharing. Trong Sharing chọn **Remote Desktop** và cấu hình như bên dưới.
 
-![Remote Desktop](Remote_Desktop.png)
+![Remote Desktop]({{ page.img_path }}Remote_Desktop.png)
 _Remote Desktop_
 
-![Require a password](Require_a_password.png)
+![Require a password]({{ page.img_path }}Require_a_password.png)
 _Require a password_
 
 Khu vực **Password** của **Authentication** sẽ thay đổi theo mỗi lần hệ thống Ubuntu khởi động lại, cần tái thiết lập lại.

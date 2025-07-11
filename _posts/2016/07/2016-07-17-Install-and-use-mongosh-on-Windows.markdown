@@ -26,7 +26,7 @@ Tiếp theo là tạo biến môi trường trong `Environment Variables` của 
 ### Sử dụng
 Mở trực tiếp tệp tin `mongosh.exe` hoặc gọi `mongosh` từ `PowerShell` hoặc `Command Prompt`.
 Để giao diện dễ nhìn hơn có thể sử dụng [Microsoft Terminal](https://www.microsoft.com/en-us/p/windows-terminal/9n0dx20hk701).
-![mongosh](mongosh.PNG)
+![mongosh]({{ page.img_path }}mongosh.PNG)
 _mongosh_
 
 **Đọc thêm**:

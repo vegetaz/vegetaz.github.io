@@ -38,14 +38,14 @@ heroku login
 ```bash
 heroku war:deploy target/<war_filename>.war --app <heroku-app-name>
 ```
-![Triển khai ứng dụng Java Web lên heroku](deploy-heroku.png)
+![Triển khai ứng dụng Java Web lên heroku]({{ page.img_path }}deploy-heroku.png)
 _Triển khai ứng dụng Java Web lên heroku_
 
 Sau khi triển khai xong thì mở ứng dụng trên `heroku` với câu lệnh:
 ```bash
 heroku open --app <heroku-app-name>
 ```
-![Vận Già Blog](Lem-heroku.png)
+![Vận Già Blog]({{ page.img_path }}Lem-heroku.png)
 _Vận Già Blog_
 
 **Đọc thêm**:

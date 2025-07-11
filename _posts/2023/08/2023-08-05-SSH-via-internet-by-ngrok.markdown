@@ -34,7 +34,7 @@ ngrok tcp 22
 ```
 
 **ngrok** đã được khởi động, trạng thái hoạt động:
-![ngrok](ngrok.png)
+![ngrok]({{ page.img_path }}ngrok.png)
 _ngrok_
 
 Bây giờ, có thể sử dụng SSH trên máy tính/điện thoại/thiết bị di động có kết nối internet để điều khiển:

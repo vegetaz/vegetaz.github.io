@@ -9,7 +9,7 @@ img_path: /assets/img/ExampleWebXML/
 
 `web.xml` là tệp để cấu hình mô tả triển khai mô hình web trong servlet.
 
-![web.xml](web.xml-jsp-servlet.png)
+![web.xml]({{ page.img_path }}web.xml-jsp-servlet.png)
 _web.xml_
 
 Dưới đây là một số mẫu cấu hình `web.xml`.

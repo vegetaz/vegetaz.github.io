@@ -16,14 +16,14 @@ img_path: /assets/img/SpringLiveReload/
         </dependency>
 ```
 Trong **IntelliJ IDEA**, mở **File** - > **Settings...** -> **Build, Execution, Deployment** -> **Compiler** và đảm bảo **Build project automatically** được kích hoạt.
-![Build project automatically](Build-project-automatically.png)
+![Build project automatically]({{ page.img_path }}Build-project-automatically.png)
 _Build project automatically_
 
 Nhấn tổ hợp phím **Ctrl + Shift + A** > **Registry...**, kích hoạt cấu hình sau:
 ```console
 compiler.automake.allow.when.app.running
 ```
-![compiler.automake.allow.when.app.running](compiler-automake-allow-when-app-running.png)
+![compiler.automake.allow.when.app.running]({{ page.img_path }}compiler-automake-allow-when-app-running.png)
 _compiler.automake.allow.when.app.running_
 
 Khởi động lại **IntelliJ IDEA** là có thể sử dụng được!

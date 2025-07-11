@@ -45,11 +45,11 @@ __This will also be bold__
 
 ### Images
 ```
-![Vận Già Logo](/images/logo.png)
+![Vận Già Logo]({{ page.img_path }}/images/logo.png)
 Format: ![Alt Text](url)
 ```
 
-![Markdown Logo](https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Markdown-mark.svg/200px-Markdown-mark.svg.png)
+![Markdown Logo]({{ page.img_path }}https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Markdown-mark.svg/200px-Markdown-mark.svg.png)
 
 ### Links
 ```

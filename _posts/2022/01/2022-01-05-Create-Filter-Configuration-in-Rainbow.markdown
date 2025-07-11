@@ -10,36 +10,36 @@ img_path: /assets/img/okapi/
 Mặc định Okapi Framework đã có một số [Filter](https://okapiframework.org/wiki/index.php/Filters) cho các phần mềm/công cụ trực thuộc, người dùng có thể tùy chỉnh/tạo mới Filter Configuration dựa vào những Filter Configuration đã có.
 
 Từ cửa sổ của phần mềm Rainbow, chọn **Tool**, chọn **Filter Configuration...**, cửa sổ Filter Configuration mở lên.
-![Filter Configuration...](Rainbow_Tools.png)
+![Filter Configuration...]({{ page.img_path }}Rainbow_Tools.png)
 _Filter Configuration..._
 
 Trong cửa số Filter Configuration, chọn một Filter Configuration bất kỳ, nhấn **Create...**.
-![Filter Configurations](Filter_Configurations.png)
+![Filter Configurations]({{ page.img_path }}Filter_Configurations.png)
 _Filter Configurations_
 
 Cửa sổ tạo tên mới cho Filter Configuration được mở lên, tên mới này bao gồm tiền tố là ID của Filter Configuration mà người dùng đã chọn, kết nối với tên mới bằng ký tự `@`.
-![Create Configuration](Create_Configuration.png)
+![Create Configuration]({{ page.img_path }}Create_Configuration.png)
 _Create Configuration_
 Nhấn OK để đặt tên mới.
 
 Cửa sổ tùy chọn cho Filter Configuration mới được mở lên.
-![Office 2007 Filter Parameters](Office_2007_Filter_Parameters.png)
+![Office 2007 Filter Parameters]({{ page.img_path }}Office_2007_Filter_Parameters.png)
 _Office 2007 Filter Parameters_
 
 Tại đây người dùng có thể tiến hành thêm, bớt các tùy chọn phù hợp cho nhu cầu sử dụng.
-![Office 2007 Filter Parameters General Options](Office_2007_Filter_Parameters_General_Options.png)
+![Office 2007 Filter Parameters General Options]({{ page.img_path }}Office_2007_Filter_Parameters_General_Options.png)
 _Office 2007 Filter Parameters General Options_
 
-![Office 2007 Filter Parameters Word Options](Office_2007_Filter_Parameters_Word_Options.png)
+![Office 2007 Filter Parameters Word Options]({{ page.img_path }}Office_2007_Filter_Parameters_Word_Options.png)
 _Office 2007 Filter Parameters Word Options_
 
-![Office 2007 Filter Parameters Powerpoint Options](Office_2007_Filter_Parameters_Powerpoint_Options.png)
+![Office 2007 Filter Parameters Powerpoint Options]({{ page.img_path }}Office_2007_Filter_Parameters_Powerpoint_Options.png)
 _Office 2007 Filter Parameters Powerpoint Options_
 
-![Office 2007 Filter Parameters Excel Options](Office_2007_Filter_Parameters_Excel_Options.png)
+![Office 2007 Filter Parameters Excel Options]({{ page.img_path }}Office_2007_Filter_Parameters_Excel_Options.png)
 _Office 2007 Filter Parameters Excel Options_
 
-![New Filter Configurations](Filter_Configurations_After.png)
+![New Filter Configurations]({{ page.img_path }}Filter_Configurations_After.png)
 _New Filter Configurations_
 
 Filter Configuration mới này sẽ được lưu tại thư mục `C:\Users\%username%\` với tên mà người dùng đã đặt.
