@@ -54,7 +54,7 @@ Các câu lệnh trên thực hiện với PowerShell, chạy dưới quyền Ad
 
 ### Sử dụng
 Để sử dụng thì rất đơn gian, gõ `Sticky Notes` để tìm kiếm từ thực đơn (menu) Start của Windows.
-![Sticky Notes](Sticky-Notes.png)
+![Sticky Notes]({{ page.img_path }}Sticky-Notes.png)
 _Sticky Notes_
 
 **Đọc thêm**:
