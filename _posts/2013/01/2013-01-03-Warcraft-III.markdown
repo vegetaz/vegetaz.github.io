@@ -56,6 +56,7 @@ Warcraft III: Reforged ra đời vào ngày 29 tháng 1 năm 2020 (bản vá 1.3
 #### Công cụ hỗ trợ
 - [Warcraft Assistant](https://g1915b-my.sharepoint.com/:u:/g/personal/cu2023_g1915b_onmicrosoft_com/EQHbr-GlVkBOmwNZxwcfHTcBF-nbYpzcFMJWzV5gjeVj7A?e=VMlBVv)
 - [Warcraft Fix Map Size Limit](https://g1915b-my.sharepoint.com/:u:/g/personal/cu2023_g1915b_onmicrosoft_com/EZOp3rKjGclLq5QQI14vgX4BHvx520EyD_s93EsBFuZnIQ?e=fd8Osr)
+- [The map file is too big. Please choose a different map.](https://g1915b-my.sharepoint.com/:u:/g/personal/cu2023_g1915b_onmicrosoft_com/EUhrZpUuzUNIrEmxEpQPitIBzoS-LrO7fZfVvisriLeDqg?e=NxLzC2)
 - [Warcraft Font Craft](https://g1915b-my.sharepoint.com/:u:/g/personal/cu2023_g1915b_onmicrosoft_com/EYmAdm3eHspOq1D9Y67LbhkBTXFo9PS5gVDj78_P6tjiKA?e=FgDP4N)
 - [Warcraft Version Switcher](https://g1915b-my.sharepoint.com/:u:/g/personal/cu2023_g1915b_onmicrosoft_com/EdTCWvrdn3lPh_1qTXSAig4Bpsiz3g06DEe6Zj4CSRj6fg?e=gswXJV)
 
